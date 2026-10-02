@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; }
+.demo-surface {
+  min-height: 100vh;
+  padding: 40px;
+  background: var(--canvas);
+  color: var(--demo-text);
+}
+.demo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+.demo-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 16px 0; }
+.demo-card { padding: 16px 0; }
+.demo-title { margin: 0 0 8px; font-size: 24px; font-weight: 400; }
+.demo-description { margin: 0 0 32px; font-size: 14px; }
+.demo-caption { margin: 0 0 16px; font-size: 14px; font-weight: 400; }
+.demo-count { display: block; margin-top: 24px; font-size: 14px; }
+.demo-narrow { width: 160px; }

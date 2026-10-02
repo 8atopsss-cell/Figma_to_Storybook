@@ -1,0 +1,12 @@
+@import './tokens.css';
+
+@font-face {
+  font-family: 'PT Root UI';
+  src: url('../assets/fonts/PT-Root-UI-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+body { margin: 0; font-family: Arial, sans-serif; }
+*, *::before, *::after { box-sizing: border-box; }

@@ -1,0 +1,49 @@
+.button {
+  appearance: none;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  min-height: var(--button-height);
+  padding: var(--button-paddingTop) var(--button-paddingRight) var(--button-paddingBottom) var(--button-paddingLeft);
+  gap: var(--button-itemSpacing);
+  border: 0;
+  border-radius: var(--button-topLeftRadius) var(--button-topRightRadius) var(--button-bottomRightRadius) var(--button-bottomLeftRadius);
+  background: var(--button-background);
+  color: var(--button-color);
+  box-shadow: inset 0 0 0 var(--button-outlineWidth) var(--button-outlineColor);
+  opacity: var(--button-opacity);
+  font-family: var(--button-fontFamily);
+  font-size: var(--button-fontSize);
+  font-weight: var(--button-fontWeight);
+  line-height: var(--button-lineHeight);
+  letter-spacing: var(--button-letterSpacing);
+  font-feature-settings: var(--button-featureSettings);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:disabled { cursor: default; }
+
+/* Explicitly accepted keyboard addition; not a Figma interaction state. */
+.button:focus-visible {
+  outline: 2px solid var(--focus-accent);
+  outline-offset: 2px;
+  box-shadow: inset 0 0 0 var(--button-outlineWidth) var(--button-outlineColor), 0 0 0 2px var(--canvas);
+}
+
+.fullWidth { width: 100%; }
+.label { min-width: 0; overflow-wrap: anywhere; opacity: var(--button-textOpacity); }
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 var(--button-iconWidth);
+  width: var(--button-iconWidth);
+  height: var(--button-iconHeight);
+}
+.icon > svg { display: block; width: 100%; height: 100%; }

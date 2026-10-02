@@ -1,0 +1,9 @@
+node_modules/
+dist/
+storybook-static/
+.npm-cache/
+test-results/
+playwright-report/
+.worktrees/
+*.log
+artifacts/fonts/

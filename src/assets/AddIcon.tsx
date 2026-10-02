@@ -1,0 +1,2 @@
+// Generated from the actual Figma wrapper SVG. Color follows verified label paints.
+export function AddIcon() { return <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M14 9H9V14C9 14.55 8.55 15 8 15C7.45 15 7 14.55 7 14V9H2C1.45 9 1 8.55 1 8C1 7.45 1.45 7 2 7H7V2C7 1.45 7.45 1 8 1C8.55 1 9 1.45 9 2V7H14C14.55 7 15 7.45 15 8C15 8.55 14.55 9 14 9Z" fill="currentColor" /></svg>; }

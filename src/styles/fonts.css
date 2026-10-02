@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "PT Root UI";
+  src: url("../assets/fonts/PT-Root-UI-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
