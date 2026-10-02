@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "tokens": "node scripts/generate-tokens.mjs",
+    "tokens": "node scripts/generate-tokens.mjs && node scripts/generate-style-tokens.mjs && node scripts/generate-checkbox-tokens.mjs && node scripts/generate-toggle-tokens.mjs && node scripts/generate-icon-button-tokens.mjs",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",

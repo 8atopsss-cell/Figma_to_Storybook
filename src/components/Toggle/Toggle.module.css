@@ -1,0 +1,8 @@
+.toggle { display: inline-flex; position: relative; width: var(--toggle-width); height: var(--toggle-height); flex-shrink: 0; vertical-align: middle; }
+.input { appearance: none; margin: 0; padding: 0; border: 0; opacity: 0; width: 100%; height: 100%; cursor: pointer; }
+.input:disabled { cursor: default; }
+.track, .thumb { position: absolute; pointer-events: none; }
+.track { left: var(--toggle-track-x); top: var(--toggle-track-y); width: var(--toggle-track-width); height: var(--toggle-track-height); border-radius: var(--toggle-track-radius); background: var(--toggle-track-color); transition: background-color 200ms ease; }
+.thumb { left: 0; transform: translateX(var(--toggle-thumb-x)); top: var(--toggle-thumb-y); width: var(--toggle-thumb-width); height: var(--toggle-thumb-height); border-radius: 50%; background: var(--toggle-thumb-color); transition: background-color 200ms ease, transform 200ms ease; }
+@media (prefers-reduced-motion: reduce) { .thumb, .track { transition: none; } }
+.toggle:has(.input:focus-visible) { outline: 2px solid var(--toggle-thumb-color); outline-offset: 2px; border-radius: 2px; }

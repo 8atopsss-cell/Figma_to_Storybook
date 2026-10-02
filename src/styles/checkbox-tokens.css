@@ -1,0 +1,67 @@
+/* Generated from fresh Checkbox Figma nodes. Do not edit. */
+[data-theme="light"] {
+  --checkbox-size: 18px;
+  --checkbox-gap: 8px;
+  --checkbox-font-family: "PT Root UI";
+  --checkbox-font-weight: 500;
+  --checkbox-font-size: 14px;
+  --checkbox-line-height: 18px;
+  --checkbox-letter-spacing: 0.30000001192092896px;
+  --checkbox-color: rgb(22.000000588595867 28.000000230968 36.00000165402889 / 1);
+  --checkbox-disabled-color: rgb(126.00000008940697 138.00000697374344 155.00000596046448 / 1);
+  --checkbox-skeleton-color: rgb(232.00000137090683 234.00000125169754 239.00000095367432 / 1);
+  --checkbox-skeleton-width: 121px;
+  --checkbox-skeleton-height: 14px;
+  --checkbox-skeleton-radius: 1px;
+  --checkbox-group-gap: 8px;
+  --checkbox-heading-weight: 700;
+  --checkbox-heading-size: 14px;
+  --checkbox-heading-line-height: 18px;
+  --checkbox-heading-spacing: 1px;
+  --checkbox-heading-color: rgb(22.000000588595867 28.000000230968 36.00000165402889 / 1);
+  --checkbox-labelled-enable: url("../assets/checkboxes/light-labelled-enable.svg");
+  --checkbox-labelled-hover: url("../assets/checkboxes/light-labelled-hover.svg");
+  --checkbox-labelled-selected: url("../assets/checkboxes/light-labelled-selected.svg");
+  --checkbox-labelled-variant7: url("../assets/checkboxes/light-labelled-variant7.svg");
+  --checkbox-labelled-disabled-unselected: url("../assets/checkboxes/light-labelled-disabled-unselected.svg");
+  --checkbox-labelled-disabled-selected: url("../assets/checkboxes/light-labelled-disabled-selected.svg");
+  --checkbox-labelled-skeleton: url("../assets/checkboxes/light-labelled-skeleton.svg");
+  --checkbox-icon-enable: url("../assets/checkboxes/light-icon-enable.svg");
+  --checkbox-icon-disable: url("../assets/checkboxes/light-icon-disable.svg");
+  --checkbox-icon-selected: url("../assets/checkboxes/light-icon-selected.svg");
+  --checkbox-icon-disabled-selected: url("../assets/checkboxes/light-icon-disabled-selected.svg");
+  --checkbox-icon-indeterminate: url("../assets/checkboxes/light-icon-indeterminate.svg");
+}
+[data-theme="dark"] {
+  --checkbox-size: 18px;
+  --checkbox-gap: 8px;
+  --checkbox-font-family: "PT Root UI";
+  --checkbox-font-weight: 500;
+  --checkbox-font-size: 14px;
+  --checkbox-line-height: 18px;
+  --checkbox-letter-spacing: 0.30000001192092896px;
+  --checkbox-color: rgb(231.00000143051147 236.00000113248825 243.00000071525574 / 1);
+  --checkbox-disabled-color: rgb(78.00000295042992 95.00000193715096 118.00000056624413 / 1);
+  --checkbox-skeleton-color: rgb(35.00000171363354 44.000001177191734 54.00000058114529 / 1);
+  --checkbox-skeleton-width: 121px;
+  --checkbox-skeleton-height: 14px;
+  --checkbox-skeleton-radius: 1px;
+  --checkbox-group-gap: 8px;
+  --checkbox-heading-weight: 700;
+  --checkbox-heading-size: 14px;
+  --checkbox-heading-line-height: 18px;
+  --checkbox-heading-spacing: 1px;
+  --checkbox-heading-color: rgb(231.00000143051147 236.00000113248825 243.00000071525574 / 1);
+  --checkbox-labelled-enable: url("../assets/checkboxes/dark-labelled-enable.svg");
+  --checkbox-labelled-hover: url("../assets/checkboxes/dark-labelled-hover.svg");
+  --checkbox-labelled-selected: url("../assets/checkboxes/dark-labelled-selected.svg");
+  --checkbox-labelled-variant7: url("../assets/checkboxes/dark-labelled-variant7.svg");
+  --checkbox-labelled-disabled-unselected: url("../assets/checkboxes/dark-labelled-disabled-unselected.svg");
+  --checkbox-labelled-disabled-selected: url("../assets/checkboxes/dark-labelled-disabled-selected.svg");
+  --checkbox-labelled-skeleton: url("../assets/checkboxes/dark-labelled-skeleton.svg");
+  --checkbox-icon-enable: url("../assets/checkboxes/dark-icon-enable.svg");
+  --checkbox-icon-disable: url("../assets/checkboxes/dark-icon-disable.svg");
+  --checkbox-icon-selected: url("../assets/checkboxes/dark-icon-selected.svg");
+  --checkbox-icon-disabled-selected: url("../assets/checkboxes/dark-icon-disabled-selected.svg");
+  --checkbox-icon-indeterminate: url("../assets/checkboxes/dark-icon-indeterminate.svg");
+}

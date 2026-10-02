@@ -1,0 +1,3867 @@
+{
+  "source": {
+    "fileName": "SD Enterprice",
+    "connectionId": "d1dcf869-03d1-4d7a-b28c-8ca30080bd30",
+    "pageId": "933:24166",
+    "capturedAt": "2026-10-03"
+  },
+  "schemas": {
+    "light": {
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "primary",
+        "variantOptions": [
+          "ghost",
+          "primary",
+          "tertiary"
+        ]
+      },
+      "state": {
+        "type": "VARIANT",
+        "defaultValue": "enabled",
+        "variantOptions": [
+          "active",
+          "disable",
+          "enabled",
+          "hover"
+        ]
+      },
+      "contrast": {
+        "type": "VARIANT",
+        "defaultValue": "high",
+        "variantOptions": [
+          "high",
+          "low"
+        ]
+      },
+      "size": {
+        "type": "VARIANT",
+        "defaultValue": "18",
+        "variantOptions": [
+          "18",
+          "24"
+        ]
+      }
+    },
+    "dark": {
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "primary",
+        "variantOptions": [
+          "primary",
+          "tertiary",
+          "ghost"
+        ]
+      },
+      "state": {
+        "type": "VARIANT",
+        "defaultValue": "enabled",
+        "variantOptions": [
+          "enabled",
+          "hover",
+          "active",
+          "disable"
+        ]
+      },
+      "contrast": {
+        "type": "VARIANT",
+        "defaultValue": "high",
+        "variantOptions": [
+          "high",
+          "low"
+        ]
+      }
+    }
+  },
+  "aliases": [
+    {
+      "nodeId": "4473:81309",
+      "field": "strokes",
+      "styleId": "S:be85024d66ce22300680c6e587c2b8fba61e7169,",
+      "cssVariable": "--figma-color-light-theme-border-light-border-on-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.30588236451148987,
+          "g": 0.37254902720451355,
+          "b": 0.4627451002597809
+        },
+        "boundVariables": {}
+      },
+      "value": "#4e5f76"
+    },
+    {
+      "nodeId": "4473:81308",
+      "field": "strokes",
+      "styleId": "S:be85024d66ce22300680c6e587c2b8fba61e7169,",
+      "cssVariable": "--figma-color-light-theme-border-light-border-on-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.30588236451148987,
+          "g": 0.37254902720451355,
+          "b": 0.4627451002597809
+        },
+        "boundVariables": {}
+      },
+      "value": "#4e5f76"
+    },
+    {
+      "nodeId": "I8901:18891;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:876da3bca148d8c8dbf5e060015b09c5a6b9fd9d,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-primary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "I9552:19406;1900:44742;1600:45971",
+      "field": "fills",
+      "styleId": "S:443d605ae73f6553b553d903bac2a2cafece3312,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-secondary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.615686297416687,
+          "g": 0.6431372761726379,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      },
+      "value": "#9da4b2"
+    },
+    {
+      "nodeId": "13034:152210",
+      "field": "fills",
+      "styleId": "S:1b32090d5e60a1044522171725fac830a7801dda,",
+      "cssVariable": "--figma-color-light-theme-button-primary-light-button-primary-enabled",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 0.34117648005485535,
+          "b": 0.13333334028720856
+        },
+        "boundVariables": {}
+      },
+      "value": "#ff5722"
+    },
+    {
+      "nodeId": "I13034:152211;1900:44742;1600:45971",
+      "field": "fills",
+      "styleId": "S:7d30c53fc5dbb2e8598e29905074cc5c3012f5b1,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9725490212440491,
+          "g": 0.9764705896377563,
+          "b": 0.9843137264251709
+        },
+        "boundVariables": {}
+      },
+      "value": "#f8f9fb"
+    },
+    {
+      "nodeId": "I9553:19420;1900:44742;1267:50459",
+      "field": "fills",
+      "styleId": "S:2dc1ae0c12f11a221c1bdccc8da1695b30b1255e,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.6078431606292725,
+          "g": 0.6392157077789307,
+          "b": 0.686274528503418
+        },
+        "boundVariables": {}
+      },
+      "value": "#9ba3af"
+    },
+    {
+      "nodeId": "9553:19411",
+      "field": "fills",
+      "styleId": "S:fb526c941934f202de27565316029700ca689ef2,",
+      "cssVariable": "--figma-color-light-theme-button-ghost-light-button-ghost-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.8509804010391235,
+          "g": 0.8666666746139526,
+          "b": 0.8941176533699036
+        },
+        "boundVariables": {}
+      },
+      "value": "#d9dde4"
+    },
+    {
+      "nodeId": "I9553:19412;1900:44742;1600:45971",
+      "field": "fills",
+      "styleId": "S:443d605ae73f6553b553d903bac2a2cafece3312,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-secondary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.615686297416687,
+          "g": 0.6431372761726379,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      },
+      "value": "#9da4b2"
+    },
+    {
+      "nodeId": "9553:19415",
+      "field": "fills",
+      "styleId": "S:93ac2301afe378c66746a63554dab687a4c406ec,",
+      "cssVariable": "--figma-color-light-theme-button-ghost-light-button-ghost-active",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.7215686440467834,
+          "g": 0.7490196228027344,
+          "b": 0.7921568751335144
+        },
+        "boundVariables": {}
+      },
+      "value": "#b8bfca"
+    },
+    {
+      "nodeId": "I9553:19416;1900:44742;1600:45971",
+      "field": "fills",
+      "styleId": "S:443d605ae73f6553b553d903bac2a2cafece3312,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-secondary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.615686297416687,
+          "g": 0.6431372761726379,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      },
+      "value": "#9da4b2"
+    },
+    {
+      "nodeId": "I8902:70632;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:630b4a901d4183a475990a76255a82de9f27475f,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-secondary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.4117647111415863,
+          "g": 0.46666666865348816,
+          "b": 0.5411764979362488
+        },
+        "boundVariables": {}
+      },
+      "value": "#69778a"
+    },
+    {
+      "nodeId": "8902:70635",
+      "field": "fills",
+      "styleId": "S:19aadd883d7c79aa6c61d2734d66c6b848836675,",
+      "cssVariable": "--figma-color-light-theme-background-light-inverse-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9490196108818054,
+          "g": 0.95686274766922,
+          "b": 0.9686274528503418
+        },
+        "boundVariables": {}
+      },
+      "value": "#f2f4f7"
+    },
+    {
+      "nodeId": "I8902:70636;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:630b4a901d4183a475990a76255a82de9f27475f,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-secondary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.4117647111415863,
+          "g": 0.46666666865348816,
+          "b": 0.5411764979362488
+        },
+        "boundVariables": {}
+      },
+      "value": "#69778a"
+    },
+    {
+      "nodeId": "8902:70639",
+      "field": "fills",
+      "styleId": "S:7c916983065cdd98fb75cba030a942d976b395a8,",
+      "cssVariable": "--figma-color-light-theme-silver-silver-200",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9098039269447327,
+          "g": 0.9176470637321472,
+          "b": 0.9372549057006836
+        },
+        "boundVariables": {}
+      },
+      "value": "#e8eaef"
+    },
+    {
+      "nodeId": "I8902:70640;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:630b4a901d4183a475990a76255a82de9f27475f,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-secondary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.4117647111415863,
+          "g": 0.46666666865348816,
+          "b": 0.5411764979362488
+        },
+        "boundVariables": {}
+      },
+      "value": "#69778a"
+    },
+    {
+      "nodeId": "I8902:70644;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:2dc1ae0c12f11a221c1bdccc8da1695b30b1255e,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.6078431606292725,
+          "g": 0.6392157077789307,
+          "b": 0.686274528503418
+        },
+        "boundVariables": {}
+      },
+      "value": "#9ba3af"
+    },
+    {
+      "nodeId": "8901:18895",
+      "field": "fills",
+      "styleId": "S:fb526c941934f202de27565316029700ca689ef2,",
+      "cssVariable": "--figma-color-light-theme-button-ghost-light-button-ghost-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.8509804010391235,
+          "g": 0.8666666746139526,
+          "b": 0.8941176533699036
+        },
+        "boundVariables": {}
+      },
+      "value": "#d9dde4"
+    },
+    {
+      "nodeId": "I8901:18896;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:876da3bca148d8c8dbf5e060015b09c5a6b9fd9d,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-primary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "8901:18899",
+      "field": "fills",
+      "styleId": "S:93ac2301afe378c66746a63554dab687a4c406ec,",
+      "cssVariable": "--figma-color-light-theme-button-ghost-light-button-ghost-active",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.7215686440467834,
+          "g": 0.7490196228027344,
+          "b": 0.7921568751335144
+        },
+        "boundVariables": {}
+      },
+      "value": "#b8bfca"
+    },
+    {
+      "nodeId": "I8901:18900;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:876da3bca148d8c8dbf5e060015b09c5a6b9fd9d,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-primary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "I8901:18904;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:2dc1ae0c12f11a221c1bdccc8da1695b30b1255e,",
+      "cssVariable": "--figma-color-light-theme-icon-light-icon-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.6078431606292725,
+          "g": 0.6392157077789307,
+          "b": 0.686274528503418
+        },
+        "boundVariables": {}
+      },
+      "value": "#9ba3af"
+    },
+    {
+      "nodeId": "8901:18884",
+      "field": "strokes",
+      "styleId": "S:a666071153c30ea1d8f607c99cbb87e02150304a,",
+      "cssVariable": "--figma-color-light-theme-border-light-border-selected",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "8901:18883",
+      "field": "strokes",
+      "styleId": "S:a666071153c30ea1d8f607c99cbb87e02150304a,",
+      "cssVariable": "--figma-color-light-theme-border-light-border-selected",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "4473:81314",
+      "field": "fills",
+      "styleId": "S:ba9931a68e0519947832e1ea3682cbe6dfaf7291,",
+      "cssVariable": "--figma-color-light-theme-button-primary-light-button-primary-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.8549019694328308,
+          "g": 0.8666666746139526,
+          "b": 0.8941176533699036
+        },
+        "boundVariables": {}
+      },
+      "value": "#dadde4"
+    },
+    {
+      "nodeId": "4473:81315",
+      "field": "fills",
+      "styleId": "S:b6224fc0409fedb0e62f0ea4d99ebde8330f3195,",
+      "cssVariable": "--figma-color-light-theme-text-light-text-disabled",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.4941176474094391,
+          "g": 0.5411764979362488,
+          "b": 0.6078431606292725
+        },
+        "boundVariables": {}
+      },
+      "value": "#7e8a9b"
+    },
+    {
+      "nodeId": "4473:81311",
+      "field": "fills",
+      "styleId": "S:90bd7ab59ffbcbf329a4a34232a4ca0d9ed90777,",
+      "cssVariable": "--figma-color-light-theme-button-primary-light-button-primary-active",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9019607901573181,
+          "g": 0.29019609093666077,
+          "b": 0.09803921729326248
+        },
+        "boundVariables": {}
+      },
+      "value": "#e64a19"
+    },
+    {
+      "nodeId": "4473:81312",
+      "field": "fills",
+      "styleId": "S:b9136d7013cf05c339d6c15b03a3ed54a9b72391,",
+      "cssVariable": "--figma-color-light-theme-text-light-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9725490212440491,
+          "g": 0.9764705896377563,
+          "b": 0.9843137264251709
+        },
+        "boundVariables": {}
+      },
+      "value": "#f8f9fb"
+    },
+    {
+      "nodeId": "4473:81302",
+      "field": "fills",
+      "styleId": "S:e01db402ec7892ebb6272aa6edf5819ec37f1ef9,",
+      "cssVariable": "--figma-color-light-theme-button-primary-light-button-primary-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 0.43921568989753723,
+          "b": 0.26274511218070984
+        },
+        "boundVariables": {}
+      },
+      "value": "#ff7043"
+    },
+    {
+      "nodeId": "4473:81303",
+      "field": "fills",
+      "styleId": "S:b9136d7013cf05c339d6c15b03a3ed54a9b72391,",
+      "cssVariable": "--figma-color-light-theme-text-light-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9725490212440491,
+          "g": 0.9764705896377563,
+          "b": 0.9843137264251709
+        },
+        "boundVariables": {}
+      },
+      "value": "#f8f9fb"
+    },
+    {
+      "nodeId": "4473:81305",
+      "field": "fills",
+      "styleId": "S:1b32090d5e60a1044522171725fac830a7801dda,",
+      "cssVariable": "--figma-color-light-theme-button-primary-light-button-primary-enabled",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 0.34117648005485535,
+          "b": 0.13333334028720856
+        },
+        "boundVariables": {}
+      },
+      "value": "#ff5722"
+    },
+    {
+      "nodeId": "4473:81306",
+      "field": "fills",
+      "styleId": "S:b9136d7013cf05c339d6c15b03a3ed54a9b72391,",
+      "cssVariable": "--figma-color-light-theme-text-light-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9725490212440491,
+          "g": 0.9764705896377563,
+          "b": 0.9843137264251709
+        },
+        "boundVariables": {}
+      },
+      "value": "#f8f9fb"
+    },
+    {
+      "nodeId": "2804:63711",
+      "field": "fills",
+      "styleId": "S:21cf35bf70ab4c7f29b01b3f7192621ffb5b4ada,",
+      "cssVariable": "--figma-color-dark-theme-button-primary-dark-button-primary-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 0.34117648005485535,
+          "b": 0.13333334028720856
+        },
+        "boundVariables": {}
+      },
+      "value": "#ff5722"
+    },
+    {
+      "nodeId": "2804:63713",
+      "field": "fills",
+      "styleId": "S:414357746893c772e70e2f162c59650a05f37993,",
+      "cssVariable": "--figma-color-dark-theme-text-dark-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "2772:69648",
+      "field": "fills",
+      "styleId": "S:37b786d009ab190e49f0493cae609d62bca67d5c,",
+      "cssVariable": "--figma-color-dark-theme-button-primary-dark-button-primary-enabled",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 0.43921568989753723,
+          "b": 0.26274511218070984
+        },
+        "boundVariables": {}
+      },
+      "value": "#ff7043"
+    },
+    {
+      "nodeId": "2755:68068",
+      "field": "fills",
+      "styleId": "S:414357746893c772e70e2f162c59650a05f37993,",
+      "cssVariable": "--figma-color-dark-theme-text-dark-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "I12501:54192;1900:44734;1600:45971",
+      "field": "fills",
+      "styleId": "S:f15f65361cd4aa94ab67b197c0cd423f6bfb426b,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-primary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9058823585510254,
+          "g": 0.9254902005195618,
+          "b": 0.9529411792755127
+        },
+        "boundVariables": {}
+      },
+      "value": "#e7ecf3"
+    },
+    {
+      "nodeId": "2967:82515",
+      "field": "strokes",
+      "styleId": "S:caaab515260711ffed240078723ebd754c507991,",
+      "cssVariable": "--figma-color-dark-theme-border-dark-border-selected",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9058823585510254,
+          "g": 0.9254902005195618,
+          "b": 0.9529411792755127
+        },
+        "boundVariables": {}
+      },
+      "value": "#e7ecf3"
+    },
+    {
+      "nodeId": "8901:29974",
+      "field": "fills",
+      "styleId": "S:936f4990465b21a31710704458060ab3417a3efe,",
+      "cssVariable": "--figma-color-dark-theme-button-tertiary-dark-button-tertiary-active",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.615686297416687,
+          "g": 0.6431372761726379,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      },
+      "value": "#9da4b2"
+    },
+    {
+      "nodeId": "I12501:54280;1900:44734;1600:45971",
+      "field": "fills",
+      "styleId": "S:6835a113bb219bf93be3bb55b86d73e7dfaf6cba,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "I8901:29977;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:f15f65361cd4aa94ab67b197c0cd423f6bfb426b,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-primary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9058823585510254,
+          "g": 0.9254902005195618,
+          "b": 0.9529411792755127
+        },
+        "boundVariables": {}
+      },
+      "value": "#e7ecf3"
+    },
+    {
+      "nodeId": "I8902:47744;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:443d605ae73f6553b553d903bac2a2cafece3312,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-secondary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.615686297416687,
+          "g": 0.6431372761726379,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      },
+      "value": "#9da4b2"
+    },
+    {
+      "nodeId": "8902:47749",
+      "field": "fills",
+      "styleId": "S:9b879036bd3a241a546860bcdb344de7133cf610,",
+      "cssVariable": "--figma-color-dark-theme-button-ghost-dark-button-ghost-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.1882352977991104,
+          "g": 0.21568627655506134,
+          "b": 0.2549019753932953
+        },
+        "boundVariables": {}
+      },
+      "value": "#303741"
+    },
+    {
+      "nodeId": "I8902:47750;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:443d605ae73f6553b553d903bac2a2cafece3312,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-secondary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.615686297416687,
+          "g": 0.6431372761726379,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      },
+      "value": "#9da4b2"
+    },
+    {
+      "nodeId": "8902:47753",
+      "field": "fills",
+      "styleId": "S:0094eb4b5a99e4d807ce4cf4a6fa2cb9b4374c15,",
+      "cssVariable": "--figma-color-dark-theme-button-ghost-dark-button-ghost-active",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.24313725531101227,
+          "g": 0.29019609093666077,
+          "b": 0.3607843220233917
+        },
+        "boundVariables": {}
+      },
+      "value": "#3e4a5c"
+    },
+    {
+      "nodeId": "I8902:47754;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:443d605ae73f6553b553d903bac2a2cafece3312,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-secondary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.615686297416687,
+          "g": 0.6431372761726379,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      },
+      "value": "#9da4b2"
+    },
+    {
+      "nodeId": "I8902:47758;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:ca8059daaf956d55984bd1bf14c5373af46867cf,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.30588236451148987,
+          "g": 0.37254902720451355,
+          "b": 0.4627451002597809
+        },
+        "boundVariables": {}
+      },
+      "value": "#4e5f76"
+    },
+    {
+      "nodeId": "8901:29981",
+      "field": "fills",
+      "styleId": "S:9b879036bd3a241a546860bcdb344de7133cf610,",
+      "cssVariable": "--figma-color-dark-theme-button-ghost-dark-button-ghost-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.1882352977991104,
+          "g": 0.21568627655506134,
+          "b": 0.2549019753932953
+        },
+        "boundVariables": {}
+      },
+      "value": "#303741"
+    },
+    {
+      "nodeId": "I8901:29982;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:f15f65361cd4aa94ab67b197c0cd423f6bfb426b,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-primary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9058823585510254,
+          "g": 0.9254902005195618,
+          "b": 0.9529411792755127
+        },
+        "boundVariables": {}
+      },
+      "value": "#e7ecf3"
+    },
+    {
+      "nodeId": "8901:29985",
+      "field": "fills",
+      "styleId": "S:0094eb4b5a99e4d807ce4cf4a6fa2cb9b4374c15,",
+      "cssVariable": "--figma-color-dark-theme-button-ghost-dark-button-ghost-active",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.24313725531101227,
+          "g": 0.29019609093666077,
+          "b": 0.3607843220233917
+        },
+        "boundVariables": {}
+      },
+      "value": "#3e4a5c"
+    },
+    {
+      "nodeId": "I8901:29986;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:f15f65361cd4aa94ab67b197c0cd423f6bfb426b,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-primary",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9058823585510254,
+          "g": 0.9254902005195618,
+          "b": 0.9529411792755127
+        },
+        "boundVariables": {}
+      },
+      "value": "#e7ecf3"
+    },
+    {
+      "nodeId": "I8901:29990;1900:44739;1267:50459",
+      "field": "fills",
+      "styleId": "S:ca8059daaf956d55984bd1bf14c5373af46867cf,",
+      "cssVariable": "--figma-color-dark-theme-icon-dark-icon-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.30588236451148987,
+          "g": 0.37254902720451355,
+          "b": 0.4627451002597809
+        },
+        "boundVariables": {}
+      },
+      "value": "#4e5f76"
+    },
+    {
+      "nodeId": "2804:63714",
+      "field": "fills",
+      "styleId": "S:58e8abbb23a1f919e2c6de71c9f7d2984a58fb64,",
+      "cssVariable": "--figma-color-dark-theme-button-primary-dark-button-primary-active",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9019607901573181,
+          "g": 0.29019609093666077,
+          "b": 0.09803921729326248
+        },
+        "boundVariables": {}
+      },
+      "value": "#e64a19"
+    },
+    {
+      "nodeId": "2804:63716",
+      "field": "fills",
+      "styleId": "S:414357746893c772e70e2f162c59650a05f37993,",
+      "cssVariable": "--figma-color-dark-theme-text-dark-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "2804:63717",
+      "field": "fills",
+      "styleId": "S:6b9e2ba3850892025feafaf10cb866495c5e45a9,",
+      "cssVariable": "--figma-color-dark-theme-button-primary-dark-button-primary-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.30588236451148987,
+          "g": 0.37254902720451355,
+          "b": 0.4627451002597809
+        },
+        "boundVariables": {}
+      },
+      "value": "#4e5f76"
+    },
+    {
+      "nodeId": "2804:63719",
+      "field": "fills",
+      "styleId": "S:414357746893c772e70e2f162c59650a05f37993,",
+      "cssVariable": "--figma-color-dark-theme-text-dark-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "4391:92103",
+      "field": "fills",
+      "styleId": "S:ccd133eeaa0227ab057380310351383392116629,",
+      "cssVariable": "--figma-color-light-theme-button-tertiary-light-button-tertiary-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "4391:92105",
+      "field": "fills",
+      "styleId": "S:b9136d7013cf05c339d6c15b03a3ed54a9b72391,",
+      "cssVariable": "--figma-color-light-theme-text-light-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9725490212440491,
+          "g": 0.9764705896377563,
+          "b": 0.9843137264251709
+        },
+        "boundVariables": {}
+      },
+      "value": "#f8f9fb"
+    },
+    {
+      "nodeId": "4391:92111",
+      "field": "fills",
+      "styleId": "S:b6224fc0409fedb0e62f0ea4d99ebde8330f3195,",
+      "cssVariable": "--figma-color-light-theme-text-light-text-disabled",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.4941176474094391,
+          "g": 0.5411764979362488,
+          "b": 0.6078431606292725
+        },
+        "boundVariables": {}
+      },
+      "value": "#7e8a9b"
+    },
+    {
+      "nodeId": "4391:92109",
+      "field": "strokes",
+      "styleId": "S:327a9dde5fdcdb689bdf32473eb94f2ebba8cae6,",
+      "cssVariable": "--figma-color-light-theme-border-light-border-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.4941176474094391,
+          "g": 0.5411764979362488,
+          "b": 0.6078431606292725
+        },
+        "boundVariables": {}
+      },
+      "value": "#7e8a9b"
+    },
+    {
+      "nodeId": "4391:92103",
+      "field": "fills",
+      "styleId": "S:ccd133eeaa0227ab057380310351383392116629,",
+      "cssVariable": "--figma-color-light-theme-button-tertiary-light-button-tertiary-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "4391:92105",
+      "field": "fills",
+      "styleId": "S:b9136d7013cf05c339d6c15b03a3ed54a9b72391,",
+      "cssVariable": "--figma-color-light-theme-text-light-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9725490212440491,
+          "g": 0.9764705896377563,
+          "b": 0.9843137264251709
+        },
+        "boundVariables": {}
+      },
+      "value": "#f8f9fb"
+    },
+    {
+      "nodeId": "4391:92111",
+      "field": "fills",
+      "styleId": "S:b6224fc0409fedb0e62f0ea4d99ebde8330f3195,",
+      "cssVariable": "--figma-color-light-theme-text-light-text-disabled",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.4941176474094391,
+          "g": 0.5411764979362488,
+          "b": 0.6078431606292725
+        },
+        "boundVariables": {}
+      },
+      "value": "#7e8a9b"
+    },
+    {
+      "nodeId": "4391:92109",
+      "field": "strokes",
+      "styleId": "S:327a9dde5fdcdb689bdf32473eb94f2ebba8cae6,",
+      "cssVariable": "--figma-color-light-theme-border-light-border-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.4941176474094391,
+          "g": 0.5411764979362488,
+          "b": 0.6078431606292725
+        },
+        "boundVariables": {}
+      },
+      "value": "#7e8a9b"
+    },
+    {
+      "nodeId": "1918:44812",
+      "field": "fills",
+      "styleId": "S:05df60d3ec5d4d41d09016a1a48012b9326affeb,",
+      "cssVariable": "--figma-color-dark-theme-button-tertiary-dark-button-tertiary-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9058823585510254,
+          "g": 0.9254902005195618,
+          "b": 0.9529411792755127
+        },
+        "boundVariables": {}
+      },
+      "value": "#e7ecf3"
+    },
+    {
+      "nodeId": "1918:44814",
+      "field": "fills",
+      "styleId": "S:414357746893c772e70e2f162c59650a05f37993,",
+      "cssVariable": "--figma-color-dark-theme-text-dark-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "1918:44839",
+      "field": "fills",
+      "styleId": "S:b2058733aed3ec84847acb6e03563f4be0381361,",
+      "cssVariable": "--figma-color-dark-theme-text-dark-text-disabled",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.30588236451148987,
+          "g": 0.37254902720451355,
+          "b": 0.4627451002597809
+        },
+        "boundVariables": {}
+      },
+      "value": "#4e5f76"
+    },
+    {
+      "nodeId": "1918:44837",
+      "field": "strokes",
+      "styleId": "S:98ae4c8faaaf423da33c5fd39932ad5064b4da5b,",
+      "cssVariable": "--figma-color-dark-theme-border-dark-border-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.30588236451148987,
+          "g": 0.37254902720451355,
+          "b": 0.4627451002597809
+        },
+        "boundVariables": {}
+      },
+      "value": "#4e5f76"
+    },
+    {
+      "nodeId": "1918:44812",
+      "field": "fills",
+      "styleId": "S:05df60d3ec5d4d41d09016a1a48012b9326affeb,",
+      "cssVariable": "--figma-color-dark-theme-button-tertiary-dark-button-tertiary-hover",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9058823585510254,
+          "g": 0.9254902005195618,
+          "b": 0.9529411792755127
+        },
+        "boundVariables": {}
+      },
+      "value": "#e7ecf3"
+    },
+    {
+      "nodeId": "1918:44814",
+      "field": "fills",
+      "styleId": "S:414357746893c772e70e2f162c59650a05f37993,",
+      "cssVariable": "--figma-color-dark-theme-text-dark-text-inverse",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.08627451211214066,
+          "g": 0.10980392247438431,
+          "b": 0.1411764770746231
+        },
+        "boundVariables": {}
+      },
+      "value": "#161c24"
+    },
+    {
+      "nodeId": "1918:44839",
+      "field": "fills",
+      "styleId": "S:b2058733aed3ec84847acb6e03563f4be0381361,",
+      "cssVariable": "--figma-color-dark-theme-text-dark-text-disabled",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.30588236451148987,
+          "g": 0.37254902720451355,
+          "b": 0.4627451002597809
+        },
+        "boundVariables": {}
+      },
+      "value": "#4e5f76"
+    },
+    {
+      "nodeId": "1918:44837",
+      "field": "strokes",
+      "styleId": "S:98ae4c8faaaf423da33c5fd39932ad5064b4da5b,",
+      "cssVariable": "--figma-color-dark-theme-border-dark-border-disable",
+      "rawPaint": {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.30588236451148987,
+          "g": 0.37254902720451355,
+          "b": 0.4627451002597809
+        },
+        "boundVariables": {}
+      },
+      "value": "#4e5f76"
+    }
+  ],
+  "assets": [
+    {
+      "theme": "light",
+      "variantNodeId": "4473:81307",
+      "nodeId": "4473:81309",
+      "filename": "4473-81309.svg",
+      "sha256": "472a288a7119093e6ac6b5d9f205ff08492602785204587d46f987ac313d9abd"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "8901:18887",
+      "nodeId": "8901:18891",
+      "filename": "8901-18891.svg",
+      "sha256": "80e38f701454a4ce1c6ed75393bf226ac713b7a08ae6609c9537dc971cdac8df"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "9552:19405",
+      "nodeId": "9552:19406",
+      "filename": "9552-19406.svg",
+      "sha256": "de5886a0407a9dfa4b3e5a2e0b9bf4ea0cf3cb71dd0a88ec852d6653a91bc14a"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "13034:152210",
+      "nodeId": "13034:152211",
+      "filename": "13034-152211.svg",
+      "sha256": "5e43a97e2c8d490023eb34a73b5525aa14b226526d7df8a602259b6364cfc37e"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "9553:19419",
+      "nodeId": "9553:19420",
+      "filename": "9553-19420.svg",
+      "sha256": "d8df26711108ce2e4f10374bed5132fd1b0f29ee831551d2e0b97394017f8b16"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "9553:19411",
+      "nodeId": "9553:19412",
+      "filename": "9553-19412.svg",
+      "sha256": "de5886a0407a9dfa4b3e5a2e0b9bf4ea0cf3cb71dd0a88ec852d6653a91bc14a"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "9553:19415",
+      "nodeId": "9553:19416",
+      "filename": "9553-19416.svg",
+      "sha256": "de5886a0407a9dfa4b3e5a2e0b9bf4ea0cf3cb71dd0a88ec852d6653a91bc14a"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "8902:70631",
+      "nodeId": "8902:70632",
+      "filename": "8902-70632.svg",
+      "sha256": "ff7ad73b52ed1e697e76df565a48891e7ee60c23f1d775c6ac3993a9accf14d2"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "8902:70635",
+      "nodeId": "8902:70636",
+      "filename": "8902-70636.svg",
+      "sha256": "ff7ad73b52ed1e697e76df565a48891e7ee60c23f1d775c6ac3993a9accf14d2"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "8902:70639",
+      "nodeId": "8902:70640",
+      "filename": "8902-70640.svg",
+      "sha256": "ff7ad73b52ed1e697e76df565a48891e7ee60c23f1d775c6ac3993a9accf14d2"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "8902:70643",
+      "nodeId": "8902:70644",
+      "filename": "8902-70644.svg",
+      "sha256": "450acc0cffe49fa6c4f9d8004f0ac8d279e1952aac8b190e44f02d452336c3b2"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "8901:18895",
+      "nodeId": "8901:18896",
+      "filename": "8901-18896.svg",
+      "sha256": "80e38f701454a4ce1c6ed75393bf226ac713b7a08ae6609c9537dc971cdac8df"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "8901:18899",
+      "nodeId": "8901:18900",
+      "filename": "8901-18900.svg",
+      "sha256": "80e38f701454a4ce1c6ed75393bf226ac713b7a08ae6609c9537dc971cdac8df"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "8901:18903",
+      "nodeId": "8901:18904",
+      "filename": "8901-18904.svg",
+      "sha256": "450acc0cffe49fa6c4f9d8004f0ac8d279e1952aac8b190e44f02d452336c3b2"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "8901:18882",
+      "nodeId": "8901:18884",
+      "filename": "8901-18884.svg",
+      "sha256": "63952d5f6f2e9d41479a5babee69fd0433c7a8c05e0cbc043be95255cae8a209"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "4473:81313",
+      "nodeId": "4473:81315",
+      "filename": "4473-81315.svg",
+      "sha256": "32bc80e85cf42c49fa6c088ddfe2ac5e1eeb502b1b45eedf7b6a2f0c1cdb69a4"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "4473:81310",
+      "nodeId": "4473:81312",
+      "filename": "4473-81312.svg",
+      "sha256": "7ca36b396b8bb0e39843157f48aab4f5c03c676b43d62e4dae3ec94005b61519"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "4473:81301",
+      "nodeId": "4473:81303",
+      "filename": "4473-81303.svg",
+      "sha256": "7ca36b396b8bb0e39843157f48aab4f5c03c676b43d62e4dae3ec94005b61519"
+    },
+    {
+      "theme": "light",
+      "variantNodeId": "4473:81304",
+      "nodeId": "4473:81306",
+      "filename": "4473-81306.svg",
+      "sha256": "7ca36b396b8bb0e39843157f48aab4f5c03c676b43d62e4dae3ec94005b61519"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "2804:63711",
+      "nodeId": "11674:85986",
+      "filename": "11674-85986.svg",
+      "sha256": "71c7f10efd9b45d72ab3400ea1fcac4402dee2782971674f181dec0fdeab88f4"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "2772:69648",
+      "nodeId": "11674:58914",
+      "filename": "11674-58914.svg",
+      "sha256": "71c7f10efd9b45d72ab3400ea1fcac4402dee2782971674f181dec0fdeab88f4"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "2967:82515",
+      "nodeId": "12501:54192",
+      "filename": "12501-54192.svg",
+      "sha256": "a03c372bebcf63d91bd889c35dfe42905f8932cfc5eecaa2d094c7e3085247db"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "8901:29974",
+      "nodeId": "12501:54280",
+      "filename": "12501-54280.svg",
+      "sha256": "34bf41c9f57a32d7390aa3fbf560e60ee6920b5e5fa0dec004fe882cffc9f46d"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "8901:29971",
+      "nodeId": "8901:29977",
+      "filename": "8901-29977.svg",
+      "sha256": "cf5bc9692aaed9ab6e19873430092b515d4658da815566d30144a275a7ea21a0"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "8902:47743",
+      "nodeId": "8902:47744",
+      "filename": "8902-47744.svg",
+      "sha256": "6fd9b694ec734ddda15457b7b566466805b2fcec75e92145d290fd0dc743a75c"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "8902:47749",
+      "nodeId": "8902:47750",
+      "filename": "8902-47750.svg",
+      "sha256": "6fd9b694ec734ddda15457b7b566466805b2fcec75e92145d290fd0dc743a75c"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "8902:47753",
+      "nodeId": "8902:47754",
+      "filename": "8902-47754.svg",
+      "sha256": "6fd9b694ec734ddda15457b7b566466805b2fcec75e92145d290fd0dc743a75c"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "8902:47757",
+      "nodeId": "8902:47758",
+      "filename": "8902-47758.svg",
+      "sha256": "762eae3ee4e5a39bff582a81626203878973b4a9435dbb8ffbe85b90721e9be4"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "8901:29981",
+      "nodeId": "8901:29982",
+      "filename": "8901-29982.svg",
+      "sha256": "cf5bc9692aaed9ab6e19873430092b515d4658da815566d30144a275a7ea21a0"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "8901:29985",
+      "nodeId": "8901:29986",
+      "filename": "8901-29986.svg",
+      "sha256": "cf5bc9692aaed9ab6e19873430092b515d4658da815566d30144a275a7ea21a0"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "8901:29989",
+      "nodeId": "8901:29990",
+      "filename": "8901-29990.svg",
+      "sha256": "762eae3ee4e5a39bff582a81626203878973b4a9435dbb8ffbe85b90721e9be4"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "2804:63714",
+      "nodeId": "11674:85987",
+      "filename": "11674-85987.svg",
+      "sha256": "71c7f10efd9b45d72ab3400ea1fcac4402dee2782971674f181dec0fdeab88f4"
+    },
+    {
+      "theme": "dark",
+      "variantNodeId": "2804:63717",
+      "nodeId": "11674:85988",
+      "filename": "11674-85988.svg",
+      "sha256": "71c7f10efd9b45d72ab3400ea1fcac4402dee2782971674f181dec0fdeab88f4"
+    }
+  ],
+  "records": [
+    {
+      "theme": "light",
+      "variant": "primary",
+      "contrast": "high",
+      "state": "enabled",
+      "size": 18,
+      "nodeId": "4473:81304",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81304",
+        "glyphNodeId": "4473:81306"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-button-primary-light-button-primary-enabled)",
+        "color": "var(--figma-color-light-theme-text-light-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 1,
+        "by": 1,
+        "bw": 16,
+        "bh": 16,
+        "radius": 2,
+        "gx": 7,
+        "gy": 5,
+        "gw": 6,
+        "gh": 8,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81306.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "primary",
+      "contrast": "high",
+      "state": "hover",
+      "size": 18,
+      "nodeId": "4473:81301",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81301",
+        "glyphNodeId": "4473:81303"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-button-primary-light-button-primary-hover)",
+        "color": "var(--figma-color-light-theme-text-light-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 1,
+        "by": 1,
+        "bw": 16,
+        "bh": 16,
+        "radius": 2,
+        "gx": 7,
+        "gy": 5,
+        "gw": 6,
+        "gh": 8,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81303.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "primary",
+      "contrast": "high",
+      "state": "active",
+      "size": 18,
+      "nodeId": "4473:81310",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81310",
+        "glyphNodeId": "4473:81312"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-button-primary-light-button-primary-active)",
+        "color": "var(--figma-color-light-theme-text-light-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 1,
+        "by": 1,
+        "bw": 16,
+        "bh": 16,
+        "radius": 2,
+        "gx": 7,
+        "gy": 5,
+        "gw": 6,
+        "gh": 8,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81312.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "primary",
+      "contrast": "high",
+      "state": "disable",
+      "size": 18,
+      "nodeId": "4473:81313",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81313",
+        "glyphNodeId": "4473:81315"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-button-primary-light-button-primary-disable)",
+        "color": "var(--figma-color-light-theme-text-light-text-disabled)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 1,
+        "by": 1,
+        "bw": 16,
+        "bh": 16,
+        "radius": 2,
+        "gx": 7,
+        "gy": 5,
+        "gw": 6,
+        "gh": 8,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81315.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "enabled",
+      "size": 18,
+      "nodeId": "4473:81307",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81307",
+        "glyphNodeId": "4473:81309"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-border-light-border-on-hover)",
+        "outlineColor": "var(--figma-color-light-theme-border-light-border-on-hover)",
+        "outlineWidth": 1.5,
+        "bx": 1,
+        "by": 1,
+        "bw": 16,
+        "bh": 16,
+        "radius": 2,
+        "gx": 7,
+        "gy": 5,
+        "gw": 6,
+        "gh": 8,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81309.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 18,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "hover",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81307",
+        "glyphNodeId": "4473:81309"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state: Button palette via explicit style IDs; mini geometry retained",
+          "buttonNodeId": "4391:92103"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-light-theme-button-tertiary-light-button-tertiary-hover)",
+        "color": "var(--figma-color-light-theme-text-light-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 1,
+        "by": 1,
+        "bw": 16,
+        "bh": 16,
+        "radius": 2,
+        "gx": 7,
+        "gy": 5,
+        "gw": 6,
+        "gh": 8,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81309.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "active",
+      "size": 18,
+      "nodeId": "8901:18882",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8901:18882",
+        "glyphNodeId": "8901:18884"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-border-light-border-selected)",
+        "outlineColor": "var(--figma-color-light-theme-border-light-border-selected)",
+        "outlineWidth": 1.5,
+        "bx": 1,
+        "by": 1,
+        "bw": 16,
+        "bh": 16,
+        "radius": 2,
+        "gx": 7,
+        "gy": 5,
+        "gw": 6,
+        "gh": 8,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-18884.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 18,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "disable",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81307",
+        "glyphNodeId": "4473:81309"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state: Button palette via explicit style IDs; mini geometry retained",
+          "buttonNodeId": "4391:92109"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-text-light-text-disabled)",
+        "outlineColor": "var(--figma-color-light-theme-border-light-border-disable)",
+        "outlineWidth": 1.5,
+        "bx": 1,
+        "by": 1,
+        "bw": 16,
+        "bh": 16,
+        "radius": 2,
+        "gx": 7,
+        "gy": 5,
+        "gw": 6,
+        "gh": 8,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81309.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "enabled",
+      "size": 18,
+      "nodeId": "8901:18887",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8901:18887",
+        "glyphNodeId": "8901:18891"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-icon-light-icon-primary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-18891.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "hover",
+      "size": 18,
+      "nodeId": "8901:18895",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8901:18895",
+        "glyphNodeId": "8901:18896"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-button-ghost-light-button-ghost-hover)",
+        "color": "var(--figma-color-light-theme-icon-light-icon-primary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-18896.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "active",
+      "size": 18,
+      "nodeId": "8901:18899",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8901:18899",
+        "glyphNodeId": "8901:18900"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-button-ghost-light-button-ghost-active)",
+        "color": "var(--figma-color-light-theme-icon-light-icon-primary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-18900.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "disable",
+      "size": 18,
+      "nodeId": "8901:18903",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8901:18903",
+        "glyphNodeId": "8901:18904"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-icon-light-icon-disable)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-18904.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "enabled",
+      "size": 18,
+      "nodeId": "8902:70631",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8902:70631",
+        "glyphNodeId": "8902:70632"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-icon-light-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-70632.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "hover",
+      "size": 18,
+      "nodeId": "8902:70635",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8902:70635",
+        "glyphNodeId": "8902:70636"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-background-light-inverse-hover)",
+        "color": "var(--figma-color-light-theme-icon-light-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-70636.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "active",
+      "size": 18,
+      "nodeId": "8902:70639",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8902:70639",
+        "glyphNodeId": "8902:70640"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-silver-silver-200)",
+        "color": "var(--figma-color-light-theme-icon-light-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-70640.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "disable",
+      "size": 18,
+      "nodeId": "8902:70643",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8902:70643",
+        "glyphNodeId": "8902:70644"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-icon-light-icon-disable)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-70644.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "primary",
+      "contrast": "high",
+      "state": "enabled",
+      "size": 24,
+      "nodeId": "13034:152210",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "13034:152210",
+        "glyphNodeId": "13034:152211"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-button-primary-light-button-primary-enabled)",
+        "color": "var(--figma-color-light-theme-icon-light-icon-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/13034-152211.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "primary",
+      "contrast": "high",
+      "state": "hover",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81301",
+        "glyphNodeId": "4473:81303"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state at existing size: retain enabled geometry and glyph; palette from matching 18 px state",
+          "geometryNodeId": "13034:152210"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-light-theme-button-primary-light-button-primary-hover)",
+        "color": "var(--figma-color-light-theme-text-light-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/13034-152211.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "primary",
+      "contrast": "high",
+      "state": "active",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81310",
+        "glyphNodeId": "4473:81312"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state at existing size: retain enabled geometry and glyph; palette from matching 18 px state",
+          "geometryNodeId": "13034:152210"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-light-theme-button-primary-light-button-primary-active)",
+        "color": "var(--figma-color-light-theme-text-light-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/13034-152211.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "primary",
+      "contrast": "high",
+      "state": "disable",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81313",
+        "glyphNodeId": "4473:81315"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state at existing size: retain enabled geometry and glyph; palette from matching 18 px state",
+          "geometryNodeId": "13034:152210"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-light-theme-button-primary-light-button-primary-disable)",
+        "color": "var(--figma-color-light-theme-text-light-text-disabled)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/13034-152211.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "enabled",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81307",
+        "glyphNodeId": "4473:81309"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "4473:81307"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-border-light-border-on-hover)",
+        "outlineColor": "var(--figma-color-light-theme-border-light-border-on-hover)",
+        "outlineWidth": 1.5,
+        "bx": 1.3333333333333333,
+        "by": 1.3333333333333333,
+        "bw": 21.333333333333332,
+        "bh": 21.333333333333332,
+        "radius": 2,
+        "gx": 9.333333333333332,
+        "gy": 6.666666666666666,
+        "gw": 8,
+        "gh": 10.666666666666666,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81309.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "hover",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81307",
+        "glyphNodeId": "4473:81309"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state: Button palette via explicit style IDs; mini geometry retained",
+          "buttonNodeId": "4391:92103"
+        },
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "4473:81307"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-light-theme-button-tertiary-light-button-tertiary-hover)",
+        "color": "var(--figma-color-light-theme-text-light-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 1.3333333333333333,
+        "by": 1.3333333333333333,
+        "bw": 21.333333333333332,
+        "bh": 21.333333333333332,
+        "radius": 2,
+        "gx": 9.333333333333332,
+        "gy": 6.666666666666666,
+        "gw": 8,
+        "gh": 10.666666666666666,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81309.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "active",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8901:18882",
+        "glyphNodeId": "8901:18884"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8901:18882"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-border-light-border-selected)",
+        "outlineColor": "var(--figma-color-light-theme-border-light-border-selected)",
+        "outlineWidth": 1.5,
+        "bx": 1.3333333333333333,
+        "by": 1.3333333333333333,
+        "bw": 21.333333333333332,
+        "bh": 21.333333333333332,
+        "radius": 2,
+        "gx": 9.333333333333332,
+        "gy": 6.666666666666666,
+        "gw": 8,
+        "gh": 10.666666666666666,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-18884.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "disable",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "4473:81307",
+        "glyphNodeId": "4473:81309"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state: Button palette via explicit style IDs; mini geometry retained",
+          "buttonNodeId": "4391:92109"
+        },
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "4473:81307"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-text-light-text-disabled)",
+        "outlineColor": "var(--figma-color-light-theme-border-light-border-disable)",
+        "outlineWidth": 1.5,
+        "bx": 1.3333333333333333,
+        "by": 1.3333333333333333,
+        "bw": 21.333333333333332,
+        "bh": 21.333333333333332,
+        "radius": 2,
+        "gx": 9.333333333333332,
+        "gy": 6.666666666666666,
+        "gw": 8,
+        "gh": 10.666666666666666,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/4473-81309.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "enabled",
+      "size": 24,
+      "nodeId": "9552:19405",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "9552:19405",
+        "glyphNodeId": "9552:19406"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/9552-19406.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "hover",
+      "size": 24,
+      "nodeId": "9553:19411",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "9553:19411",
+        "glyphNodeId": "9553:19412"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-button-ghost-light-button-ghost-hover)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/9553-19412.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "active",
+      "size": 24,
+      "nodeId": "9553:19415",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "9553:19415",
+        "glyphNodeId": "9553:19416"
+      },
+      "css": {
+        "background": "var(--figma-color-light-theme-button-ghost-light-button-ghost-active)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/9553-19416.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "disable",
+      "size": 24,
+      "nodeId": "9553:19419",
+      "origin": "figma",
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "9553:19419",
+        "glyphNodeId": "9553:19420"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-icon-light-icon-disable)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0.6086225509643555,
+        "gy": 0.6086225509643555,
+        "gw": 22.78275489807129,
+        "gh": 22.78275489807129,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/9553-19420.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "enabled",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8902:70631",
+        "glyphNodeId": "8902:70632"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8902:70631"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-icon-light-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-70632.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "hover",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8902:70635",
+        "glyphNodeId": "8902:70636"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8902:70635"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-light-theme-background-light-inverse-hover)",
+        "color": "var(--figma-color-light-theme-icon-light-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-70636.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "active",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8902:70639",
+        "glyphNodeId": "8902:70640"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8902:70639"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-light-theme-silver-silver-200)",
+        "color": "var(--figma-color-light-theme-icon-light-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-70640.svg')"
+      }
+    },
+    {
+      "theme": "light",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "disable",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "4473:81300",
+        "nodeId": "8902:70643",
+        "glyphNodeId": "8902:70644"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8902:70643"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-light-theme-icon-light-icon-disable)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-70644.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "primary",
+      "contrast": "high",
+      "state": "enabled",
+      "size": 18,
+      "nodeId": "2772:69648",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2772:69648",
+        "glyphNodeId": "11674:58914"
+      },
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-primary-dark-button-primary-enabled)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/11674-58914.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "primary",
+      "contrast": "high",
+      "state": "hover",
+      "size": 18,
+      "nodeId": "2804:63711",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2804:63711",
+        "glyphNodeId": "11674:85986"
+      },
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-primary-dark-button-primary-hover)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/11674-85986.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "primary",
+      "contrast": "high",
+      "state": "active",
+      "size": 18,
+      "nodeId": "2804:63714",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2804:63714",
+        "glyphNodeId": "11674:85987"
+      },
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-primary-dark-button-primary-active)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/11674-85987.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "primary",
+      "contrast": "high",
+      "state": "disable",
+      "size": 18,
+      "nodeId": "2804:63717",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2804:63717",
+        "glyphNodeId": "11674:85988"
+      },
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-primary-dark-button-primary-disable)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/11674-85988.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "enabled",
+      "size": 18,
+      "nodeId": "2967:82515",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2967:82515",
+        "glyphNodeId": "12501:54192"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-primary)",
+        "outlineColor": "var(--figma-color-dark-theme-border-dark-border-selected)",
+        "outlineWidth": 1,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 1,
+        "gy": 1,
+        "gw": 16,
+        "gh": 16,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/12501-54192.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 18,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "hover",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2967:82515",
+        "glyphNodeId": "12501:54192"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state: Button palette via explicit style IDs; mini geometry retained",
+          "buttonNodeId": "1918:44812"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-tertiary-dark-button-tertiary-hover)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 1,
+        "gy": 1,
+        "gw": 16,
+        "gh": 16,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/12501-54192.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "active",
+      "size": 18,
+      "nodeId": "8901:29974",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29974",
+        "glyphNodeId": "12501:54280"
+      },
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-tertiary-dark-button-tertiary-active)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 1,
+        "gy": 1,
+        "gw": 16,
+        "gh": 16,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/12501-54280.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 18,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "disable",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2967:82515",
+        "glyphNodeId": "12501:54192"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state: Button palette via explicit style IDs; mini geometry retained",
+          "buttonNodeId": "1918:44837"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-text-dark-text-disabled)",
+        "outlineColor": "var(--figma-color-dark-theme-border-dark-border-disable)",
+        "outlineWidth": 1,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 1,
+        "gy": 1,
+        "gw": 16,
+        "gh": 16,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/12501-54192.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "enabled",
+      "size": 18,
+      "nodeId": "8901:29971",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29971",
+        "glyphNodeId": "8901:29977"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-primary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-29977.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "hover",
+      "size": 18,
+      "nodeId": "8901:29981",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29981",
+        "glyphNodeId": "8901:29982"
+      },
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-ghost-dark-button-ghost-hover)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-primary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-29982.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "active",
+      "size": 18,
+      "nodeId": "8901:29985",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29985",
+        "glyphNodeId": "8901:29986"
+      },
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-ghost-dark-button-ghost-active)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-primary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-29986.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "disable",
+      "size": 18,
+      "nodeId": "8901:29989",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29989",
+        "glyphNodeId": "8901:29990"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-disable)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-29990.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "enabled",
+      "size": 18,
+      "nodeId": "8902:47743",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8902:47743",
+        "glyphNodeId": "8902:47744"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-47744.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "hover",
+      "size": 18,
+      "nodeId": "8902:47749",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8902:47749",
+        "glyphNodeId": "8902:47750"
+      },
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-ghost-dark-button-ghost-hover)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-47750.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "active",
+      "size": 18,
+      "nodeId": "8902:47753",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8902:47753",
+        "glyphNodeId": "8902:47754"
+      },
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-ghost-dark-button-ghost-active)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-47754.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "disable",
+      "size": 18,
+      "nodeId": "8902:47757",
+      "origin": "figma",
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8902:47757",
+        "glyphNodeId": "8902:47758"
+      },
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-disable)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 18,
+        "bh": 18,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 18,
+        "gh": 18,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-47758.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "primary",
+      "contrast": "high",
+      "state": "enabled",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2772:69648",
+        "glyphNodeId": "11674:58914"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "2772:69648"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-primary-dark-button-primary-enabled)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/11674-58914.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "primary",
+      "contrast": "high",
+      "state": "hover",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2804:63711",
+        "glyphNodeId": "11674:85986"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "2804:63711"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-primary-dark-button-primary-hover)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/11674-85986.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "primary",
+      "contrast": "high",
+      "state": "active",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2804:63714",
+        "glyphNodeId": "11674:85987"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "2804:63714"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-primary-dark-button-primary-active)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/11674-85987.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "primary",
+      "contrast": "high",
+      "state": "disable",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2804:63717",
+        "glyphNodeId": "11674:85988"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "2804:63717"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-primary-dark-button-primary-disable)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/11674-85988.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "enabled",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2967:82515",
+        "glyphNodeId": "12501:54192"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "2967:82515"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-primary)",
+        "outlineColor": "var(--figma-color-dark-theme-border-dark-border-selected)",
+        "outlineWidth": 1,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 1.3333333333333333,
+        "gy": 1.3333333333333333,
+        "gw": 21.333333333333332,
+        "gh": 21.333333333333332,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/12501-54192.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "hover",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2967:82515",
+        "glyphNodeId": "12501:54192"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state: Button palette via explicit style IDs; mini geometry retained",
+          "buttonNodeId": "1918:44812"
+        },
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "2967:82515"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-tertiary-dark-button-tertiary-hover)",
+        "color": "var(--figma-color-dark-theme-text-dark-text-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 1.3333333333333333,
+        "gy": 1.3333333333333333,
+        "gw": 21.333333333333332,
+        "gh": 21.333333333333332,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/12501-54192.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "active",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29974",
+        "glyphNodeId": "12501:54280"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8901:29974"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-tertiary-dark-button-tertiary-active)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-inverse)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 1.3333333333333333,
+        "gy": 1.3333333333333333,
+        "gw": 21.333333333333332,
+        "gh": 21.333333333333332,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/12501-54280.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "tertiary",
+      "contrast": "high",
+      "state": "disable",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "2967:82515",
+        "glyphNodeId": "12501:54192"
+      },
+      "decisions": [
+        {
+          "rule": "Missing state: Button palette via explicit style IDs; mini geometry retained",
+          "buttonNodeId": "1918:44837"
+        },
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "2967:82515"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-text-dark-text-disabled)",
+        "outlineColor": "var(--figma-color-dark-theme-border-dark-border-disable)",
+        "outlineWidth": 1,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 1.3333333333333333,
+        "gy": 1.3333333333333333,
+        "gw": 21.333333333333332,
+        "gh": 21.333333333333332,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/12501-54192.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "enabled",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29971",
+        "glyphNodeId": "8901:29977"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8901:29971"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-primary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-29977.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "hover",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29981",
+        "glyphNodeId": "8901:29982"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8901:29981"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-ghost-dark-button-ghost-hover)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-primary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-29982.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "active",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29985",
+        "glyphNodeId": "8901:29986"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8901:29985"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-ghost-dark-button-ghost-active)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-primary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-29986.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "high",
+      "state": "disable",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8901:29989",
+        "glyphNodeId": "8901:29990"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8901:29989"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-disable)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8901-29990.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "enabled",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8902:47743",
+        "glyphNodeId": "8902:47744"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8902:47743"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-47744.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "hover",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8902:47749",
+        "glyphNodeId": "8902:47750"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8902:47749"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-ghost-dark-button-ghost-hover)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-47750.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "active",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8902:47753",
+        "glyphNodeId": "8902:47754"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8902:47753"
+        }
+      ],
+      "css": {
+        "background": "var(--figma-color-dark-theme-button-ghost-dark-button-ghost-active)",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-secondary)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-47754.svg')"
+      }
+    },
+    {
+      "theme": "dark",
+      "size": 24,
+      "variant": "ghost",
+      "contrast": "low",
+      "state": "disable",
+      "origin": "derived",
+      "nodeId": null,
+      "source": {
+        "setId": "2804:63710",
+        "nodeId": "8902:47757",
+        "glyphNodeId": "8902:47758"
+      },
+      "decisions": [
+        {
+          "rule": "Missing size: proportionally scale the 18 px mini geometry to 24 px; radius and stroke unchanged",
+          "baseNodeId": "8902:47757"
+        }
+      ],
+      "css": {
+        "background": "transparent",
+        "color": "var(--figma-color-dark-theme-icon-dark-icon-disable)",
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
+        "bx": 0,
+        "by": 0,
+        "bw": 24,
+        "bh": 24,
+        "radius": 2,
+        "gx": 0,
+        "gy": 0,
+        "gw": 24,
+        "gh": 24,
+        "opacity": 1,
+        "mask": "url('../assets/icon-buttons/8902-47758.svg')"
+      }
+    }
+  ]
+}

@@ -12,7 +12,7 @@ const meta = {
   args: { children: 'button', variant: defaults.variant, size: defaults.size, disabled: false, fullWidth: false, startIcon: <AddIcon /> },
   argTypes: {
     variant: { control: 'select', options: variants, description: 'Figma type; ghost orange is mapped to ghost-orange.' },
-    size: { control: 'select', options: sizes, description: 'Figma size; minimum height for wrapping content.' },
+    size: { control: 'select', options: sizes, description: 'Figma size; single-line label at 32 or 40 px height.' },
     children: { control: 'text' }, disabled: { control: 'boolean' }, fullWidth: { control: 'boolean' },
     startIcon: { control: false }, endIcon: { control: false },
   },
@@ -43,9 +43,14 @@ function Catalogue() {
 
 export const Light: Story = { parameters: { theme: 'light' }, render: () => <Catalogue /> };
 export const Dark: Story = { parameters: { theme: 'dark' }, render: () => <Catalogue /> };
-export const LongText: Story = { render: () => <div className="demo-narrow"><Button startIcon={<AddIcon />}>Очень длинный текст кнопки для проверки переноса</Button></div> };
-export const FullWidth: Story = { args: { fullWidth: true, endIcon: <AddIcon /> } };
+export const LongText: Story = { render: () => <div className="demo-narrow"><Button startIcon={<AddIcon />}>Очень длинный текст кнопки без переноса строк</Button></div> };
+export const FullWidth: Story = { args: { fullWidth: true } };
 export const TextOnly: Story = { args: { startIcon: undefined } };
+export const IconOnly: Story = {
+  name: 'Только иконка',
+  args: { children: '', 'aria-label': 'Добавить' },
+  argTypes: { 'aria-label': { control: 'text', description: 'Доступное название действия кнопки без текста.' } },
+};
 export const SourceMapping: Story = {
   render: () => <><h1 className="demo-title">Figma → Button</h1><table><thead><tr><th>Тема</th><th>Вариант</th><th>Размер</th><th>Состояние</th><th>Node ID</th></tr></thead>
     <tbody>{tokens.records.map(row => <tr key={row.nodeId}><td>{row.theme}</td><td>{row.variant}</td><td>{row.size}</td><td>{row.state}</td><td>{row.nodeId}</td></tr>)}</tbody></table></>,

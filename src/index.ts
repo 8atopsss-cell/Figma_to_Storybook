@@ -1,5 +1,13 @@
 export { Button } from './components/Button/Button';
 export type { ButtonProps, ButtonVariant } from './components/Button/Button';
 export { AddIcon } from './assets/AddIcon';
+export { Checkbox, CheckboxSkeleton, CheckboxGroup } from './components/Checkbox/Checkbox';
+export type { CheckboxProps } from './components/Checkbox/Checkbox';
+export { Toggle } from './components/Toggle/Toggle';
+export { IconButton } from './components/IconButton/IconButton';
+export type { IconButtonProps, IconButtonVariant } from './components/IconButton/IconButton';
+export type { ToggleProps, ToggleVariant } from './components/Toggle/Toggle';
 import './styles/tokens.css';
 import './styles/fonts.css';
+import './styles/figma-styles.css';
+export { default as figmaStyleTokens } from './tokens/styles.json';

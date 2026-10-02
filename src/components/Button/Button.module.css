@@ -5,7 +5,8 @@
   align-items: center;
   justify-content: center;
   width: fit-content;
-  max-width: 100%;
+  min-width: max-content;
+  flex-shrink: 0;
   min-height: var(--button-height);
   padding: var(--button-paddingTop) var(--button-paddingRight) var(--button-paddingBottom) var(--button-paddingLeft);
   gap: var(--button-itemSpacing);
@@ -25,6 +26,13 @@
   text-decoration: none;
   text-align: center;
   cursor: pointer;
+  transition: background-color 300ms cubic-bezier(0.656, 0.003, 0.355, 1);
+}
+
+.button:active:not(:disabled) { transition-duration: 70ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .button, .button:active:not(:disabled) { transition: none; }
 }
 
 .button:disabled { cursor: default; }
@@ -37,7 +45,7 @@
 }
 
 .fullWidth { width: 100%; }
-.label { min-width: 0; overflow-wrap: anywhere; opacity: var(--button-textOpacity); }
+.label { white-space: nowrap; opacity: var(--button-textOpacity); }
 .icon {
   display: inline-flex;
   align-items: center;

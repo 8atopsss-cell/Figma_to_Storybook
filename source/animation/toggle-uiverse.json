@@ -1,0 +1,15 @@
+{
+  "sourceUrl": "https://uiverse.io/lenin55/fast-chicken-43",
+  "author": "lenin55",
+  "officialMirror": "https://github.com/uiverse-io/galaxy/blob/main/Toggle-switches/lenin55_fast-chicken-43.html",
+  "gitBlob": "78b812493da826aad2b787ee01526bdb3087fd59",
+  "license": "MIT",
+  "trackDeclaration": "transition: background-color 0.2s, opacity 0.2s",
+  "thumbDeclaration": "transition: background-color 0.2s, transform 0.2s",
+  "durationMs": 200,
+  "delayMs": 0,
+  "easing": "ease",
+  "easingExplanation": "CSS default when timing-function is omitted: cubic-bezier(0.25, 0.1, 0.25, 1)",
+  "behavior": "Movement and background-color interpolation start together and reverse together.",
+  "adaptation": "Only transform and background-color transitions. Existing Figma dimensions, positions, palettes, native semantics, danger and focus ring retained. Reference shadows, ripple, hover/active paints and dimensions excluded. No opacity change exists on our track, so only its changing background is animated."
+}

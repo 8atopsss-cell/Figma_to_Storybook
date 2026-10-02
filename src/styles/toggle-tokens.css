@@ -1,0 +1,121 @@
+/* Generated from fresh Figma Toggle nodes. Do not edit. */
+[data-toggle-variant="disable dark"] {
+  --toggle-width: 32px;
+  --toggle-height: 24px;
+  --toggle-track-x: 4px;
+  --toggle-track-y: 7px;
+  --toggle-track-width: 25px;
+  --toggle-track-height: 10px;
+  --toggle-track-radius: 43px;
+  --toggle-track-color: rgb(62.00000010430813 74.0000031888485 92.00000211596489 / 1);
+  --toggle-thumb-x: 2px;
+  --toggle-thumb-y: 5px;
+  --toggle-thumb-width: 14px;
+  --toggle-thumb-height: 14px;
+  --toggle-thumb-color: rgb(231.00000143051147 236.00000113248825 243.00000071525574 / 1);
+}
+[data-toggle-variant="disable light"] {
+  --toggle-width: 32px;
+  --toggle-height: 24px;
+  --toggle-track-x: 4px;
+  --toggle-track-y: 7px;
+  --toggle-track-width: 25px;
+  --toggle-track-height: 10px;
+  --toggle-track-radius: 43px;
+  --toggle-track-color: rgb(218.00000220537186 221.00000202655792 228.0000016093254 / 1);
+  --toggle-thumb-x: 2px;
+  --toggle-thumb-y: 5px;
+  --toggle-thumb-width: 14px;
+  --toggle-thumb-height: 14px;
+  --toggle-thumb-color: rgb(22.000000588595867 28.000000230968 36.00000165402889 / 1);
+}
+[data-toggle-variant="unactive on dark"] {
+  --toggle-width: 32px;
+  --toggle-height: 24px;
+  --toggle-track-x: 3px;
+  --toggle-track-y: 7px;
+  --toggle-track-width: 25px;
+  --toggle-track-height: 10px;
+  --toggle-track-radius: 43px;
+  --toggle-track-color: rgb(62.00000010430813 74.0000031888485 92.00000211596489 / 1);
+  --toggle-thumb-x: 16px;
+  --toggle-thumb-y: 5px;
+  --toggle-thumb-width: 14px;
+  --toggle-thumb-height: 14px;
+  --toggle-thumb-color: rgb(78.00000295042992 95.00000193715096 118.00000056624413 / 1);
+}
+[data-toggle-variant="unactive off dark"] {
+  --toggle-width: 32px;
+  --toggle-height: 24px;
+  --toggle-track-x: 3px;
+  --toggle-track-y: 7px;
+  --toggle-track-width: 25px;
+  --toggle-track-height: 10px;
+  --toggle-track-radius: 43px;
+  --toggle-track-color: rgb(62.00000010430813 74.0000031888485 92.00000211596489 / 1);
+  --toggle-thumb-x: 1px;
+  --toggle-thumb-y: 5px;
+  --toggle-thumb-width: 14px;
+  --toggle-thumb-height: 14px;
+  --toggle-thumb-color: rgb(78.00000295042992 95.00000193715096 118.00000056624413 / 1);
+}
+[data-toggle-variant="unactive light"] {
+  --toggle-width: 32px;
+  --toggle-height: 24px;
+  --toggle-track-x: 3px;
+  --toggle-track-y: 7px;
+  --toggle-track-width: 25px;
+  --toggle-track-height: 10px;
+  --toggle-track-radius: 43px;
+  --toggle-track-color: rgb(218.00000220537186 221.00000202655792 228.0000016093254 / 1);
+  --toggle-thumb-x: 16px;
+  --toggle-thumb-y: 5px;
+  --toggle-thumb-width: 14px;
+  --toggle-thumb-height: 14px;
+  --toggle-thumb-color: rgb(155.00000596046448 163.00000548362732 175.00000476837158 / 1);
+}
+[data-toggle-variant="Enable danger dark"] {
+  --toggle-width: 32px;
+  --toggle-height: 24px;
+  --toggle-track-x: 3px;
+  --toggle-track-y: 7px;
+  --toggle-track-width: 25px;
+  --toggle-track-height: 10px;
+  --toggle-track-radius: 43px;
+  --toggle-track-color: rgb(62.00000010430813 74.0000031888485 92.00000211596489 / 1);
+  --toggle-thumb-x: 16px;
+  --toggle-thumb-y: 5px;
+  --toggle-thumb-width: 14px;
+  --toggle-thumb-height: 14px;
+  --toggle-thumb-color: rgb(249.00000035762787 71.00000336766243 74.0000031888485 / 1);
+}
+[data-toggle-variant="Enable dark"] {
+  --toggle-width: 32px;
+  --toggle-height: 24px;
+  --toggle-track-x: 3px;
+  --toggle-track-y: 7px;
+  --toggle-track-width: 25px;
+  --toggle-track-height: 10px;
+  --toggle-track-radius: 43px;
+  --toggle-track-color: rgb(115.00000074505806 183.00000429153442 67.00000360608101 / 1);
+  --toggle-thumb-x: 16px;
+  --toggle-thumb-y: 5px;
+  --toggle-thumb-width: 14px;
+  --toggle-thumb-height: 14px;
+  --toggle-thumb-color: rgb(231.00000143051147 236.00000113248825 243.00000071525574 / 1);
+}
+[data-toggle-variant="enable light"] {
+  --toggle-width: 32px;
+  --toggle-height: 24px;
+  --toggle-track-x: 3px;
+  --toggle-track-y: 7px;
+  --toggle-track-width: 25px;
+  --toggle-track-height: 10px;
+  --toggle-track-radius: 43px;
+  --toggle-track-color: rgb(218.00000220537186 221.00000202655792 228.0000016093254 / 1);
+  --toggle-thumb-x: 16px;
+  --toggle-thumb-y: 5px;
+  --toggle-thumb-width: 14px;
+  --toggle-thumb-height: 14px;
+  --toggle-thumb-color: rgb(222.00000196695328 19.0000007674098 39.00000147521496 / 1);
+}

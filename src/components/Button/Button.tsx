@@ -7,7 +7,7 @@ export function Button({ variant = defaults.variant, size = defaults.size, start
   return (
     <button {...native} type={type} className={[styles.button, fullWidth && styles.fullWidth, className].filter(Boolean).join(' ')} data-button data-variant={variant} data-size={size}>
       {startIcon != null && <span className={styles.icon} aria-hidden="true">{startIcon}</span>}
-      <span className={styles.label}>{children}</span>
+      {children != null && children !== '' && children !== false && <span className={styles.label}>{children}</span>}
       {endIcon != null && <span className={styles.icon} aria-hidden="true">{endIcon}</span>}
     </button>
   );

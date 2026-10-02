@@ -22,6 +22,7 @@ const mapping: unknown[] = [];
 
 for (const theme of ['light', 'dark'] as const) {
   test(theme + ': all 48 Figma states agree with browser CSS', async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: 'reduce' });
     await openStory(page, theme);
     await expect(page.locator('[data-button]')).toHaveCount(24);
     const family = await page.locator('[data-button]').first().evaluate(node => getComputedStyle(node).fontFamily);
@@ -91,6 +92,44 @@ for (const theme of ['light', 'dark'] as const) {
   });
 }
 
+test('background uses 300ms on hover and 70ms on press with the custom easing', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await openStory(page, 'playground');
+  await page.mouse.move(0, 0);
+  const button = page.locator('[data-button]');
+  const initial = await button.evaluate(node => getComputedStyle(node).backgroundColor);
+  const motion = await button.evaluate(node => {
+    const s = getComputedStyle(node);
+    return { property: s.transitionProperty, duration: s.transitionDuration, easing: s.transitionTimingFunction };
+  });
+  expect(motion).toEqual({ property: 'background-color', duration: '0.3s', easing: 'cubic-bezier(0.656, 0.003, 0.355, 1)' });
+  const finishTransition = () => button.evaluate(async node => {
+    await new Promise<void>(resolve => requestAnimationFrame(() => resolve()));
+    await Promise.all(node.getAnimations().map(animation => animation.finished));
+  });
+  await button.hover();
+  await finishTransition();
+  const hovered = await button.evaluate(node => getComputedStyle(node).backgroundColor);
+  expect(hovered).not.toBe(initial);
+  await page.mouse.down();
+  expect(await button.evaluate(node => getComputedStyle(node).transitionDuration)).toBe('0.07s');
+  await finishTransition();
+  expect(await button.evaluate(node => getComputedStyle(node).backgroundColor)).not.toBe(hovered);
+  await page.mouse.up();
+  expect(await button.evaluate(node => getComputedStyle(node).transitionDuration)).toBe('0.3s');
+  await finishTransition();
+  expect(await button.evaluate(node => getComputedStyle(node).backgroundColor)).toBe(hovered);
+  await page.mouse.move(0, 0);
+  await finishTransition();
+  expect(await button.evaluate(node => getComputedStyle(node).backgroundColor)).toBe(initial);
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  expect(await button.evaluate(node => getComputedStyle(node).transitionDuration)).toBe('0s');
+  await button.hover();
+  await page.mouse.down();
+  expect(await button.evaluate(node => getComputedStyle(node).transitionDuration)).toBe('0s');
+  await page.mouse.up();
+});
+
 test('keyboard activation, focus ring and disabled behavior', async ({ page }) => {
   await openStory(page, 'playground');
   const button = page.getByRole('button', { name: 'button' });
@@ -109,13 +148,16 @@ test('keyboard activation, focus ring and disabled behavior', async ({ page }) =
   await expect(page.locator('output')).toHaveText('Нажатий: 0');
 });
 
-test('long text wraps and fullWidth follows its container', async ({ page }) => {
+test('long text stays fully visible on one line and fullWidth follows its container', async ({ page }) => {
   await openStory(page, 'long-text');
   const button = page.locator('[data-button]');
   const sizes = await button.evaluate(node => ({ height: node.getBoundingClientRect().height, width: node.getBoundingClientRect().width, scrollWidth: node.scrollWidth, clientWidth: node.clientWidth }));
-  expect(sizes.height).toBeGreaterThan(32);
-  expect(sizes.width).toBeLessThanOrEqual(160);
+  expect(sizes.height).toBe(32);
+  expect(sizes.width).toBeGreaterThan(160);
   expect(sizes.scrollWidth).toBeLessThanOrEqual(sizes.clientWidth);
+  const label = button.locator('span:not([aria-hidden])');
+  expect(await label.evaluate(node => node.getBoundingClientRect().height)).toBe(18);
+  expect(await label.evaluate(node => node.scrollWidth)).toBeLessThanOrEqual(await label.evaluate(node => node.clientWidth));
   await openStory(page, 'full-width');
   expect(await page.locator('[data-button]').evaluate(node => node.getBoundingClientRect().width)).toBe(1286);
 });

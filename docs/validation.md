@@ -1,5 +1,7 @@
 # Проверка чистого экспорта
 
+Уточнение от 2 октября 2026: прежняя проверка переноса длинного текста ниже описывает историческое поведение. Актуальный контракт — весь текст в одну строку без обрезки; кнопка расширяется под содержимое. Браузерная проверка длинного текста обновлена под это требование.
+
 Дата: 1 октября 2026. Проект E:/Codex/Figma_to_Storybook-clean, ветка experiment/button-clean.
 
 ## Источник и полнота
@@ -37,3 +39,6 @@
 ## Ревью
 
 Независимое ревью по superpowers:requesting-code-review обнаружило два замечания: неполные guards effects/opacity вложенных слоёв и глобальный reset в публичном импорте. Оба случая воспроизведены failing tests, затем исправлены. Повторное ревью подтвердило устранение; новых важных замечаний не найдено. Проверки 14/8 и сборки повторно пройдены после исправлений.
+# IconButton validation — 2026-10-03
+
+29 unit tests pass; typecheck, lint, Vite build and Storybook build pass. Existing 28 browser tests pass. All three new IconButton browser tests pass after correcting asset checks for Vite data URLs and waiting for the story before Tab. Checks cover all 64 combinations, geometry, explicit token colors, loaded SVG masks, native hover/active durations, focus and reduced motion. New axe reports a11y-icon-button-light/dark.json have zero violations; existing Button contrast debt remains light 4 / dark 2. Original source differences and 31 additions are documented in docs/icon-button.md. Screenshots inspected; user visual acceptance pending.

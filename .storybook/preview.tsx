@@ -2,6 +2,7 @@ import type { Preview } from '@storybook/react-vite';
 import '../src/styles/tokens.css';
 import '../src/styles/global.css';
 import '../src/styles/fonts.css';
+import '../src/styles/figma-styles.css';
 const preview: Preview = {
   initialGlobals: { theme: 'light' },
   globalTypes: { theme: { description: 'Figma theme', toolbar: { icon: 'circlehollow', items: ['light', 'dark'] } } },
