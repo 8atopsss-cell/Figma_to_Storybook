@@ -1,0 +1,11 @@
+.scroll { max-width: 100%; overflow-x: auto; padding: 8px 0; }
+.table { width: 1052px; table-layout: fixed; border-collapse: separate; border-spacing: 0; }
+.row { height: 40px; background: var(--row-background); opacity: var(--row-opacity); box-shadow: var(--row-shadow); }
+.cell { padding: 0; border: 0; vertical-align: top; font-weight: inherit; text-align: left; }
+.cell[colspan] { border-radius: var(--row-radius); }
+.cellContent { position: relative; }
+.layer { position: absolute; display: block; margin: 0; white-space: nowrap; font-synthesis: none; }
+.glyph { position: absolute; display: block; pointer-events: none; mask-repeat: no-repeat; mask-size: 100% 100%; background-repeat: no-repeat; background-size: 100% 100%; }
+.sort { appearance: none; padding: 0; border: 0; background: transparent; cursor: pointer; }
+.sort > .glyph { inset: 0; }
+.sort:focus-visible { outline: 2px solid var(--focus-accent); outline-offset: 2px; }

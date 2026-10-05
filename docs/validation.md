@@ -42,3 +42,14 @@
 # IconButton validation — 2026-10-03
 
 29 unit tests pass; typecheck, lint, Vite build and Storybook build pass. Existing 28 browser tests pass. All three new IconButton browser tests pass after correcting asset checks for Vite data URLs and waiting for the story before Tab. Checks cover all 64 combinations, geometry, explicit token colors, loaded SVG masks, native hover/active durations, focus and reduced motion. New axe reports a11y-icon-button-light/dark.json have zero violations; existing Button contrast debt remains light 4 / dark 2. Original source differences and 31 additions are documented in docs/icon-button.md. Screenshots inspected; user visual acceptance pending.
+# Проверка 5 октября 2026
+
+После добавления двух light Toggle: 31/31 unit tests, typecheck, lint и обе сборки успешны; целевой браузерный прогон Toggle 14/14, axe light/dark без нарушений. Палитра получена через актуальные light CSS tokens по style ID; 2 новых состояния отмечены derived. Полный браузерный прогон ниже относится к версии до light-дополнений. Новая визуальная приёмка не назначена.
+
+Текущая версия в E:/Codex/Figma_to_Storybook: npm test — 29/29; npm run typecheck и npm run lint — без ошибок; npm run build и npm run build-storybook — успешны. Полный npm run test:browser — 37/37. git diff --check — без ошибок. Storybook сообщает предупреждение о размере vendor chunks, сборка успешна.
+
+Браузер подтверждает структуру Docs / Playground / Light / Dark для всех шести компонентов и переключение общей темы для ResourceTag, Badge и Toggle. Красный и зелёный Toggle в Dark переключаются независимо через disable и возвращаются к собственному оформлению. Сверены геометрия 14 ResourceTag и 13 Badge, online/offline, CENTER strokes Badge; прежние проверки Button/Checkbox/IconButton/Toggle и токенов сохранены.
+
+Во время проверки исправлены: тест длинной кнопки передавал кириллицу через URL args, которую Storybook не применял (тест теперь использует ASCII); исходная строка счётчика Badge сохраняет подтверждённую ширину текстового слоя 20 px, без которой браузерный счётчик был 26.77 px вместо 28 px.
+
+Контрастный долг открыт. Полные свежие axe-отчёты: Button light — 4 узла, dark — 2; ResourceTag light — 14 узлов, dark — 6 (включая повторения online/offline); Badge light — 1 (Count), dark — 0. Checkbox, IconButton и Toggle — без зарегистрированных axe-нарушений в этих каталогах. Тесты сохраняют отчёты, допускают color-contrast и требуют отсутствия других нарушений; 37/37 не означает прохождение всей доступности. Исходные цвета Figma не менялись. Скриншоты и отчёты находятся в artifacts/browser. Визуальную приёмку назначает только пользователь.

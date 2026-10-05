@@ -61,7 +61,7 @@ for (const theme of ['light', 'dark']) test(`Checkbox ${theme}: source states, S
 });
 
 test('Checkbox controls switch mixed state and keyboard activation; disabled blocks clicks', async ({ page }) => {
-  await page.goto('/iframe.html?id=figma-export-checkbox--indeterminate&viewMode=story');
+  await page.goto('/iframe.html?id=figma-export-checkbox--playground&viewMode=story&args=indeterminate:true');
   const input = page.getByRole('checkbox', { name: 'Checkbox item' });
   await expect(input).toHaveJSProperty('indeterminate', true);
   await input.focus();
@@ -70,14 +70,14 @@ test('Checkbox controls switch mixed state and keyboard activation; disabled blo
   await expect(input).toHaveJSProperty('indeterminate', false);
   await page.keyboard.press('Space');
   await expect(input).not.toBeChecked();
-  await page.goto('/iframe.html?id=figma-export-checkbox--disabled-selected&viewMode=story');
+  await page.goto('/iframe.html?id=figma-export-checkbox--playground&viewMode=story&args=disabled:true;checked:true');
   await expect(page.getByRole('checkbox')).toBeDisabled();
   await page.getByText('Checkbox item', { exact: true }).click({ force: true });
   await expect(page.getByRole('checkbox')).toBeChecked();
 });
 
 test('Checkbox groups keep source spacing and native group names', async ({ page }) => {
-  await page.goto('/iframe.html?id=figma-export-checkbox--groups&viewMode=story');
+  await page.goto('/iframe.html?id=figma-export-checkbox--light&viewMode=story');
   await expect(page.getByRole('group', { name: 'Label' })).toHaveCount(4);
   const group = page.getByRole('group').last();
   await expect(group.getByRole('checkbox')).toHaveCount(5);

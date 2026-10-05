@@ -14,7 +14,9 @@ function color(paints: Paint[]) {
   return visible.opacity === 1 ? 'rgb(' + rgb + ')' : 'rgba(' + rgb + ', ' + visible.opacity + ')';
 }
 async function openStory(page: Page, story: string) {
-  await page.goto('/iframe.html?id=figma-export-button--' + story + '&viewMode=story');
+  const args = story === 'long-text' ? '&args=children:' + encodeURIComponent('A very long button label without line wrapping') : story === 'full-width' ? '&args=fullWidth:true' : '';
+  const target = story === 'long-text' || story === 'full-width' ? 'playground' : story;
+  await page.goto('/iframe.html?id=figma-export-button--' + target + '&viewMode=story' + args);
   await expect(page.locator('[data-button]').first()).toBeVisible();
   await page.evaluate(() => document.fonts.ready);
 }
@@ -138,14 +140,17 @@ test('keyboard activation, focus ring and disabled behavior', async ({ page }) =
   expect(await button.evaluate(node => getComputedStyle(node).outlineStyle)).toBe('solid');
   expect(await button.evaluate(node => getComputedStyle(node).outlineWidth)).toBe('2px');
   await button.screenshot({ path: output + '/focus.png' });
+  await button.evaluate(node => {
+    node.setAttribute('data-activations', '0');
+    node.addEventListener('click', () => node.setAttribute('data-activations', String(Number(node.getAttribute('data-activations')) + 1)));
+  });
   await page.keyboard.press('Enter');
   await page.keyboard.press('Space');
-  await expect(page.locator('output')).toHaveText('Нажатий: 2');
+  await expect(button).toHaveAttribute('data-activations', '2');
   await page.goto('/iframe.html?id=figma-export-button--playground&viewMode=story&args=disabled:true');
   await expect(page.locator('[data-button]')).toBeDisabled();
   await page.keyboard.press('Tab');
   expect(await page.locator('[data-button]').evaluate(node => node === document.activeElement)).toBe(false);
-  await expect(page.locator('output')).toHaveText('Нажатий: 0');
 });
 
 test('long text stays fully visible on one line and fullWidth follows its container', async ({ page }) => {

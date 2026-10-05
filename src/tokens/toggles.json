@@ -7,6 +7,14 @@
     "connectionId": "d1dcf869-03d1-4d7a-b28c-8ca30080bd30",
     "exportedAt": "2026-10-02T21:58:51.798Z"
   },
+  "enableUpdateSource": {
+    "fileName": "SD Enterprice",
+    "pageId": "933:24166",
+    "nodeId": "13818:80910",
+    "connectionId": "611a1739-448e-4ef3-ab55-52f29890dade",
+    "exportedAt": "2026-10-05T11:07:08.852Z",
+    "tool": "get_node_tree + get_local_styles"
+  },
   "definitions": {
     "Property 1": {
       "type": "VARIANT",
@@ -24,15 +32,38 @@
     }
   },
   "defaultVariant": "disable dark",
+  "variantAliases": {
+    "enable light": "Enable danger light",
+    "unactive light": "unactive on light",
+    "Enable success light": "Enable light"
+  },
+  "variantsByTheme": {
+    "light": [
+      "disable light",
+      "Enable light",
+      "Enable danger light",
+      "unactive on light",
+      "unactive off light"
+    ],
+    "dark": [
+      "disable dark",
+      "Enable dark",
+      "Enable danger dark",
+      "unactive on dark",
+      "unactive off dark"
+    ]
+  },
   "variants": [
     "disable dark",
+    "disable light",
     "Enable dark",
+    "Enable light",
     "Enable danger dark",
+    "Enable danger light",
     "unactive on dark",
+    "unactive on light",
     "unactive off dark",
-    "enable light",
-    "unactive light",
-    "disable light"
+    "unactive off light"
   ],
   "records": [
     {
@@ -50,12 +81,12 @@
         "track-width": "25px",
         "track-height": "10px",
         "track-radius": "43px",
-        "track-color": "rgb(62.00000010430813 74.0000031888485 92.00000211596489 / 1)",
+        "track-color": "var(--figma-color-dark-theme-background-dark-layer-03)",
         "thumb-x": "2px",
         "thumb-y": "5px",
         "thumb-width": "14px",
         "thumb-height": "14px",
-        "thumb-color": "rgb(231.00000143051147 236.00000113248825 243.00000071525574 / 1)"
+        "thumb-color": "var(--figma-color-dark-theme-icon-dark-icon-primary)"
       },
       "source": {
         "id": "700:20931",
@@ -375,7 +406,30 @@
             }
           }
         ]
-      }
+      },
+      "origin": "figma",
+      "sourceRef": {
+        "fileName": "SD Enterprice",
+        "pageId": "933:24166",
+        "nodeId": "700:20924",
+        "connectionId": "d1dcf869-03d1-4d7a-b28c-8ca30080bd30",
+        "exportedAt": "2026-10-02T21:58:51.798Z"
+      },
+      "palette": {
+        "track": {
+          "styleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+          "name": "dark theme/background/dark_layer_03",
+          "cssVariable": "--figma-color-dark-theme-background-dark-layer-03",
+          "value": "#3e4a5c"
+        },
+        "thumb": {
+          "styleId": "S:f15f65361cd4aa94ab67b197c0cd423f6bfb426b,",
+          "name": "dark theme/icon/dark_icon_primary",
+          "cssVariable": "--figma-color-dark-theme-icon-dark-icon-primary",
+          "value": "#e7ecf3"
+        }
+      },
+      "sourceVariant": "disable dark"
     },
     {
       "nodeId": "4474:81975",
@@ -383,7 +437,7 @@
       "theme": "light",
       "checked": false,
       "disabled": false,
-      "nextVariant": "enable light",
+      "nextVariant": "Enable light",
       "css": {
         "width": "32px",
         "height": "24px",
@@ -392,12 +446,12 @@
         "track-width": "25px",
         "track-height": "10px",
         "track-radius": "43px",
-        "track-color": "rgb(218.00000220537186 221.00000202655792 228.0000016093254 / 1)",
+        "track-color": "var(--figma-color-light-theme-background-light-layer-03)",
         "thumb-x": "2px",
         "thumb-y": "5px",
         "thumb-width": "14px",
         "thumb-height": "14px",
-        "thumb-color": "rgb(22.000000588595867 28.000000230968 36.00000165402889 / 1)"
+        "thumb-color": "var(--figma-color-light-theme-icon-light-icon-primary)"
       },
       "source": {
         "id": "4474:81975",
@@ -717,15 +771,38 @@
             }
           }
         ]
-      }
+      },
+      "origin": "figma",
+      "sourceRef": {
+        "fileName": "SD Enterprice",
+        "pageId": "933:24166",
+        "nodeId": "700:20924",
+        "connectionId": "d1dcf869-03d1-4d7a-b28c-8ca30080bd30",
+        "exportedAt": "2026-10-02T21:58:51.798Z"
+      },
+      "palette": {
+        "track": {
+          "styleId": "S:78d107bb8079aac9f2bf7b796966811f53b05442,",
+          "name": "light theme/background/light_layer_03",
+          "cssVariable": "--figma-color-light-theme-background-light-layer-03",
+          "value": "#dadde4"
+        },
+        "thumb": {
+          "styleId": "S:876da3bca148d8c8dbf5e060015b09c5a6b9fd9d,",
+          "name": "light theme/icon/light_icon_primary",
+          "cssVariable": "--figma-color-light-theme-icon-light-icon-primary",
+          "value": "#161c24"
+        }
+      },
+      "sourceVariant": "disable light"
     },
     {
-      "nodeId": "724:20317",
-      "variant": "unactive on dark",
+      "nodeId": "13818:80910",
+      "variant": "Enable dark",
       "theme": "dark",
       "checked": true,
-      "disabled": true,
-      "nextVariant": "unactive on dark",
+      "disabled": false,
+      "nextVariant": "disable dark",
       "css": {
         "width": "32px",
         "height": "24px",
@@ -734,18 +811,18 @@
         "track-width": "25px",
         "track-height": "10px",
         "track-radius": "43px",
-        "track-color": "rgb(62.00000010430813 74.0000031888485 92.00000211596489 / 1)",
+        "track-color": "var(--figma-color-dark-theme-background-dark-layer-03)",
         "thumb-x": "16px",
         "thumb-y": "5px",
         "thumb-width": "14px",
         "thumb-height": "14px",
-        "thumb-color": "rgb(78.00000295042992 95.00000193715096 118.00000056624413 / 1)"
+        "thumb-color": "var(--figma-color-dark-theme-status-dark-status-success)"
       },
       "source": {
-        "id": "724:20317",
-        "name": "Property 1=unactive on dark",
+        "id": "13818:80910",
+        "name": "Property 1=Enable dark",
         "type": "COMPONENT",
-        "x": 131,
+        "x": 50,
         "y": 15,
         "width": 32,
         "height": 24,
@@ -782,7 +859,7 @@
             [
               1,
               0,
-              131
+              50
             ],
             [
               0,
@@ -794,7 +871,7 @@
             [
               1,
               0,
-              12314
+              12233
             ],
             [
               0,
@@ -804,7 +881,7 @@
           ],
           "componentPropertyReferences": {},
           "variantProperties": {
-            "Property 1": "unactive on dark"
+            "Property 1": "Enable dark"
           },
           "boundVariables": {},
           "explicitVariableModes": {},
@@ -871,7 +948,7 @@
         "childCount": 2,
         "children": [
           {
-            "id": "724:20318",
+            "id": "13818:80911",
             "name": "Rectangle 797",
             "type": "RECTANGLE",
             "x": 3,
@@ -937,7 +1014,7 @@
                 [
                   1,
                   0,
-                  12317
+                  12236
                 ],
                 [
                   0,
@@ -970,7 +1047,7 @@
             }
           },
           {
-            "id": "724:20319",
+            "id": "13818:80912",
             "name": "Ellipse 22",
             "type": "ELLIPSE",
             "x": 16,
@@ -979,7 +1056,7 @@
             "height": 14,
             "warnings": [],
             "fills": [
-              "#4e5f76"
+              "#73b743"
             ],
             "properties": {
               "visible": true,
@@ -993,9 +1070,9 @@
                   "opacity": 1,
                   "blendMode": "NORMAL",
                   "color": {
-                    "r": 0.30588236451148987,
-                    "g": 0.37254902720451355,
-                    "b": 0.4627451002597809
+                    "r": 0.45098039507865906,
+                    "g": 0.7176470756530762,
+                    "b": 0.26274511218070984
                   },
                   "boundVariables": {}
                 }
@@ -1032,7 +1109,7 @@
                 [
                   1,
                   0,
-                  12330
+                  12249
                 ],
                 [
                   0,
@@ -1053,363 +1130,45 @@
               "maxWidth": null,
               "minHeight": null,
               "maxHeight": null,
-              "fillStyleId": "S:ca8059daaf956d55984bd1bf14c5373af46867cf,",
+              "fillStyleId": "S:9c2e9edc9ee312989ff51730e19b331f21f5ba82,",
               "strokeStyleId": "",
               "effectStyleId": ""
             }
           }
         ]
-      }
-    },
-    {
-      "nodeId": "13818:64060",
-      "variant": "unactive off dark",
-      "theme": "dark",
-      "checked": false,
-      "disabled": true,
-      "nextVariant": "unactive off dark",
-      "css": {
-        "width": "32px",
-        "height": "24px",
-        "track-x": "3px",
-        "track-y": "7px",
-        "track-width": "25px",
-        "track-height": "10px",
-        "track-radius": "43px",
-        "track-color": "rgb(62.00000010430813 74.0000031888485 92.00000211596489 / 1)",
-        "thumb-x": "1px",
-        "thumb-y": "5px",
-        "thumb-width": "14px",
-        "thumb-height": "14px",
-        "thumb-color": "rgb(78.00000295042992 95.00000193715096 118.00000056624413 / 1)"
       },
-      "source": {
-        "id": "13818:64060",
-        "name": "Property 1=unactive off dark",
-        "type": "COMPONENT",
-        "x": 180,
-        "y": 15,
-        "width": 32,
-        "height": 24,
-        "warnings": [],
-        "fills": [],
-        "properties": {
-          "visible": true,
-          "opacity": 1,
-          "blendMode": "PASS_THROUGH",
-          "rotation": 0,
-          "fills": [],
-          "strokes": [],
-          "strokeWeight": 1,
-          "strokeAlign": "INSIDE",
-          "strokeCap": "NONE",
-          "strokeJoin": "MITER",
-          "strokeMiterLimit": 4,
-          "dashPattern": [],
-          "effects": [],
-          "cornerRadius": 0,
-          "cornerSmoothing": 0,
-          "topLeftRadius": 0,
-          "topRightRadius": 0,
-          "bottomLeftRadius": 0,
-          "bottomRightRadius": 0,
-          "clipsContent": false,
-          "isMask": false,
-          "maskType": "ALPHA",
-          "constraints": {
-            "horizontal": "MIN",
-            "vertical": "MIN"
-          },
-          "relativeTransform": [
-            [
-              1,
-              0,
-              180
-            ],
-            [
-              0,
-              1,
-              15
-            ]
-          ],
-          "absoluteTransform": [
-            [
-              1,
-              0,
-              12363
-            ],
-            [
-              0,
-              1,
-              4314
-            ]
-          ],
-          "componentPropertyReferences": {},
-          "variantProperties": {
-            "Property 1": "unactive off dark"
-          },
-          "boundVariables": {},
-          "explicitVariableModes": {},
-          "resolvedVariableModes": {},
-          "layoutMode": "NONE",
-          "layoutWrap": "NO_WRAP",
-          "itemSpacing": 0,
-          "counterAxisSpacing": 0,
-          "paddingLeft": 0,
-          "paddingRight": 0,
-          "paddingTop": 0,
-          "paddingBottom": 0,
-          "primaryAxisSizingMode": "AUTO",
-          "counterAxisSizingMode": "FIXED",
-          "primaryAxisAlignItems": "MIN",
-          "counterAxisAlignItems": "MIN",
-          "counterAxisAlignContent": "AUTO",
-          "strokesIncludedInLayout": false,
-          "layoutGrow": 0,
-          "layoutAlign": "INHERIT",
-          "layoutPositioning": "AUTO",
-          "layoutSizingHorizontal": "FIXED",
-          "layoutSizingVertical": "FIXED",
-          "minWidth": null,
-          "maxWidth": null,
-          "minHeight": null,
-          "maxHeight": null,
-          "gridRowCount": 0,
-          "gridColumnCount": 0,
-          "gridRowGap": 0,
-          "gridColumnGap": 0,
-          "fillStyleId": "",
-          "strokeStyleId": "",
-          "effectStyleId": "",
-          "rectangleCornerRadii": {
-            "topLeft": 0,
-            "topRight": 0,
-            "bottomLeft": 0,
-            "bottomRight": 0
-          },
-          "componentPropertyDefinitionsSource": {
-            "id": "700:20924",
-            "name": "toggle",
-            "type": "COMPONENT_SET",
-            "key": "98e6fe6b2385b55e05a308a9b14916f214d46d6b"
-          },
-          "componentPropertyDefinitions": {
-            "Property 1": {
-              "type": "VARIANT",
-              "defaultValue": "disable dark",
-              "variantOptions": [
-                "disable dark",
-                "Enable dark",
-                "Enable danger dark",
-                "unactive on dark",
-                "unactive off dark",
-                "enable light",
-                "unactive light",
-                "disable light"
-              ]
-            }
-          }
+      "origin": "figma",
+      "sourceRef": {
+        "fileName": "SD Enterprice",
+        "pageId": "933:24166",
+        "nodeId": "13818:80910",
+        "connectionId": "611a1739-448e-4ef3-ab55-52f29890dade",
+        "exportedAt": "2026-10-05T11:07:08.852Z",
+        "tool": "get_node_tree + get_local_styles"
+      },
+      "palette": {
+        "track": {
+          "styleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+          "name": "dark theme/background/dark_layer_03",
+          "cssVariable": "--figma-color-dark-theme-background-dark-layer-03",
+          "value": "#3e4a5c"
         },
-        "childCount": 2,
-        "children": [
-          {
-            "id": "13818:64061",
-            "name": "Rectangle 797",
-            "type": "RECTANGLE",
-            "x": 3,
-            "y": 7,
-            "width": 25,
-            "height": 10,
-            "warnings": [],
-            "fills": [
-              "#3e4a5c"
-            ],
-            "properties": {
-              "visible": true,
-              "opacity": 1,
-              "blendMode": "PASS_THROUGH",
-              "rotation": 0,
-              "fills": [
-                {
-                  "type": "SOLID",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendMode": "NORMAL",
-                  "color": {
-                    "r": 0.24313725531101227,
-                    "g": 0.29019609093666077,
-                    "b": 0.3607843220233917
-                  },
-                  "boundVariables": {}
-                }
-              ],
-              "strokes": [],
-              "strokeWeight": 1,
-              "strokeAlign": "INSIDE",
-              "strokeCap": "NONE",
-              "strokeJoin": "MITER",
-              "strokeMiterLimit": 4,
-              "dashPattern": [],
-              "effects": [],
-              "cornerRadius": 43,
-              "cornerSmoothing": 0,
-              "topLeftRadius": 43,
-              "topRightRadius": 43,
-              "bottomLeftRadius": 43,
-              "bottomRightRadius": 43,
-              "isMask": false,
-              "maskType": "ALPHA",
-              "constraints": {
-                "horizontal": "SCALE",
-                "vertical": "SCALE"
-              },
-              "relativeTransform": [
-                [
-                  1,
-                  0,
-                  3
-                ],
-                [
-                  0,
-                  1,
-                  7
-                ]
-              ],
-              "absoluteTransform": [
-                [
-                  1,
-                  0,
-                  12366
-                ],
-                [
-                  0,
-                  1,
-                  4321
-                ]
-              ],
-              "componentPropertyReferences": {},
-              "boundVariables": {},
-              "explicitVariableModes": {},
-              "resolvedVariableModes": {},
-              "layoutGrow": 0,
-              "layoutAlign": "INHERIT",
-              "layoutPositioning": "AUTO",
-              "layoutSizingHorizontal": "FIXED",
-              "layoutSizingVertical": "FIXED",
-              "minWidth": null,
-              "maxWidth": null,
-              "minHeight": null,
-              "maxHeight": null,
-              "fillStyleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
-              "strokeStyleId": "",
-              "effectStyleId": "",
-              "rectangleCornerRadii": {
-                "topLeft": 43,
-                "topRight": 43,
-                "bottomLeft": 43,
-                "bottomRight": 43
-              }
-            }
-          },
-          {
-            "id": "13818:64062",
-            "name": "Ellipse 22",
-            "type": "ELLIPSE",
-            "x": 1,
-            "y": 5,
-            "width": 14,
-            "height": 14,
-            "warnings": [],
-            "fills": [
-              "#4e5f76"
-            ],
-            "properties": {
-              "visible": true,
-              "opacity": 1,
-              "blendMode": "PASS_THROUGH",
-              "rotation": 0,
-              "fills": [
-                {
-                  "type": "SOLID",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendMode": "NORMAL",
-                  "color": {
-                    "r": 0.30588236451148987,
-                    "g": 0.37254902720451355,
-                    "b": 0.4627451002597809
-                  },
-                  "boundVariables": {}
-                }
-              ],
-              "strokes": [],
-              "strokeWeight": 1,
-              "strokeAlign": "INSIDE",
-              "strokeCap": "NONE",
-              "strokeJoin": "MITER",
-              "strokeMiterLimit": 4,
-              "dashPattern": [],
-              "effects": [],
-              "cornerRadius": 0,
-              "cornerSmoothing": 0,
-              "isMask": false,
-              "maskType": "ALPHA",
-              "constraints": {
-                "horizontal": "MIN",
-                "vertical": "SCALE"
-              },
-              "relativeTransform": [
-                [
-                  1,
-                  0,
-                  1
-                ],
-                [
-                  0,
-                  1,
-                  5
-                ]
-              ],
-              "absoluteTransform": [
-                [
-                  1,
-                  0,
-                  12364
-                ],
-                [
-                  0,
-                  1,
-                  4319
-                ]
-              ],
-              "componentPropertyReferences": {},
-              "boundVariables": {},
-              "explicitVariableModes": {},
-              "resolvedVariableModes": {},
-              "layoutGrow": 0,
-              "layoutAlign": "INHERIT",
-              "layoutPositioning": "AUTO",
-              "layoutSizingHorizontal": "FIXED",
-              "layoutSizingVertical": "FIXED",
-              "minWidth": null,
-              "maxWidth": null,
-              "minHeight": null,
-              "maxHeight": null,
-              "fillStyleId": "S:ca8059daaf956d55984bd1bf14c5373af46867cf,",
-              "strokeStyleId": "",
-              "effectStyleId": ""
-            }
-          }
-        ]
-      }
+        "thumb": {
+          "styleId": "S:9c2e9edc9ee312989ff51730e19b331f21f5ba82,",
+          "name": "dark theme/status/dark_status_success",
+          "cssVariable": "--figma-color-dark-theme-status-dark-status-success",
+          "value": "#73b743"
+        }
+      },
+      "sourceVariant": "Enable dark"
     },
     {
-      "nodeId": "4474:81978",
-      "variant": "unactive light",
+      "nodeId": null,
+      "variant": "Enable light",
       "theme": "light",
       "checked": true,
-      "disabled": true,
-      "nextVariant": "unactive light",
+      "disabled": false,
+      "nextVariant": "disable light",
       "css": {
         "width": "32px",
         "height": "24px",
@@ -1418,18 +1177,18 @@
         "track-width": "25px",
         "track-height": "10px",
         "track-radius": "43px",
-        "track-color": "rgb(218.00000220537186 221.00000202655792 228.0000016093254 / 1)",
+        "track-color": "var(--figma-color-light-theme-background-light-layer-03)",
         "thumb-x": "16px",
         "thumb-y": "5px",
         "thumb-width": "14px",
         "thumb-height": "14px",
-        "thumb-color": "rgb(155.00000596046448 163.00000548362732 175.00000476837158 / 1)"
+        "thumb-color": "var(--figma-color-light-theme-status-light-status-success)"
       },
       "source": {
-        "id": "4474:81978",
-        "name": "Property 1=unactive light",
+        "id": "13818:80910",
+        "name": "Property 1=Enable dark",
         "type": "COMPONENT",
-        "x": 345,
+        "x": 50,
         "y": 15,
         "width": 32,
         "height": 24,
@@ -1466,7 +1225,7 @@
             [
               1,
               0,
-              345
+              50
             ],
             [
               0,
@@ -1478,7 +1237,7 @@
             [
               1,
               0,
-              12528
+              12233
             ],
             [
               0,
@@ -1488,7 +1247,7 @@
           ],
           "componentPropertyReferences": {},
           "variantProperties": {
-            "Property 1": "unactive light"
+            "Property 1": "Enable dark"
           },
           "boundVariables": {},
           "explicitVariableModes": {},
@@ -1555,7 +1314,7 @@
         "childCount": 2,
         "children": [
           {
-            "id": "4474:81979",
+            "id": "13818:80911",
             "name": "Rectangle 797",
             "type": "RECTANGLE",
             "x": 3,
@@ -1564,7 +1323,7 @@
             "height": 10,
             "warnings": [],
             "fills": [
-              "#dadde4"
+              "#3e4a5c"
             ],
             "properties": {
               "visible": true,
@@ -1578,9 +1337,9 @@
                   "opacity": 1,
                   "blendMode": "NORMAL",
                   "color": {
-                    "r": 0.8549019694328308,
-                    "g": 0.8666666746139526,
-                    "b": 0.8941176533699036
+                    "r": 0.24313725531101227,
+                    "g": 0.29019609093666077,
+                    "b": 0.3607843220233917
                   },
                   "boundVariables": {}
                 }
@@ -1621,7 +1380,7 @@
                 [
                   1,
                   0,
-                  12531
+                  12236
                 ],
                 [
                   0,
@@ -1642,7 +1401,7 @@
               "maxWidth": null,
               "minHeight": null,
               "maxHeight": null,
-              "fillStyleId": "S:78d107bb8079aac9f2bf7b796966811f53b05442,",
+              "fillStyleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
               "strokeStyleId": "",
               "effectStyleId": "",
               "rectangleCornerRadii": {
@@ -1654,7 +1413,7 @@
             }
           },
           {
-            "id": "4474:81980",
+            "id": "13818:80912",
             "name": "Ellipse 22",
             "type": "ELLIPSE",
             "x": 16,
@@ -1663,7 +1422,7 @@
             "height": 14,
             "warnings": [],
             "fills": [
-              "#9ba3af"
+              "#73b743"
             ],
             "properties": {
               "visible": true,
@@ -1677,9 +1436,9 @@
                   "opacity": 1,
                   "blendMode": "NORMAL",
                   "color": {
-                    "r": 0.6078431606292725,
-                    "g": 0.6392157077789307,
-                    "b": 0.686274528503418
+                    "r": 0.45098039507865906,
+                    "g": 0.7176470756530762,
+                    "b": 0.26274511218070984
                   },
                   "boundVariables": {}
                 }
@@ -1716,7 +1475,7 @@
                 [
                   1,
                   0,
-                  12544
+                  12249
                 ],
                 [
                   0,
@@ -1737,13 +1496,49 @@
               "maxWidth": null,
               "minHeight": null,
               "maxHeight": null,
-              "fillStyleId": "S:2dc1ae0c12f11a221c1bdccc8da1695b30b1255e,",
+              "fillStyleId": "S:9c2e9edc9ee312989ff51730e19b331f21f5ba82,",
               "strokeStyleId": "",
               "effectStyleId": ""
             }
           }
         ]
-      }
+      },
+      "origin": "derived",
+      "sourceRef": null,
+      "palette": {
+        "track": {
+          "styleId": "S:78d107bb8079aac9f2bf7b796966811f53b05442,",
+          "name": "light theme/background/light_layer_03",
+          "cssVariable": "--figma-color-light-theme-background-light-layer-03",
+          "value": "#dadde4"
+        },
+        "thumb": {
+          "styleId": "S:a8b066f643d1d4415e1d9a22a28db3ca18c7d0e9,",
+          "name": "light theme/status/light_status_success",
+          "cssVariable": "--figma-color-light-theme-status-light-status-success",
+          "value": "#5fa339"
+        }
+      },
+      "derivation": {
+        "geometryNodeId": "13818:80910",
+        "geometryVariant": "Enable dark",
+        "paletteSource": {
+          "fileName": "SD Enterprice",
+          "pageId": "933:24166",
+          "exportedAt": "2026-10-05",
+          "tool": "get_local_styles"
+        },
+        "decision": "User requested updated Enable appearance for both themes. Dark uses live node; derived light uses the same geometry, light_layer_03 track and light_status_success thumb.",
+        "geometrySource": {
+          "fileName": "SD Enterprice",
+          "pageId": "933:24166",
+          "nodeId": "13818:80910",
+          "connectionId": "611a1739-448e-4ef3-ab55-52f29890dade",
+          "exportedAt": "2026-10-05T11:07:08.852Z",
+          "tool": "get_node_tree + get_local_styles"
+        }
+      },
+      "sourceVariant": null
     },
     {
       "nodeId": "700:20934",
@@ -1760,12 +1555,12 @@
         "track-width": "25px",
         "track-height": "10px",
         "track-radius": "43px",
-        "track-color": "rgb(62.00000010430813 74.0000031888485 92.00000211596489 / 1)",
+        "track-color": "var(--figma-color-dark-theme-background-dark-layer-03)",
         "thumb-x": "16px",
         "thumb-y": "5px",
         "thumb-width": "14px",
         "thumb-height": "14px",
-        "thumb-color": "rgb(249.00000035762787 71.00000336766243 74.0000031888485 / 1)"
+        "thumb-color": "var(--figma-color-dark-theme-status-dark-status-danger)"
       },
       "source": {
         "id": "700:20934",
@@ -2085,353 +1880,34 @@
             }
           }
         ]
-      }
-    },
-    {
-      "nodeId": "13818:80910",
-      "variant": "Enable dark",
-      "theme": "dark",
-      "checked": true,
-      "disabled": false,
-      "nextVariant": "disable dark",
-      "css": {
-        "width": "32px",
-        "height": "24px",
-        "track-x": "3px",
-        "track-y": "7px",
-        "track-width": "25px",
-        "track-height": "10px",
-        "track-radius": "43px",
-        "track-color": "rgb(115.00000074505806 183.00000429153442 67.00000360608101 / 1)",
-        "thumb-x": "16px",
-        "thumb-y": "5px",
-        "thumb-width": "14px",
-        "thumb-height": "14px",
-        "thumb-color": "rgb(231.00000143051147 236.00000113248825 243.00000071525574 / 1)"
       },
-      "source": {
-        "id": "13818:80910",
-        "name": "Property 1=Enable dark",
-        "type": "COMPONENT",
-        "x": 50,
-        "y": 15,
-        "width": 32,
-        "height": 24,
-        "warnings": [],
-        "fills": [],
-        "properties": {
-          "visible": true,
-          "opacity": 1,
-          "blendMode": "PASS_THROUGH",
-          "rotation": 0,
-          "fills": [],
-          "strokes": [],
-          "strokeWeight": 1,
-          "strokeAlign": "INSIDE",
-          "strokeCap": "NONE",
-          "strokeJoin": "MITER",
-          "strokeMiterLimit": 4,
-          "dashPattern": [],
-          "effects": [],
-          "cornerRadius": 0,
-          "cornerSmoothing": 0,
-          "topLeftRadius": 0,
-          "topRightRadius": 0,
-          "bottomLeftRadius": 0,
-          "bottomRightRadius": 0,
-          "clipsContent": false,
-          "isMask": false,
-          "maskType": "ALPHA",
-          "constraints": {
-            "horizontal": "MIN",
-            "vertical": "MIN"
-          },
-          "relativeTransform": [
-            [
-              1,
-              0,
-              50
-            ],
-            [
-              0,
-              1,
-              15
-            ]
-          ],
-          "absoluteTransform": [
-            [
-              1,
-              0,
-              12233
-            ],
-            [
-              0,
-              1,
-              4314
-            ]
-          ],
-          "componentPropertyReferences": {},
-          "variantProperties": {
-            "Property 1": "Enable dark"
-          },
-          "boundVariables": {},
-          "explicitVariableModes": {},
-          "resolvedVariableModes": {},
-          "layoutMode": "NONE",
-          "layoutWrap": "NO_WRAP",
-          "itemSpacing": 0,
-          "counterAxisSpacing": 0,
-          "paddingLeft": 0,
-          "paddingRight": 0,
-          "paddingTop": 0,
-          "paddingBottom": 0,
-          "primaryAxisSizingMode": "AUTO",
-          "counterAxisSizingMode": "FIXED",
-          "primaryAxisAlignItems": "MIN",
-          "counterAxisAlignItems": "MIN",
-          "counterAxisAlignContent": "AUTO",
-          "strokesIncludedInLayout": false,
-          "layoutGrow": 0,
-          "layoutAlign": "INHERIT",
-          "layoutPositioning": "AUTO",
-          "layoutSizingHorizontal": "FIXED",
-          "layoutSizingVertical": "FIXED",
-          "minWidth": null,
-          "maxWidth": null,
-          "minHeight": null,
-          "maxHeight": null,
-          "gridRowCount": 0,
-          "gridColumnCount": 0,
-          "gridRowGap": 0,
-          "gridColumnGap": 0,
-          "fillStyleId": "",
-          "strokeStyleId": "",
-          "effectStyleId": "",
-          "rectangleCornerRadii": {
-            "topLeft": 0,
-            "topRight": 0,
-            "bottomLeft": 0,
-            "bottomRight": 0
-          },
-          "componentPropertyDefinitionsSource": {
-            "id": "700:20924",
-            "name": "toggle",
-            "type": "COMPONENT_SET",
-            "key": "98e6fe6b2385b55e05a308a9b14916f214d46d6b"
-          },
-          "componentPropertyDefinitions": {
-            "Property 1": {
-              "type": "VARIANT",
-              "defaultValue": "disable dark",
-              "variantOptions": [
-                "disable dark",
-                "Enable dark",
-                "Enable danger dark",
-                "unactive on dark",
-                "unactive off dark",
-                "enable light",
-                "unactive light",
-                "disable light"
-              ]
-            }
-          }
+      "origin": "figma",
+      "sourceRef": {
+        "fileName": "SD Enterprice",
+        "pageId": "933:24166",
+        "nodeId": "700:20924",
+        "connectionId": "d1dcf869-03d1-4d7a-b28c-8ca30080bd30",
+        "exportedAt": "2026-10-02T21:58:51.798Z"
+      },
+      "palette": {
+        "track": {
+          "styleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+          "name": "dark theme/background/dark_layer_03",
+          "cssVariable": "--figma-color-dark-theme-background-dark-layer-03",
+          "value": "#3e4a5c"
         },
-        "childCount": 2,
-        "children": [
-          {
-            "id": "13818:80911",
-            "name": "Rectangle 797",
-            "type": "RECTANGLE",
-            "x": 3,
-            "y": 7,
-            "width": 25,
-            "height": 10,
-            "warnings": [],
-            "fills": [
-              "#73b743"
-            ],
-            "properties": {
-              "visible": true,
-              "opacity": 1,
-              "blendMode": "PASS_THROUGH",
-              "rotation": 0,
-              "fills": [
-                {
-                  "type": "SOLID",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendMode": "NORMAL",
-                  "color": {
-                    "r": 0.45098039507865906,
-                    "g": 0.7176470756530762,
-                    "b": 0.26274511218070984
-                  },
-                  "boundVariables": {}
-                }
-              ],
-              "strokes": [],
-              "strokeWeight": 1,
-              "strokeAlign": "INSIDE",
-              "strokeCap": "NONE",
-              "strokeJoin": "MITER",
-              "strokeMiterLimit": 4,
-              "dashPattern": [],
-              "effects": [],
-              "cornerRadius": 43,
-              "cornerSmoothing": 0,
-              "topLeftRadius": 43,
-              "topRightRadius": 43,
-              "bottomLeftRadius": 43,
-              "bottomRightRadius": 43,
-              "isMask": false,
-              "maskType": "ALPHA",
-              "constraints": {
-                "horizontal": "SCALE",
-                "vertical": "SCALE"
-              },
-              "relativeTransform": [
-                [
-                  1,
-                  0,
-                  3
-                ],
-                [
-                  0,
-                  1,
-                  7
-                ]
-              ],
-              "absoluteTransform": [
-                [
-                  1,
-                  0,
-                  12236
-                ],
-                [
-                  0,
-                  1,
-                  4321
-                ]
-              ],
-              "componentPropertyReferences": {},
-              "boundVariables": {},
-              "explicitVariableModes": {},
-              "resolvedVariableModes": {},
-              "layoutGrow": 0,
-              "layoutAlign": "INHERIT",
-              "layoutPositioning": "AUTO",
-              "layoutSizingHorizontal": "FIXED",
-              "layoutSizingVertical": "FIXED",
-              "minWidth": null,
-              "maxWidth": null,
-              "minHeight": null,
-              "maxHeight": null,
-              "fillStyleId": "S:9c2e9edc9ee312989ff51730e19b331f21f5ba82,",
-              "strokeStyleId": "",
-              "effectStyleId": "",
-              "rectangleCornerRadii": {
-                "topLeft": 43,
-                "topRight": 43,
-                "bottomLeft": 43,
-                "bottomRight": 43
-              }
-            }
-          },
-          {
-            "id": "13818:80912",
-            "name": "Ellipse 22",
-            "type": "ELLIPSE",
-            "x": 16,
-            "y": 5,
-            "width": 14,
-            "height": 14,
-            "warnings": [],
-            "fills": [
-              "#e7ecf3"
-            ],
-            "properties": {
-              "visible": true,
-              "opacity": 1,
-              "blendMode": "PASS_THROUGH",
-              "rotation": 0,
-              "fills": [
-                {
-                  "type": "SOLID",
-                  "visible": true,
-                  "opacity": 1,
-                  "blendMode": "NORMAL",
-                  "color": {
-                    "r": 0.9058823585510254,
-                    "g": 0.9254902005195618,
-                    "b": 0.9529411792755127
-                  },
-                  "boundVariables": {}
-                }
-              ],
-              "strokes": [],
-              "strokeWeight": 1,
-              "strokeAlign": "INSIDE",
-              "strokeCap": "NONE",
-              "strokeJoin": "MITER",
-              "strokeMiterLimit": 4,
-              "dashPattern": [],
-              "effects": [],
-              "cornerRadius": 0,
-              "cornerSmoothing": 0,
-              "isMask": false,
-              "maskType": "ALPHA",
-              "constraints": {
-                "horizontal": "SCALE",
-                "vertical": "SCALE"
-              },
-              "relativeTransform": [
-                [
-                  1,
-                  0,
-                  16
-                ],
-                [
-                  0,
-                  1,
-                  5
-                ]
-              ],
-              "absoluteTransform": [
-                [
-                  1,
-                  0,
-                  12249
-                ],
-                [
-                  0,
-                  1,
-                  4319
-                ]
-              ],
-              "componentPropertyReferences": {},
-              "boundVariables": {},
-              "explicitVariableModes": {},
-              "resolvedVariableModes": {},
-              "layoutGrow": 0,
-              "layoutAlign": "INHERIT",
-              "layoutPositioning": "AUTO",
-              "layoutSizingHorizontal": "FIXED",
-              "layoutSizingVertical": "FIXED",
-              "minWidth": null,
-              "maxWidth": null,
-              "minHeight": null,
-              "maxHeight": null,
-              "fillStyleId": "S:f15f65361cd4aa94ab67b197c0cd423f6bfb426b,",
-              "strokeStyleId": "",
-              "effectStyleId": ""
-            }
-          }
-        ]
-      }
+        "thumb": {
+          "styleId": "S:fe93382fe7029a4aeac0410404883a88ce62a4f3,",
+          "name": "dark theme/status/dark_status_danger",
+          "cssVariable": "--figma-color-dark-theme-status-dark-status-danger",
+          "value": "#f9474a"
+        }
+      },
+      "sourceVariant": "Enable danger dark"
     },
     {
       "nodeId": "4474:81981",
-      "variant": "enable light",
+      "variant": "Enable danger light",
       "theme": "light",
       "checked": true,
       "disabled": false,
@@ -2444,12 +1920,12 @@
         "track-width": "25px",
         "track-height": "10px",
         "track-radius": "43px",
-        "track-color": "rgb(218.00000220537186 221.00000202655792 228.0000016093254 / 1)",
+        "track-color": "var(--figma-color-light-theme-background-light-layer-03)",
         "thumb-x": "16px",
         "thumb-y": "5px",
         "thumb-width": "14px",
         "thumb-height": "14px",
-        "thumb-color": "rgb(222.00000196695328 19.0000007674098 39.00000147521496 / 1)"
+        "thumb-color": "var(--figma-color-light-theme-status-light-status-danger)"
       },
       "source": {
         "id": "4474:81981",
@@ -2769,7 +2245,1495 @@
             }
           }
         ]
-      }
+      },
+      "origin": "figma",
+      "sourceRef": {
+        "fileName": "SD Enterprice",
+        "pageId": "933:24166",
+        "nodeId": "700:20924",
+        "connectionId": "d1dcf869-03d1-4d7a-b28c-8ca30080bd30",
+        "exportedAt": "2026-10-02T21:58:51.798Z"
+      },
+      "palette": {
+        "track": {
+          "styleId": "S:78d107bb8079aac9f2bf7b796966811f53b05442,",
+          "name": "light theme/background/light_layer_03",
+          "cssVariable": "--figma-color-light-theme-background-light-layer-03",
+          "value": "#dadde4"
+        },
+        "thumb": {
+          "styleId": "S:afed41f121d9b392de000a4ebbfedb387c6530d6,",
+          "name": "light theme/status/light_status_danger",
+          "cssVariable": "--figma-color-light-theme-status-light-status-danger",
+          "value": "#de1327"
+        }
+      },
+      "sourceVariant": "enable light"
+    },
+    {
+      "nodeId": "724:20317",
+      "variant": "unactive on dark",
+      "theme": "dark",
+      "checked": true,
+      "disabled": true,
+      "nextVariant": "unactive on dark",
+      "css": {
+        "width": "32px",
+        "height": "24px",
+        "track-x": "3px",
+        "track-y": "7px",
+        "track-width": "25px",
+        "track-height": "10px",
+        "track-radius": "43px",
+        "track-color": "var(--figma-color-dark-theme-background-dark-layer-03)",
+        "thumb-x": "16px",
+        "thumb-y": "5px",
+        "thumb-width": "14px",
+        "thumb-height": "14px",
+        "thumb-color": "var(--figma-color-dark-theme-icon-dark-icon-disable)"
+      },
+      "source": {
+        "id": "724:20317",
+        "name": "Property 1=unactive on dark",
+        "type": "COMPONENT",
+        "x": 131,
+        "y": 15,
+        "width": 32,
+        "height": 24,
+        "warnings": [],
+        "fills": [],
+        "properties": {
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "rotation": 0,
+          "fills": [],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeMiterLimit": 4,
+          "dashPattern": [],
+          "effects": [],
+          "cornerRadius": 0,
+          "cornerSmoothing": 0,
+          "topLeftRadius": 0,
+          "topRightRadius": 0,
+          "bottomLeftRadius": 0,
+          "bottomRightRadius": 0,
+          "clipsContent": false,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              131
+            ],
+            [
+              0,
+              1,
+              15
+            ]
+          ],
+          "absoluteTransform": [
+            [
+              1,
+              0,
+              12314
+            ],
+            [
+              0,
+              1,
+              4314
+            ]
+          ],
+          "componentPropertyReferences": {},
+          "variantProperties": {
+            "Property 1": "unactive on dark"
+          },
+          "boundVariables": {},
+          "explicitVariableModes": {},
+          "resolvedVariableModes": {},
+          "layoutMode": "NONE",
+          "layoutWrap": "NO_WRAP",
+          "itemSpacing": 0,
+          "counterAxisSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "counterAxisAlignContent": "AUTO",
+          "strokesIncludedInLayout": false,
+          "layoutGrow": 0,
+          "layoutAlign": "INHERIT",
+          "layoutPositioning": "AUTO",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "minWidth": null,
+          "maxWidth": null,
+          "minHeight": null,
+          "maxHeight": null,
+          "gridRowCount": 0,
+          "gridColumnCount": 0,
+          "gridRowGap": 0,
+          "gridColumnGap": 0,
+          "fillStyleId": "",
+          "strokeStyleId": "",
+          "effectStyleId": "",
+          "rectangleCornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomLeft": 0,
+            "bottomRight": 0
+          },
+          "componentPropertyDefinitionsSource": {
+            "id": "700:20924",
+            "name": "toggle",
+            "type": "COMPONENT_SET",
+            "key": "98e6fe6b2385b55e05a308a9b14916f214d46d6b"
+          },
+          "componentPropertyDefinitions": {
+            "Property 1": {
+              "type": "VARIANT",
+              "defaultValue": "disable dark",
+              "variantOptions": [
+                "disable dark",
+                "Enable dark",
+                "Enable danger dark",
+                "unactive on dark",
+                "unactive off dark",
+                "enable light",
+                "unactive light",
+                "disable light"
+              ]
+            }
+          }
+        },
+        "childCount": 2,
+        "children": [
+          {
+            "id": "724:20318",
+            "name": "Rectangle 797",
+            "type": "RECTANGLE",
+            "x": 3,
+            "y": 7,
+            "width": 25,
+            "height": 10,
+            "warnings": [],
+            "fills": [
+              "#3e4a5c"
+            ],
+            "properties": {
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "rotation": 0,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.24313725531101227,
+                    "g": 0.29019609093666077,
+                    "b": 0.3607843220233917
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeMiterLimit": 4,
+              "dashPattern": [],
+              "effects": [],
+              "cornerRadius": 43,
+              "cornerSmoothing": 0,
+              "topLeftRadius": 43,
+              "topRightRadius": 43,
+              "bottomLeftRadius": 43,
+              "bottomRightRadius": 43,
+              "isMask": false,
+              "maskType": "ALPHA",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1,
+                  7
+                ]
+              ],
+              "absoluteTransform": [
+                [
+                  1,
+                  0,
+                  12317
+                ],
+                [
+                  0,
+                  1,
+                  4321
+                ]
+              ],
+              "componentPropertyReferences": {},
+              "boundVariables": {},
+              "explicitVariableModes": {},
+              "resolvedVariableModes": {},
+              "layoutGrow": 0,
+              "layoutAlign": "INHERIT",
+              "layoutPositioning": "AUTO",
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "minWidth": null,
+              "maxWidth": null,
+              "minHeight": null,
+              "maxHeight": null,
+              "fillStyleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+              "strokeStyleId": "",
+              "effectStyleId": "",
+              "rectangleCornerRadii": {
+                "topLeft": 43,
+                "topRight": 43,
+                "bottomLeft": 43,
+                "bottomRight": 43
+              }
+            }
+          },
+          {
+            "id": "724:20319",
+            "name": "Ellipse 22",
+            "type": "ELLIPSE",
+            "x": 16,
+            "y": 5,
+            "width": 14,
+            "height": 14,
+            "warnings": [],
+            "fills": [
+              "#4e5f76"
+            ],
+            "properties": {
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "rotation": 0,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.30588236451148987,
+                    "g": 0.37254902720451355,
+                    "b": 0.4627451002597809
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeMiterLimit": 4,
+              "dashPattern": [],
+              "effects": [],
+              "cornerRadius": 0,
+              "cornerSmoothing": 0,
+              "isMask": false,
+              "maskType": "ALPHA",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  16
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ]
+              ],
+              "absoluteTransform": [
+                [
+                  1,
+                  0,
+                  12330
+                ],
+                [
+                  0,
+                  1,
+                  4319
+                ]
+              ],
+              "componentPropertyReferences": {},
+              "boundVariables": {},
+              "explicitVariableModes": {},
+              "resolvedVariableModes": {},
+              "layoutGrow": 0,
+              "layoutAlign": "INHERIT",
+              "layoutPositioning": "AUTO",
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "minWidth": null,
+              "maxWidth": null,
+              "minHeight": null,
+              "maxHeight": null,
+              "fillStyleId": "S:ca8059daaf956d55984bd1bf14c5373af46867cf,",
+              "strokeStyleId": "",
+              "effectStyleId": ""
+            }
+          }
+        ]
+      },
+      "origin": "figma",
+      "sourceRef": {
+        "fileName": "SD Enterprice",
+        "pageId": "933:24166",
+        "nodeId": "700:20924",
+        "connectionId": "d1dcf869-03d1-4d7a-b28c-8ca30080bd30",
+        "exportedAt": "2026-10-02T21:58:51.798Z"
+      },
+      "palette": {
+        "track": {
+          "styleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+          "name": "dark theme/background/dark_layer_03",
+          "cssVariable": "--figma-color-dark-theme-background-dark-layer-03",
+          "value": "#3e4a5c"
+        },
+        "thumb": {
+          "styleId": "S:ca8059daaf956d55984bd1bf14c5373af46867cf,",
+          "name": "dark theme/icon/dark_icon_disable",
+          "cssVariable": "--figma-color-dark-theme-icon-dark-icon-disable",
+          "value": "#4e5f76"
+        }
+      },
+      "sourceVariant": "unactive on dark"
+    },
+    {
+      "nodeId": "4474:81978",
+      "variant": "unactive on light",
+      "theme": "light",
+      "checked": true,
+      "disabled": true,
+      "nextVariant": "unactive on light",
+      "css": {
+        "width": "32px",
+        "height": "24px",
+        "track-x": "3px",
+        "track-y": "7px",
+        "track-width": "25px",
+        "track-height": "10px",
+        "track-radius": "43px",
+        "track-color": "var(--figma-color-light-theme-background-light-layer-03)",
+        "thumb-x": "16px",
+        "thumb-y": "5px",
+        "thumb-width": "14px",
+        "thumb-height": "14px",
+        "thumb-color": "var(--figma-color-light-theme-icon-light-icon-disable)"
+      },
+      "source": {
+        "id": "4474:81978",
+        "name": "Property 1=unactive light",
+        "type": "COMPONENT",
+        "x": 345,
+        "y": 15,
+        "width": 32,
+        "height": 24,
+        "warnings": [],
+        "fills": [],
+        "properties": {
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "rotation": 0,
+          "fills": [],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeMiterLimit": 4,
+          "dashPattern": [],
+          "effects": [],
+          "cornerRadius": 0,
+          "cornerSmoothing": 0,
+          "topLeftRadius": 0,
+          "topRightRadius": 0,
+          "bottomLeftRadius": 0,
+          "bottomRightRadius": 0,
+          "clipsContent": false,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              345
+            ],
+            [
+              0,
+              1,
+              15
+            ]
+          ],
+          "absoluteTransform": [
+            [
+              1,
+              0,
+              12528
+            ],
+            [
+              0,
+              1,
+              4314
+            ]
+          ],
+          "componentPropertyReferences": {},
+          "variantProperties": {
+            "Property 1": "unactive light"
+          },
+          "boundVariables": {},
+          "explicitVariableModes": {},
+          "resolvedVariableModes": {},
+          "layoutMode": "NONE",
+          "layoutWrap": "NO_WRAP",
+          "itemSpacing": 0,
+          "counterAxisSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "counterAxisAlignContent": "AUTO",
+          "strokesIncludedInLayout": false,
+          "layoutGrow": 0,
+          "layoutAlign": "INHERIT",
+          "layoutPositioning": "AUTO",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "minWidth": null,
+          "maxWidth": null,
+          "minHeight": null,
+          "maxHeight": null,
+          "gridRowCount": 0,
+          "gridColumnCount": 0,
+          "gridRowGap": 0,
+          "gridColumnGap": 0,
+          "fillStyleId": "",
+          "strokeStyleId": "",
+          "effectStyleId": "",
+          "rectangleCornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomLeft": 0,
+            "bottomRight": 0
+          },
+          "componentPropertyDefinitionsSource": {
+            "id": "700:20924",
+            "name": "toggle",
+            "type": "COMPONENT_SET",
+            "key": "98e6fe6b2385b55e05a308a9b14916f214d46d6b"
+          },
+          "componentPropertyDefinitions": {
+            "Property 1": {
+              "type": "VARIANT",
+              "defaultValue": "disable dark",
+              "variantOptions": [
+                "disable dark",
+                "Enable dark",
+                "Enable danger dark",
+                "unactive on dark",
+                "unactive off dark",
+                "enable light",
+                "unactive light",
+                "disable light"
+              ]
+            }
+          }
+        },
+        "childCount": 2,
+        "children": [
+          {
+            "id": "4474:81979",
+            "name": "Rectangle 797",
+            "type": "RECTANGLE",
+            "x": 3,
+            "y": 7,
+            "width": 25,
+            "height": 10,
+            "warnings": [],
+            "fills": [
+              "#dadde4"
+            ],
+            "properties": {
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "rotation": 0,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.8549019694328308,
+                    "g": 0.8666666746139526,
+                    "b": 0.8941176533699036
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeMiterLimit": 4,
+              "dashPattern": [],
+              "effects": [],
+              "cornerRadius": 43,
+              "cornerSmoothing": 0,
+              "topLeftRadius": 43,
+              "topRightRadius": 43,
+              "bottomLeftRadius": 43,
+              "bottomRightRadius": 43,
+              "isMask": false,
+              "maskType": "ALPHA",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1,
+                  7
+                ]
+              ],
+              "absoluteTransform": [
+                [
+                  1,
+                  0,
+                  12531
+                ],
+                [
+                  0,
+                  1,
+                  4321
+                ]
+              ],
+              "componentPropertyReferences": {},
+              "boundVariables": {},
+              "explicitVariableModes": {},
+              "resolvedVariableModes": {},
+              "layoutGrow": 0,
+              "layoutAlign": "INHERIT",
+              "layoutPositioning": "AUTO",
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "minWidth": null,
+              "maxWidth": null,
+              "minHeight": null,
+              "maxHeight": null,
+              "fillStyleId": "S:78d107bb8079aac9f2bf7b796966811f53b05442,",
+              "strokeStyleId": "",
+              "effectStyleId": "",
+              "rectangleCornerRadii": {
+                "topLeft": 43,
+                "topRight": 43,
+                "bottomLeft": 43,
+                "bottomRight": 43
+              }
+            }
+          },
+          {
+            "id": "4474:81980",
+            "name": "Ellipse 22",
+            "type": "ELLIPSE",
+            "x": 16,
+            "y": 5,
+            "width": 14,
+            "height": 14,
+            "warnings": [],
+            "fills": [
+              "#9ba3af"
+            ],
+            "properties": {
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "rotation": 0,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.6078431606292725,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeMiterLimit": 4,
+              "dashPattern": [],
+              "effects": [],
+              "cornerRadius": 0,
+              "cornerSmoothing": 0,
+              "isMask": false,
+              "maskType": "ALPHA",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  16
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ]
+              ],
+              "absoluteTransform": [
+                [
+                  1,
+                  0,
+                  12544
+                ],
+                [
+                  0,
+                  1,
+                  4319
+                ]
+              ],
+              "componentPropertyReferences": {},
+              "boundVariables": {},
+              "explicitVariableModes": {},
+              "resolvedVariableModes": {},
+              "layoutGrow": 0,
+              "layoutAlign": "INHERIT",
+              "layoutPositioning": "AUTO",
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "minWidth": null,
+              "maxWidth": null,
+              "minHeight": null,
+              "maxHeight": null,
+              "fillStyleId": "S:2dc1ae0c12f11a221c1bdccc8da1695b30b1255e,",
+              "strokeStyleId": "",
+              "effectStyleId": ""
+            }
+          }
+        ]
+      },
+      "origin": "figma",
+      "sourceRef": {
+        "fileName": "SD Enterprice",
+        "pageId": "933:24166",
+        "nodeId": "700:20924",
+        "connectionId": "d1dcf869-03d1-4d7a-b28c-8ca30080bd30",
+        "exportedAt": "2026-10-02T21:58:51.798Z"
+      },
+      "palette": {
+        "track": {
+          "styleId": "S:78d107bb8079aac9f2bf7b796966811f53b05442,",
+          "name": "light theme/background/light_layer_03",
+          "cssVariable": "--figma-color-light-theme-background-light-layer-03",
+          "value": "#dadde4"
+        },
+        "thumb": {
+          "styleId": "S:2dc1ae0c12f11a221c1bdccc8da1695b30b1255e,",
+          "name": "light theme/icon/light_icon_disable",
+          "cssVariable": "--figma-color-light-theme-icon-light-icon-disable",
+          "value": "#9ba3af"
+        }
+      },
+      "sourceVariant": "unactive light"
+    },
+    {
+      "nodeId": "13818:64060",
+      "variant": "unactive off dark",
+      "theme": "dark",
+      "checked": false,
+      "disabled": true,
+      "nextVariant": "unactive off dark",
+      "css": {
+        "width": "32px",
+        "height": "24px",
+        "track-x": "3px",
+        "track-y": "7px",
+        "track-width": "25px",
+        "track-height": "10px",
+        "track-radius": "43px",
+        "track-color": "var(--figma-color-dark-theme-background-dark-layer-03)",
+        "thumb-x": "1px",
+        "thumb-y": "5px",
+        "thumb-width": "14px",
+        "thumb-height": "14px",
+        "thumb-color": "var(--figma-color-dark-theme-icon-dark-icon-disable)"
+      },
+      "source": {
+        "id": "13818:64060",
+        "name": "Property 1=unactive off dark",
+        "type": "COMPONENT",
+        "x": 180,
+        "y": 15,
+        "width": 32,
+        "height": 24,
+        "warnings": [],
+        "fills": [],
+        "properties": {
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "rotation": 0,
+          "fills": [],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeMiterLimit": 4,
+          "dashPattern": [],
+          "effects": [],
+          "cornerRadius": 0,
+          "cornerSmoothing": 0,
+          "topLeftRadius": 0,
+          "topRightRadius": 0,
+          "bottomLeftRadius": 0,
+          "bottomRightRadius": 0,
+          "clipsContent": false,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              180
+            ],
+            [
+              0,
+              1,
+              15
+            ]
+          ],
+          "absoluteTransform": [
+            [
+              1,
+              0,
+              12363
+            ],
+            [
+              0,
+              1,
+              4314
+            ]
+          ],
+          "componentPropertyReferences": {},
+          "variantProperties": {
+            "Property 1": "unactive off dark"
+          },
+          "boundVariables": {},
+          "explicitVariableModes": {},
+          "resolvedVariableModes": {},
+          "layoutMode": "NONE",
+          "layoutWrap": "NO_WRAP",
+          "itemSpacing": 0,
+          "counterAxisSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "counterAxisAlignContent": "AUTO",
+          "strokesIncludedInLayout": false,
+          "layoutGrow": 0,
+          "layoutAlign": "INHERIT",
+          "layoutPositioning": "AUTO",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "minWidth": null,
+          "maxWidth": null,
+          "minHeight": null,
+          "maxHeight": null,
+          "gridRowCount": 0,
+          "gridColumnCount": 0,
+          "gridRowGap": 0,
+          "gridColumnGap": 0,
+          "fillStyleId": "",
+          "strokeStyleId": "",
+          "effectStyleId": "",
+          "rectangleCornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomLeft": 0,
+            "bottomRight": 0
+          },
+          "componentPropertyDefinitionsSource": {
+            "id": "700:20924",
+            "name": "toggle",
+            "type": "COMPONENT_SET",
+            "key": "98e6fe6b2385b55e05a308a9b14916f214d46d6b"
+          },
+          "componentPropertyDefinitions": {
+            "Property 1": {
+              "type": "VARIANT",
+              "defaultValue": "disable dark",
+              "variantOptions": [
+                "disable dark",
+                "Enable dark",
+                "Enable danger dark",
+                "unactive on dark",
+                "unactive off dark",
+                "enable light",
+                "unactive light",
+                "disable light"
+              ]
+            }
+          }
+        },
+        "childCount": 2,
+        "children": [
+          {
+            "id": "13818:64061",
+            "name": "Rectangle 797",
+            "type": "RECTANGLE",
+            "x": 3,
+            "y": 7,
+            "width": 25,
+            "height": 10,
+            "warnings": [],
+            "fills": [
+              "#3e4a5c"
+            ],
+            "properties": {
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "rotation": 0,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.24313725531101227,
+                    "g": 0.29019609093666077,
+                    "b": 0.3607843220233917
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeMiterLimit": 4,
+              "dashPattern": [],
+              "effects": [],
+              "cornerRadius": 43,
+              "cornerSmoothing": 0,
+              "topLeftRadius": 43,
+              "topRightRadius": 43,
+              "bottomLeftRadius": 43,
+              "bottomRightRadius": 43,
+              "isMask": false,
+              "maskType": "ALPHA",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1,
+                  7
+                ]
+              ],
+              "absoluteTransform": [
+                [
+                  1,
+                  0,
+                  12366
+                ],
+                [
+                  0,
+                  1,
+                  4321
+                ]
+              ],
+              "componentPropertyReferences": {},
+              "boundVariables": {},
+              "explicitVariableModes": {},
+              "resolvedVariableModes": {},
+              "layoutGrow": 0,
+              "layoutAlign": "INHERIT",
+              "layoutPositioning": "AUTO",
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "minWidth": null,
+              "maxWidth": null,
+              "minHeight": null,
+              "maxHeight": null,
+              "fillStyleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+              "strokeStyleId": "",
+              "effectStyleId": "",
+              "rectangleCornerRadii": {
+                "topLeft": 43,
+                "topRight": 43,
+                "bottomLeft": 43,
+                "bottomRight": 43
+              }
+            }
+          },
+          {
+            "id": "13818:64062",
+            "name": "Ellipse 22",
+            "type": "ELLIPSE",
+            "x": 1,
+            "y": 5,
+            "width": 14,
+            "height": 14,
+            "warnings": [],
+            "fills": [
+              "#4e5f76"
+            ],
+            "properties": {
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "rotation": 0,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.30588236451148987,
+                    "g": 0.37254902720451355,
+                    "b": 0.4627451002597809
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeMiterLimit": 4,
+              "dashPattern": [],
+              "effects": [],
+              "cornerRadius": 0,
+              "cornerSmoothing": 0,
+              "isMask": false,
+              "maskType": "ALPHA",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "SCALE"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ]
+              ],
+              "absoluteTransform": [
+                [
+                  1,
+                  0,
+                  12364
+                ],
+                [
+                  0,
+                  1,
+                  4319
+                ]
+              ],
+              "componentPropertyReferences": {},
+              "boundVariables": {},
+              "explicitVariableModes": {},
+              "resolvedVariableModes": {},
+              "layoutGrow": 0,
+              "layoutAlign": "INHERIT",
+              "layoutPositioning": "AUTO",
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "minWidth": null,
+              "maxWidth": null,
+              "minHeight": null,
+              "maxHeight": null,
+              "fillStyleId": "S:ca8059daaf956d55984bd1bf14c5373af46867cf,",
+              "strokeStyleId": "",
+              "effectStyleId": ""
+            }
+          }
+        ]
+      },
+      "origin": "figma",
+      "sourceRef": {
+        "fileName": "SD Enterprice",
+        "pageId": "933:24166",
+        "nodeId": "700:20924",
+        "connectionId": "d1dcf869-03d1-4d7a-b28c-8ca30080bd30",
+        "exportedAt": "2026-10-02T21:58:51.798Z"
+      },
+      "palette": {
+        "track": {
+          "styleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+          "name": "dark theme/background/dark_layer_03",
+          "cssVariable": "--figma-color-dark-theme-background-dark-layer-03",
+          "value": "#3e4a5c"
+        },
+        "thumb": {
+          "styleId": "S:ca8059daaf956d55984bd1bf14c5373af46867cf,",
+          "name": "dark theme/icon/dark_icon_disable",
+          "cssVariable": "--figma-color-dark-theme-icon-dark-icon-disable",
+          "value": "#4e5f76"
+        }
+      },
+      "sourceVariant": "unactive off dark"
+    },
+    {
+      "nodeId": null,
+      "variant": "unactive off light",
+      "theme": "light",
+      "checked": false,
+      "disabled": true,
+      "nextVariant": "unactive off light",
+      "css": {
+        "width": "32px",
+        "height": "24px",
+        "track-x": "3px",
+        "track-y": "7px",
+        "track-width": "25px",
+        "track-height": "10px",
+        "track-radius": "43px",
+        "track-color": "var(--figma-color-light-theme-background-light-layer-03)",
+        "thumb-x": "1px",
+        "thumb-y": "5px",
+        "thumb-width": "14px",
+        "thumb-height": "14px",
+        "thumb-color": "var(--figma-color-light-theme-icon-light-icon-disable)"
+      },
+      "source": {
+        "id": "13818:64060",
+        "name": "Property 1=unactive off dark",
+        "type": "COMPONENT",
+        "x": 180,
+        "y": 15,
+        "width": 32,
+        "height": 24,
+        "warnings": [],
+        "fills": [],
+        "properties": {
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "rotation": 0,
+          "fills": [],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeMiterLimit": 4,
+          "dashPattern": [],
+          "effects": [],
+          "cornerRadius": 0,
+          "cornerSmoothing": 0,
+          "topLeftRadius": 0,
+          "topRightRadius": 0,
+          "bottomLeftRadius": 0,
+          "bottomRightRadius": 0,
+          "clipsContent": false,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              180
+            ],
+            [
+              0,
+              1,
+              15
+            ]
+          ],
+          "absoluteTransform": [
+            [
+              1,
+              0,
+              12363
+            ],
+            [
+              0,
+              1,
+              4314
+            ]
+          ],
+          "componentPropertyReferences": {},
+          "variantProperties": {
+            "Property 1": "unactive off dark"
+          },
+          "boundVariables": {},
+          "explicitVariableModes": {},
+          "resolvedVariableModes": {},
+          "layoutMode": "NONE",
+          "layoutWrap": "NO_WRAP",
+          "itemSpacing": 0,
+          "counterAxisSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "counterAxisAlignContent": "AUTO",
+          "strokesIncludedInLayout": false,
+          "layoutGrow": 0,
+          "layoutAlign": "INHERIT",
+          "layoutPositioning": "AUTO",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "minWidth": null,
+          "maxWidth": null,
+          "minHeight": null,
+          "maxHeight": null,
+          "gridRowCount": 0,
+          "gridColumnCount": 0,
+          "gridRowGap": 0,
+          "gridColumnGap": 0,
+          "fillStyleId": "",
+          "strokeStyleId": "",
+          "effectStyleId": "",
+          "rectangleCornerRadii": {
+            "topLeft": 0,
+            "topRight": 0,
+            "bottomLeft": 0,
+            "bottomRight": 0
+          },
+          "componentPropertyDefinitionsSource": {
+            "id": "700:20924",
+            "name": "toggle",
+            "type": "COMPONENT_SET",
+            "key": "98e6fe6b2385b55e05a308a9b14916f214d46d6b"
+          },
+          "componentPropertyDefinitions": {
+            "Property 1": {
+              "type": "VARIANT",
+              "defaultValue": "disable dark",
+              "variantOptions": [
+                "disable dark",
+                "Enable dark",
+                "Enable danger dark",
+                "unactive on dark",
+                "unactive off dark",
+                "enable light",
+                "unactive light",
+                "disable light"
+              ]
+            }
+          }
+        },
+        "childCount": 2,
+        "children": [
+          {
+            "id": "13818:64061",
+            "name": "Rectangle 797",
+            "type": "RECTANGLE",
+            "x": 3,
+            "y": 7,
+            "width": 25,
+            "height": 10,
+            "warnings": [],
+            "fills": [
+              "#3e4a5c"
+            ],
+            "properties": {
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "rotation": 0,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.24313725531101227,
+                    "g": 0.29019609093666077,
+                    "b": 0.3607843220233917
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeMiterLimit": 4,
+              "dashPattern": [],
+              "effects": [],
+              "cornerRadius": 43,
+              "cornerSmoothing": 0,
+              "topLeftRadius": 43,
+              "topRightRadius": 43,
+              "bottomLeftRadius": 43,
+              "bottomRightRadius": 43,
+              "isMask": false,
+              "maskType": "ALPHA",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1,
+                  7
+                ]
+              ],
+              "absoluteTransform": [
+                [
+                  1,
+                  0,
+                  12366
+                ],
+                [
+                  0,
+                  1,
+                  4321
+                ]
+              ],
+              "componentPropertyReferences": {},
+              "boundVariables": {},
+              "explicitVariableModes": {},
+              "resolvedVariableModes": {},
+              "layoutGrow": 0,
+              "layoutAlign": "INHERIT",
+              "layoutPositioning": "AUTO",
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "minWidth": null,
+              "maxWidth": null,
+              "minHeight": null,
+              "maxHeight": null,
+              "fillStyleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+              "strokeStyleId": "",
+              "effectStyleId": "",
+              "rectangleCornerRadii": {
+                "topLeft": 43,
+                "topRight": 43,
+                "bottomLeft": 43,
+                "bottomRight": 43
+              }
+            }
+          },
+          {
+            "id": "13818:64062",
+            "name": "Ellipse 22",
+            "type": "ELLIPSE",
+            "x": 1,
+            "y": 5,
+            "width": 14,
+            "height": 14,
+            "warnings": [],
+            "fills": [
+              "#4e5f76"
+            ],
+            "properties": {
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "rotation": 0,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.30588236451148987,
+                    "g": 0.37254902720451355,
+                    "b": 0.4627451002597809
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokeCap": "NONE",
+              "strokeJoin": "MITER",
+              "strokeMiterLimit": 4,
+              "dashPattern": [],
+              "effects": [],
+              "cornerRadius": 0,
+              "cornerSmoothing": 0,
+              "isMask": false,
+              "maskType": "ALPHA",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "SCALE"
+              },
+              "relativeTransform": [
+                [
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ]
+              ],
+              "absoluteTransform": [
+                [
+                  1,
+                  0,
+                  12364
+                ],
+                [
+                  0,
+                  1,
+                  4319
+                ]
+              ],
+              "componentPropertyReferences": {},
+              "boundVariables": {},
+              "explicitVariableModes": {},
+              "resolvedVariableModes": {},
+              "layoutGrow": 0,
+              "layoutAlign": "INHERIT",
+              "layoutPositioning": "AUTO",
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "minWidth": null,
+              "maxWidth": null,
+              "minHeight": null,
+              "maxHeight": null,
+              "fillStyleId": "S:ca8059daaf956d55984bd1bf14c5373af46867cf,",
+              "strokeStyleId": "",
+              "effectStyleId": ""
+            }
+          }
+        ]
+      },
+      "origin": "derived",
+      "sourceRef": null,
+      "palette": {
+        "track": {
+          "styleId": "S:78d107bb8079aac9f2bf7b796966811f53b05442,",
+          "name": "light theme/background/light_layer_03",
+          "cssVariable": "--figma-color-light-theme-background-light-layer-03",
+          "value": "#dadde4"
+        },
+        "thumb": {
+          "styleId": "S:2dc1ae0c12f11a221c1bdccc8da1695b30b1255e,",
+          "name": "light theme/icon/light_icon_disable",
+          "cssVariable": "--figma-color-light-theme-icon-light-icon-disable",
+          "value": "#9ba3af"
+        }
+      },
+      "derivation": {
+        "geometryNodeId": "13818:64060",
+        "geometryVariant": "unactive off dark",
+        "paletteSource": {
+          "fileName": "SD Enterprice",
+          "pageId": "933:24166",
+          "exportedAt": "2026-10-05",
+          "tool": "get_local_styles"
+        },
+        "decision": "User requested two missing light states from dark analogues using current light color tokens"
+      },
+      "sourceVariant": null
     }
   ]
 }

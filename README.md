@@ -1,5 +1,9 @@
 # Button — чистый экспорт из Figma
 
+Badge dark/light: 13 исходных вариантов, отдельные Controls тем и текст счётчика. Storybook: Figma export/Badge. Источник и ограничения: docs/badge.md.
+
+ResourceTag dark/light: 14 текстовых вариантов, Controls текста и status online/offline; icon исключён пользователем. Storybook: Figma export/ResourceTag. Источник и ограничения: docs/resource-tag.md.
+
 Также перенесены цветовые и текстовые стили SD Enterprice: 184 цвета, 12 стилей типографики. Каталоги Storybook: Tokens/Colors и Tokens/Typography. Генерация: npm.cmd run tokens. Подробности и примеры использования: docs/style-tokens.md.
 
 Свежий экспорт SD Enterprice / UI kit: Button light 4391:92045 и dark 1900:44830. Создан в отдельном проекте по просьбе пользователя 1 октября 2026.

@@ -1,0 +1,148 @@
+/* Generated from source/figma/badge-export.json. Do not edit. */
+[data-badge][data-badge-theme="dark"][data-badge-variant="large"] {
+  --badge-width: 24px;
+  --badge-height: 24px;
+  --badge-background: transparent;
+  --badge-radius: 0px 0px 0px 0px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="dark"][data-badge-variant="count"] {
+  --badge-width: 28px;
+  --badge-height: 14px;
+  --badge-background: rgb(255 112.000000923872 67.00000360608101 / 1);
+  --badge-radius: 8px 8px 8px 8px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: 0 0 0 2px rgb(22.000000588595867 28.000000230968 36.00000165402889 / 1);
+  --badge-padding-top: 1px;
+  --badge-padding-right: 4px;
+  --badge-padding-bottom: 1px;
+  --badge-padding-left: 4px;
+  --badge-min-width: 14px;
+  --badge-text-source-width: 20px;
+  --badge-color: rgb(22.000000588595867 28.000000230968 36.00000165402889 / 1);
+  --badge-text-opacity: 1;
+  --badge-font-family: "PT Root UI";
+  --badge-font-size: 11px;
+  --badge-font-weight: 700;
+  --badge-line-height: 12px;
+  --badge-letter-spacing: 0px;
+  --badge-text-align: center;
+  --badge-font-features: "case" 1, "liga" 0, "lnum" 1, "pnum" 1;
+}
+[data-badge][data-badge-theme="dark"][data-badge-variant="medium"] {
+  --badge-width: 16px;
+  --badge-height: 16px;
+  --badge-background: transparent;
+  --badge-radius: 0px 0px 0px 0px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="dark"][data-badge-variant="small"] {
+  --badge-width: 10px;
+  --badge-height: 10px;
+  --badge-background: transparent;
+  --badge-radius: 0px 0px 0px 0px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="dark"][data-badge-variant="xs"] {
+  --badge-width: 8px;
+  --badge-height: 8px;
+  --badge-background: transparent;
+  --badge-radius: 0px 0px 0px 0px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="dark"][data-badge-variant="status online"] {
+  --badge-width: 10px;
+  --badge-height: 10px;
+  --badge-background: rgb(22.000000588595867 28.000000230968 36.00000165402889 / 1);
+  --badge-radius: 5px 5px 5px 5px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="dark"][data-badge-variant="status ofline"] {
+  --badge-width: 10px;
+  --badge-height: 10px;
+  --badge-background: rgb(22.000000588595867 28.000000230968 36.00000165402889 / 1);
+  --badge-radius: 5px 5px 5px 5px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="light"][data-badge-variant="large"] {
+  --badge-width: 24px;
+  --badge-height: 24px;
+  --badge-background: transparent;
+  --badge-radius: 0px 0px 0px 0px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="light"][data-badge-variant="Count"] {
+  --badge-width: 28px;
+  --badge-height: 14px;
+  --badge-background: rgb(255 87.00000241398811 34.00000177323818 / 1);
+  --badge-radius: 8px 8px 8px 8px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: 0 0 0 2px rgb(248.0000004172325 249.00000035762787 251.00000023841858 / 1);
+  --badge-padding-top: 1px;
+  --badge-padding-right: 4px;
+  --badge-padding-bottom: 1px;
+  --badge-padding-left: 4px;
+  --badge-min-width: auto;
+  --badge-text-source-width: 20px;
+  --badge-color: rgb(248.0000004172325 249.00000035762787 251.00000023841858 / 1);
+  --badge-text-opacity: 1;
+  --badge-font-family: "PT Root UI";
+  --badge-font-size: 11px;
+  --badge-font-weight: 700;
+  --badge-line-height: 12px;
+  --badge-letter-spacing: 0px;
+  --badge-text-align: center;
+  --badge-font-features: "case" 1, "liga" 0, "lnum" 1, "pnum" 1;
+}
+[data-badge][data-badge-theme="light"][data-badge-variant="medium"] {
+  --badge-width: 16px;
+  --badge-height: 16px;
+  --badge-background: transparent;
+  --badge-radius: 0px 0px 0px 0px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="light"][data-badge-variant="small"] {
+  --badge-width: 10px;
+  --badge-height: 10px;
+  --badge-background: transparent;
+  --badge-radius: 0px 0px 0px 0px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="light"][data-badge-variant="status online"] {
+  --badge-width: 10px;
+  --badge-height: 10px;
+  --badge-background: rgb(248.0000004172325 249.00000035762787 251.00000023841858 / 1);
+  --badge-radius: 5px 5px 5px 5px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}
+[data-badge][data-badge-theme="light"][data-badge-variant="status ofline"] {
+  --badge-width: 10px;
+  --badge-height: 10px;
+  --badge-background: rgb(248.0000004172325 249.00000035762787 251.00000023841858 / 1);
+  --badge-radius: 5px 5px 5px 5px;
+  --badge-opacity: 1;
+  --badge-overflow: visible;
+  --badge-shadow: none;
+}

@@ -1,37 +1,57 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
 import { useArgs } from 'storybook/preview-api';
-import { Toggle, type ToggleVariant } from './Toggle';
+import { Toggle, type ToggleProps, type ToggleVariant } from './Toggle';
 import tokens from '../../tokens/toggles.json';
 
+type ToggleStoryProps = ToggleProps & { lightVariant?: ToggleVariant; darkVariant?: ToggleVariant };
 const meta = {
   title: 'Figma export/Toggle', component: Toggle, tags: ['autodocs'],
-  args: { variant: tokens.defaultVariant as ToggleVariant, danger: false, 'aria-label': 'Переключить параметр' },
-  argTypes: { variant: { control: 'select', options: tokens.variants, description: 'Все восемь исходных вариантов Property 1, без выдуманных сочетаний.' }, danger: { control: 'boolean', description: 'Сохраняет красное оформление включённого dark Toggle при переключении on/off.' }, 'aria-label': { control: 'text' }, ref: { control: false } },
-  render: function Interactive(args) {
-    const [, updateArgs] = useArgs();
-    const source = tokens.records.find(row => row.variant === args.variant)!;
-    return <div className="demo-surface" data-theme={source.theme}><Toggle {...args} onChange={() => {
-      const danger = args.danger || source.variant === 'Enable danger dark';
-      const variant = danger && source.nextVariant === 'Enable dark' ? 'Enable danger dark' : source.nextVariant;
-      updateArgs({ variant, danger });
-    }} /></div>;
+  args: { lightVariant: 'disable light', darkVariant: 'disable dark', danger: false, 'aria-label': 'Переключить параметр' },
+  argTypes: {
+    variant: { control: false, table: { disable: true } },
+    lightVariant: { name: 'variant', control: 'select', options: tokens.variantsByTheme.light, if: { global: 'theme', eq: 'light' }, description: 'Светлая тема: исходные состояния с согласованными именами и два дополнения.' },
+    darkVariant: { name: 'variant', control: 'select', options: tokens.variantsByTheme.dark, if: { global: 'theme', eq: 'dark' }, description: 'Исходные варианты тёмной темы.' },
+    danger: { control: 'boolean', description: 'Красное оформление при включении; сохраняется после off/on в обеих темах.' },
+    'aria-label': { control: 'text' }, ref: { control: false },
   },
-} satisfies Meta<typeof Toggle>;
+  render: function Interactive(args, context) {
+    const [, updateArgs] = useArgs();
+    const theme = context.parameters.theme ?? (context.globals.theme === 'dark' ? 'dark' : 'light');
+    const { lightVariant, darkVariant, ...componentArgs } = args;
+    const selected = theme === 'dark' ? darkVariant ?? 'disable dark' : lightVariant ?? 'disable light';
+    const variant = args.danger && selected === `Enable ${theme}` ? `Enable danger ${theme}` as ToggleVariant : selected;
+    const source = tokens.records.find(row => row.variant === variant)!;
+    return <Toggle {...componentArgs} variant={variant} onChange={() => {
+      const danger = args.danger || source.variant === `Enable danger ${theme}`;
+      const nextVariant = danger && source.nextVariant === `Enable ${theme}` ? `Enable danger ${theme}` : source.nextVariant;
+      updateArgs({ [theme === 'dark' ? 'darkVariant' : 'lightVariant']: nextVariant, danger });
+    }} />;
+  },
+} satisfies Meta<ToggleStoryProps>;
 export default meta;
 type Story = StoryObj<typeof meta>;
 export const Playground: Story = {};
-export const Enabled: Story = { args: { variant: 'Enable dark' } };
-export const Danger: Story = { args: { variant: 'Enable danger dark', danger: true } };
-export const DisabledOn: Story = { args: { variant: 'unactive on dark' } };
-export const DisabledOff: Story = { args: { variant: 'unactive off dark' } };
+
+function CatalogueToggle({ initialVariant }: { initialVariant: ToggleVariant }) {
+  const [variant, setVariant] = useState(initialVariant);
+  const theme = initialVariant.endsWith('light') ? 'light' : 'dark';
+  const danger = initialVariant === `Enable danger ${theme}`;
+  return <Toggle variant={variant} danger={danger} aria-label={initialVariant} onChange={() => {
+    setVariant(current => {
+      const source = tokens.records.find(row => row.variant === current)!;
+      if (source.disabled) return current;
+      return (danger && source.nextVariant === `Enable ${theme}` ? `Enable danger ${theme}` : source.nextVariant) as ToggleVariant;
+    });
+  }} />;
+}
 
 function Catalogue({ theme }: { theme: 'light' | 'dark' }) {
-  return <><h1 className="demo-title">Toggle</h1><p className="demo-description">32×24 px · исходные цвета и координаты · unactive = недоступен</p><div className="demo-grid">{tokens.records.filter(row => row.theme === theme).map(row => <section className="demo-card" key={row.nodeId} data-toggle-source={row.nodeId}>
+  return <><h1 className="demo-title">Toggle</h1><p className="demo-description">32×24 px · цвета из токенов · unactive = недоступен</p><div className="demo-grid">{tokens.records.filter(row => row.theme === theme).map(row => <section className="demo-card" key={row.variant} data-toggle-source={row.nodeId ?? ''} data-toggle-row={row.variant}>
     <h2 className="demo-caption">{row.variant}</h2>
-    <Toggle variant={row.variant as ToggleVariant} aria-label={row.variant} onChange={() => {}} />
-    <small>{row.nodeId}</small>
+    <CatalogueToggle initialVariant={row.variant as ToggleVariant} />
+    <small>{row.origin === 'figma' ? row.nodeId : 'Дополнено по дизайн-системе'}</small>
   </section>)}</div></>;
 }
 export const Light: Story = { parameters: { theme: 'light' }, render: () => <Catalogue theme="light" /> };
 export const Dark: Story = { parameters: { theme: 'dark' }, render: () => <Catalogue theme="dark" /> };
-export const SourceMapping: Story = { render: () => <><h1 className="demo-title">Figma → Toggle</h1><table><thead><tr><th>Property 1</th><th>Node ID</th><th>checked</th><th>disabled</th></tr></thead><tbody>{tokens.records.map(row => <tr key={row.nodeId}><td>{row.variant}</td><td>{row.nodeId}</td><td>{String(row.checked)}</td><td>{String(row.disabled)}</td></tr>)}</tbody></table></> };

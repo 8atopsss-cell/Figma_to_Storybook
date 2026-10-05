@@ -1,0 +1,32 @@
+.tag {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: var(--tag-width);
+  height: var(--tag-height);
+  background: var(--tag-background);
+  border-radius: var(--tag-radius);
+  box-shadow: var(--tag-shadow);
+  opacity: var(--tag-opacity);
+  overflow: var(--tag-overflow);
+}
+.label {
+  position: absolute;
+  left: var(--tag-label-x);
+  top: var(--tag-label-y);
+  width: var(--tag-label-width);
+  min-height: var(--tag-label-height);
+  color: var(--tag-color);
+  opacity: var(--tag-label-opacity);
+  font-family: var(--tag-font-family);
+  font-weight: var(--tag-font-weight);
+  font-size: var(--tag-font-size);
+  line-height: var(--tag-line-height);
+  letter-spacing: var(--tag-letter-spacing);
+  text-align: var(--tag-text-align);
+  font-feature-settings: var(--tag-font-features);
+}
+.badge, .dot { position: absolute; }
+.badge { left: var(--tag-badge-x); top: var(--tag-badge-y); width: var(--tag-badge-width); height: var(--tag-badge-height); background: var(--tag-badge-background); border-radius: var(--tag-badge-radius); box-shadow: var(--tag-badge-shadow); opacity: var(--tag-badge-opacity); }
+.dot { left: var(--tag-dot-x); top: var(--tag-dot-y); width: var(--tag-dot-width); height: var(--tag-dot-height); background: var(--tag-dot-background); border-radius: var(--tag-dot-radius); box-shadow: var(--tag-dot-shadow); opacity: var(--tag-dot-opacity); }

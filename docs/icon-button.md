@@ -1,5 +1,7 @@
 # IconButton
 
+Актуальная структура Storybook: Docs / Playground / Light / Dark. Один Playground следует общей панели темы; выбор исходной иконки/AddIcon перенесён в Control icon. CustomIcon и SourceMapping удалены из навигации; исходные node mappings сохранены в токенах и каталогах.
+
 Свежий источник: SD Enterprice, UI kit 933:24166. Выделенные фреймы: dark 2804:63720, light 7464:29155. Sets: dark 2804:63710 (14 вариантов), light 4473:81300 (19 вариантов). Полные поля, схемы и исходные SVG: source/figma/icon-button-export.json. На узлах нет привязанных переменных; цветовые style ID сохранены. SVG выгружены из фактических glyph/wrapper, 33 оригинала с SHA-256 в canonical manifest.
 
 API: IconButton, variant primary / tertiary / ghost, size 18 / 24, contrast high / low для ghost, disabled, icon (ReactNode), обязательный aria-label, native button props/ref. По умолчанию type=button. SVG-маски сохраняют исходные контуры; цвет берётся из CSS токенов через явные style ID. Пользовательская иконка должна использовать currentColor. Поддерживаются клавиатура, focus-visible и reduced-motion.

@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-10-02T23:18:09.618Z",
+  "timestamp": "2026-10-05T10:51:49.352Z",
   "url": "http://127.0.0.1:6007/iframe.html?id=figma-export-toggle--dark&viewMode=story",
   "toolOptions": {
     "reporter": "v1"
@@ -2863,7 +2863,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p class=\"demo-description\">32×24 px · исходные цвета и координаты · unactive = недоступен</p>",
+          "html": "<p class=\"demo-description\">32×24 px · цвета из токенов · unactive = недоступен</p>",
           "target": [
             ".demo-description"
           ]

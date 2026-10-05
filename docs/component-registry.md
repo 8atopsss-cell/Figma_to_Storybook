@@ -1,5 +1,20 @@
 # Реестр чистого экспорта
 
+TableRow: реализованы 16 исходных вариантов (8 dark / 8 light) композиционно из существующих компонентов; Docs / Playground / Light / Dark. Expanded и expanded  hover исключены пользователем, сохранены только в raw/definitions. Источники: source/figma/table-row-export.json и table-row-assets.json (32 SVG). Канонические токены table-rows.json; контракт docs/table-row.md. Missing remote style definition у header warning outline записан с точными paints, без выдуманного alias. Проверки не запускались по запрету пользователя. Визуальная приёмка ожидается.
+
+Toggle: Enable обновлён для обеих тем: серая дорожка, зелёный кружок. Актуальный dark-источник SD Enterprice / UI kit, 13818:80910; свежие свойства и style IDs — source/figma/toggle-enable-update.json. Light Enable derived с соответствующими светлыми токенами. Публичные имена и порядок Controls одинаковы, danger доступен в обеих темах. Оригинальные имена сохранены в sourceVariant/variantAliases. Проверки этого изменения не запускались по запрету пользователя; результаты ниже относятся к предыдущим версиям.
+
+
+Toggle: добавлены 2 разрешённых пользователем light-состояния — unactive off light и Enable light. Итого 8 исходных / 2 derived, происхождение геометрии и light token style IDs сохранено в tokens/toggles.json. Fresh palette snapshot: source/figma/toggle-light-additions.json. Визуальная приёмка новых состояний ожидается.
+
+Проверка текущей версии 5 октября 2026: 29 unit / 37 browser tests, typecheck, lint и обе сборки прошли. ResourceTag/Badge и единая структура Storybook проверены; независимое переключение красного/зелёного Toggle подтверждено. Актуальный отчёт docs/validation.md. Долг контраста Button, ResourceTag и Badge light Count открыт; визуальная приёмка не назначена. Это заменяет прежние заметки «проверки не запускались» для текущей версии.
+
+ResourceTag, актуализация 5 октября 2026: по просьбе пользователя icon исключён из реализации; 14 текстовых вариантов (7 dark + 7 light). Исходные данные сохранены, исключение записано в токенах. Status online/offline сохраняется.
+
+Badge: SD Enterprice, UI kit; sets 7049:29219 (dark, 7) / 8750:115974 (light, 6). Свежие полные деревья без предупреждений, источник source/figma/badge-export.json. Контракт docs/badge.md. Тесты по указанию пользователя не запускались. Визуальная приёмка ожидается.
+
+ResourceTag: SD Enterprice, UI kit; sets 2804:63984 (dark, 8) / 4477:82225 (light, 7). Свежие полные деревья и три SVG wrapper; источник source/figma/resource-tag-export.json. Контракт docs/resource-tag.md. Тесты по указанию пользователя не запускались. Визуальная приёмка ожидается.
+
 IconButton: SD Enterprice, UI kit; frames 2804:63720 / 7464:29155, sets 2804:63710 / 4473:81300. 33 исходных варианта и SVG, 31 разрешённое дополнение, размеры 18/24. Все цвета через явные style ID токенов. Контракт: docs/icon-button.md. Визуальная приёмка ожидается.
 
 Toggle: SD Enterprice, UI kit, set 700:20924; восемь вариантов, свежая полная выгрузка без предупреждений. Реализация и ограничения: docs/toggle.md. Визуальная приёмка ожидается.

@@ -1,0 +1,29 @@
+# TableRow
+
+Play в header заменён по запросу пользователя на статическую иконку icon 18/play_1: выбранный узел SD Enterprice 15512:103475, источник source/figma/table-row-header-play.json. Dark использует актуальный SVG и палитру этого узла. Light использует ту же геометрию и прежний цвет header-элемента по явному style ID узла I8901:21931;4473:81308; это derived, не новый узел Figma. Кнопочной семантики у Play в заголовке нет; соседняя сортировка сохранена. Исходный raw не изменён, замена записана отдельно в tokens.headerPlayReplacement. Проверки не запускались.
+
+Hover по уточнению пользователя работает для active, new, delited, blocked, selected и hover обеих тем. Header и action bar исключены из hover строки. Нативный CSS :hover меняет только фон на подтверждённый фон исходного hover выбранной темы; данные, вариант строки, выбор Checkbox и состояние Toggle сохраняются. После ухода курсора возвращается фон текущего варианта. Политика и исключения записаны в tokens.hoverPolicy как решение пользователя; новых цветов или Figma-вариантов не создано. Проверки не запускались.
+
+Уточнение пользователя: Toggle в таблице использует danger обеих тем, по умолчанию включён (Enable danger light/dark). enabled=false показывает disable соответствующей темы; повторное включение возвращает красный danger. Исходные unactive сохраняют недоступность и оформление. Это решение пользователя для композиции TableRow, а не значение исходных Figma instance; raw/tokens source variants сохранены. Проверки изменения не запускались.
+
+По запросу пользователя собран компонент строки таблицы из существующих Checkbox, Toggle, IconButton, ResourceTag и Button. Источник: SD Enterprice / UI kit 933:24166, sets 2967:65844 (dark) и 4384:89138 (light). Полные исходные деревья 20 вариантов — source/figma/table-row-export.json; 32 SVG реальных вложенных узлов — source/figma/table-row-assets.json.
+
+Пользователь исключил expanded и expanded  hover в обеих темах. Эти варианты сохранены только в raw и исходных definitions, отсутствуют в React API, Controls, каталогах и generated CSS. Перенесены 16 вариантов: по 8 на тему — active, new, delited, blocked, selected, hover, header, action bar. Опечатка delited сохранена. Default компонента соответствует Figma: action bar; Playground начинает с active, чтобы показывать обычную строку.
+
+Реализация: src/components/TableRow. Публичные TableRow и TableRowTable экспортируются из src/index.ts. TableRow — native tr с td; header использует th. TableRowTable создаёт таблицу с colgroup и горизонтальной прокруткой; потребитель передаёт thead/tbody. Фиксированный размер строки 1052×40 px. Группировка измеренных слоёв в 10 семантических колонок — явно отмеченные aliases кода, не Figma Auto Layout. Геометрия слоёв и metadata Auto Layout сохранены независимо; неизвестные отступы не реконструируются.
+
+API: theme light/dark; variant; userName, armName, ipAddress, date, time, resourceText, secondResourceText, moreText; selected, enabled; warning, more, vd1, vd2 для существующих связей видимости. Undefined сохраняет конкретное исходное значение узла, включая variant-specific overrides. vd2 есть только в light-схеме. Warning управляет только слоями, связанными с warning#2967:0; скрытые без такой связи слои не превращаются в новые состояния.
+
+Callbacks: onSelectChange(boolean), onEnabledChange(boolean), onAction(action), onSort(column). Поведение управляемое: родитель обновляет selected/enabled. Выбор active/hover показывает исходное selected; остальные варианты сохраняют своё оформление. Toggle работает независимо от Checkbox, сохраняет исходный danger после off/on и нативный disabled для исходного unactive. Пример Storybook обновляет args, каталоги хранят состояние каждого примера отдельно. Сетевых действий нет.
+
+Storybook: Docs / Playground / Light / Dark. Playground показывает одну строку внутри таблицы, следует общей панели темы, поля и состояния доступны в Controls. Light/Dark — каталоги всех восьми вариантов своей фиксированной темы. Ни отдельной истории раскрытия, ни раскрытых вариантов в Controls нет.
+
+Канонический источник генерации: scripts/generate-table-row-tokens.mjs, helper scripts/table-row-source.mjs. npm run tokens обновляет src/tokens/table-rows.json и src/styles/table-row-tokens.css. CSS не редактируется вручную. Цвета по явным style IDs ссылаются на имеющиеся CSS color tokens; текстовые свойства взяты из actual text nodes, включая PIXELS/PERCENT lineHeight и letterSpacing, OpenType features, выравнивание, opacity и ENDING truncation. Обрезка с многоточием переносится только для исходных user/ARM name, где ENDING получен явно; правило однострочного полного текста Button остаётся в силе.
+
+Дополнительные иконки используют SVG фактических wrapper/instance nodes. Одноцветные SVG служат маской с исходным цветовым токеном; многоцветные сохраняют SVG paints. Light-строки сохраняют подтверждённую DROP_SHADOW 0/2/6/0 с исходным RGBA. ResourceTag внутри строки использует конкретную тему своего исходного instance; скрытые dark instances в light raw не отображаются.
+
+Переменные spasing/1 = 4, spasing/3 = 8, spasing/4 = 16 прочитаны с consumer context set dark; IDs, коллекции, режимы и native resolvedForConsumer сохранены в raw и tokens. Имена режимов не используются как доказательство темы.
+
+Ограничения источника: mixed strokeWeight у нераскрытых строк относится к скрытым strokes и не задаёт видимую границу. Толщины сторон expanded неизвестны, но состояния исключены пользователем. Один вложенный текст в SVG warning outline header ссылается на недоступное определение стиля S:bb0a1d9a8950a84ca7757edfc574c928fbaccd39,289:0; реальные paints получены, SVG сохраняет точный цвет. Неизвестное имя remote style не заменено выдуманным токеном; missingStyleDefinitions записаны в tokens.
+
+Тесты, линтер, typecheck, сборки и браузерные проверки не запускались по прямому указанию пользователя. Серверы не запускались и не перезапускались. Визуальная приёмка ожидается.

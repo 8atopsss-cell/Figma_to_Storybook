@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-10-02T23:17:43.311Z",
+  "timestamp": "2026-10-05T10:41:44.114Z",
   "url": "http://127.0.0.1:6007/iframe.html?id=figma-export-checkbox--dark&viewMode=story",
   "toolOptions": {
     "reporter": "v1"
@@ -2830,6 +2830,1350 @@
           "target": [
             "div[data-icon-state=\"disabled selected\"] > label[data-has-label=\"false\"] > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"empty\" class=\"_visual_1912d_44 _empty_1912d_52\"></span>",
+          "target": [
+            "label[data-has-label=\"true\"]:nth-child(5) > ._control_1912d_42 > ._empty_1912d_52._visual_1912d_44[data-checkbox-visual=\"empty\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"selected\" class=\"_visual_1912d_44 _selected_1912d_53\"></span>",
+          "target": [
+            "label[data-has-label=\"true\"]:nth-child(5) > ._control_1912d_42 > ._selected_1912d_53._visual_1912d_44[data-checkbox-visual=\"selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" data-checkbox-visual=\"mixed\" class=\"_visual_1912d_44 _mixed_1912d_54\"></span>",
+          "target": [
+            "label[data-has-label=\"true\"]:nth-child(5) > ._control_1912d_42 > ._mixed_1912d_54._visual_1912d_44[data-checkbox-visual=\"mixed\"]"
+          ]
         }
       ]
     },
@@ -3422,7 +4766,7 @@
           "impact": null,
           "html": "<h1 class=\"demo-title\">Checkbox</h1>",
           "target": [
-            ".demo-title"
+            ".demo-title:nth-child(1)"
           ]
         },
         {
@@ -3472,7 +4816,7 @@
           "impact": null,
           "html": "<h2 class=\"demo-caption\">С подписью</h2>",
           "target": [
-            "section:nth-child(1) > h2"
+            "section:nth-child(1) > .demo-caption"
           ]
         },
         {
@@ -3772,7 +5116,7 @@
           "impact": null,
           "html": "<h2 class=\"demo-caption\">Без подписи</h2>",
           "target": [
-            "section:nth-child(2) > h2"
+            "section:nth-child(2) > .demo-caption"
           ]
         },
         {
@@ -3899,6 +5243,481 @@
           "target": [
             "div[data-icon-state=\"disabled selected\"] > small"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"demo-title\">Группы</h2>",
+          "target": [
+            ".demo-title:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<legend class=\"_legend_1912d_69\">Label</legend>",
+          "target": [
+            "fieldset:nth-child(1) > legend"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<legend class=\"_legend_1912d_69\">Label</legend>",
+          "target": [
+            "fieldset:nth-child(2) > legend"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<legend class=\"_legend_1912d_69\">Label</legend>",
+          "target": [
+            "fieldset:nth-child(3) > legend"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<legend class=\"_legend_1912d_69\">Label</legend>",
+          "target": [
+            "fieldset:nth-child(4) > legend"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4) > ._label_1912d_64"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7ecf3",
+                "bgColor": "#161c24",
+                "contrastRatio": 14.43,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.43"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"_label_1912d_64\">Checkbox item</span>",
+          "target": [
+            "label[data-has-label=\"true\"]:nth-child(5) > ._label_1912d_64"
+          ]
         }
       ]
     },
@@ -3928,7 +5747,7 @@
           "impact": null,
           "html": "<h1 class=\"demo-title\">Checkbox</h1>",
           "target": [
-            ".demo-title"
+            ".demo-title:nth-child(1)"
           ]
         },
         {
@@ -3946,7 +5765,7 @@
           "impact": null,
           "html": "<h2 class=\"demo-caption\">С подписью</h2>",
           "target": [
-            "section:nth-child(1) > h2"
+            "section:nth-child(1) > .demo-caption"
           ]
         },
         {
@@ -3964,7 +5783,25 @@
           "impact": null,
           "html": "<h2 class=\"demo-caption\">Без подписи</h2>",
           "target": [
-            "section:nth-child(2) > h2"
+            "section:nth-child(2) > .demo-caption"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"demo-title\">Группы</h2>",
+          "target": [
+            ".demo-title:nth-child(4)"
           ]
         }
       ]
@@ -4261,6 +6098,356 @@
           "target": [
             "input[aria-label=\"disabled selected\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-2\" style=\"\">",
+          "target": [
+            "input[name=\"group-2\"][value=\"1\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-2\" style=\"\">",
+          "target": [
+            "input[name=\"group-2\"][value=\"2\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[name=\"group-3\"][value=\"1\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[name=\"group-3\"][value=\"2\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-3\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"1\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"2\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"4\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"4\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"1\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"2\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"4\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"4\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "label[data-has-label=\"true\"]:nth-child(5)"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"5\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"5\"]"
+          ]
         }
       ]
     },
@@ -4298,6 +6485,12 @@
                       "html > body > div:nth-child(5) > div > div:nth-child(3) > section:nth-child(2) > h2:nth-child(1)"
                     ],
                     "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div:nth-child(5) > div > h2:nth-child(4)"
+                    ],
+                    "level": 2
                   }
                 ]
               },
@@ -4311,7 +6504,7 @@
           "impact": null,
           "html": "<h1 class=\"demo-title\">Checkbox</h1>",
           "target": [
-            ".demo-title"
+            ".demo-title:nth-child(1)"
           ]
         },
         {
@@ -4329,7 +6522,7 @@
           "impact": null,
           "html": "<h2 class=\"demo-caption\">С подписью</h2>",
           "target": [
-            "section:nth-child(1) > h2"
+            "section:nth-child(1) > .demo-caption"
           ]
         },
         {
@@ -4347,7 +6540,25 @@
           "impact": null,
           "html": "<h2 class=\"demo-caption\">Без подписи</h2>",
           "target": [
-            "section:nth-child(2) > h2"
+            "section:nth-child(2) > .demo-caption"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"demo-title\">Группы</h2>",
+          "target": [
+            ".demo-title:nth-child(4)"
           ]
         }
       ]
@@ -4559,6 +6770,258 @@
           "html": "<input aria-label=\"disabled selected\" disabled=\"\" class=\"_input_1912d_29\" type=\"checkbox\" checked=\"\" style=\"\">",
           "target": [
             "input[aria-label=\"disabled selected\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-2\" style=\"\">",
+          "target": [
+            "input[name=\"group-2\"][value=\"1\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-2\" style=\"\">",
+          "target": [
+            "input[name=\"group-2\"][value=\"2\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[name=\"group-3\"][value=\"1\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[name=\"group-3\"][value=\"2\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-3\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"1\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"2\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"4\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"4\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"1\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"2\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"4\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"4\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"5\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"5\"]"
           ]
         }
       ]
@@ -5003,6 +7466,496 @@
           "target": [
             "input[aria-label=\"disabled selected\"]"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-2\" style=\"\">",
+          "target": [
+            "input[name=\"group-2\"][value=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(1) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-2\" style=\"\">",
+          "target": [
+            "input[name=\"group-2\"][value=\"2\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[name=\"group-3\"][value=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[name=\"group-3\"][value=\"2\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(2) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-3\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"1\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"2\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(3) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"4\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"4\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"1\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(2)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"2\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(3)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "fieldset:nth-child(4) > ._items_1912d_70 > label[data-has-label=\"true\"]:nth-child(4)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"4\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"4\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "implicit-label",
+              "data": {
+                "implicitLabel": "Checkbox item"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label class=\"_checkbox_1912d_1\" data-checkbox=\"true\" data-has-label=\"true\">",
+                  "target": [
+                    "label[data-has-label=\"true\"]:nth-child(5)"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an implicit (wrapped) <label>"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"5\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"5\"]"
+          ]
         }
       ]
     },
@@ -5220,6 +8173,258 @@
           "html": "<input aria-label=\"disabled selected\" disabled=\"\" class=\"_input_1912d_29\" type=\"checkbox\" checked=\"\" style=\"\">",
           "target": [
             "input[aria-label=\"disabled selected\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-2\" style=\"\">",
+          "target": [
+            "input[name=\"group-2\"][value=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-2\" style=\"\">",
+          "target": [
+            "input[name=\"group-2\"][value=\"2\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[name=\"group-3\"][value=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[name=\"group-3\"][value=\"2\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-3\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-3\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"1\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"2\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"4\" name=\"group-4\" style=\"\">",
+          "target": [
+            "input[value=\"4\"][name=\"group-4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"1\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"1\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"2\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"2\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"3\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"3\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"4\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"4\"][name=\"group-5\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input class=\"_input_1912d_29\" type=\"checkbox\" value=\"5\" name=\"group-5\" style=\"\">",
+          "target": [
+            "input[value=\"5\"]"
           ]
         }
       ]

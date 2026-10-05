@@ -1,31 +1,26 @@
-import { useState } from 'react';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { Button } from './Button';
 import { AddIcon } from '../../assets/AddIcon';
 import { defaults, sizes, variants } from '../../tokens/api';
-import tokens from '../../tokens/buttons.json';
 
 const meta = {
   title: 'Figma export/Button',
   component: Button,
   tags: ['autodocs'],
-  args: { children: 'button', variant: defaults.variant, size: defaults.size, disabled: false, fullWidth: false, startIcon: <AddIcon /> },
+  args: { children: 'button', variant: defaults.variant, size: defaults.size, disabled: false, fullWidth: false, startIcon: 'add', endIcon: 'none' },
   argTypes: {
     variant: { control: 'select', options: variants, description: 'Figma type; ghost orange is mapped to ghost-orange.' },
     size: { control: 'select', options: sizes, description: 'Figma size; single-line label at 32 or 40 px height.' },
     children: { control: 'text' }, disabled: { control: 'boolean' }, fullWidth: { control: 'boolean' },
-    startIcon: { control: false }, endIcon: { control: false },
+    startIcon: { control: 'select', options: ['none', 'add'], mapping: { none: undefined, add: <AddIcon /> } },
+    endIcon: { control: 'select', options: ['none', 'add'], mapping: { none: undefined, add: <AddIcon /> } },
+    'aria-label': { control: 'text', description: 'Название действия, если текст кнопки пустой.' },
   },
 } satisfies Meta<typeof Button>;
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Playground: Story = {
-  render: function Interactive(args) {
-    const [clicks, setClicks] = useState(0);
-    return <><Button {...args} onClick={() => setClicks(value => value + 1)} /><output className="demo-count" aria-live="polite">Нажатий: {clicks}</output></>;
-  },
-};
+export const Playground: Story = {};
 
 function Catalogue() {
   return <>
@@ -43,15 +38,3 @@ function Catalogue() {
 
 export const Light: Story = { parameters: { theme: 'light' }, render: () => <Catalogue /> };
 export const Dark: Story = { parameters: { theme: 'dark' }, render: () => <Catalogue /> };
-export const LongText: Story = { render: () => <div className="demo-narrow"><Button startIcon={<AddIcon />}>Очень длинный текст кнопки без переноса строк</Button></div> };
-export const FullWidth: Story = { args: { fullWidth: true } };
-export const TextOnly: Story = { args: { startIcon: undefined } };
-export const IconOnly: Story = {
-  name: 'Только иконка',
-  args: { children: '', 'aria-label': 'Добавить' },
-  argTypes: { 'aria-label': { control: 'text', description: 'Доступное название действия кнопки без текста.' } },
-};
-export const SourceMapping: Story = {
-  render: () => <><h1 className="demo-title">Figma → Button</h1><table><thead><tr><th>Тема</th><th>Вариант</th><th>Размер</th><th>Состояние</th><th>Node ID</th></tr></thead>
-    <tbody>{tokens.records.map(row => <tr key={row.nodeId}><td>{row.theme}</td><td>{row.variant}</td><td>{row.size}</td><td>{row.state}</td><td>{row.nodeId}</td></tr>)}</tbody></table></>,
-};

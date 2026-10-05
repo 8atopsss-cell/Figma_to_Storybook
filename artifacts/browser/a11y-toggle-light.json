@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-10-02T23:18:08.273Z",
+  "timestamp": "2026-10-05T10:51:46.333Z",
   "url": "http://127.0.0.1:6007/iframe.html?id=figma-export-toggle--light&viewMode=story",
   "toolOptions": {
     "reporter": "v1"
@@ -1363,6 +1363,86 @@
           "target": [
             "input[aria-label=\"enable light\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
+          ]
         }
       ]
     },
@@ -1429,6 +1509,42 @@
           "html": "<input aria-label=\"enable light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
           "target": [
             "input[aria-label=\"enable light\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
           ]
         }
       ]
@@ -1502,6 +1618,42 @@
           "target": [
             "input[aria-label=\"enable light\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
+          ]
         }
       ]
     },
@@ -1573,6 +1725,42 @@
           "html": "<input aria-label=\"enable light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
           "target": [
             "input[aria-label=\"enable light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
           ]
         }
       ]
@@ -1786,6 +1974,134 @@
           "target": [
             "span[data-toggle-variant=\"enable light\"] > ._thumb_1e6od_4[data-toggle-thumb=\"true\"][aria-hidden=\"true\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" class=\"_track_1e6od_4\" data-toggle-track=\"true\"></span>",
+          "target": [
+            "span[data-toggle-variant=\"unactive off light\"] > ._track_1e6od_4[data-toggle-track=\"true\"][aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" class=\"_thumb_1e6od_4\" data-toggle-thumb=\"true\"></span>",
+          "target": [
+            "span[data-toggle-variant=\"unactive off light\"] > ._thumb_1e6od_4[data-toggle-thumb=\"true\"][aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" class=\"_track_1e6od_4\" data-toggle-track=\"true\"></span>",
+          "target": [
+            "span[data-toggle-variant=\"Enable success light\"] > ._track_1e6od_4[data-toggle-track=\"true\"][aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\" class=\"_thumb_1e6od_4\" data-toggle-thumb=\"true\"></span>",
+          "target": [
+            "span[data-toggle-variant=\"Enable success light\"] > ._thumb_1e6od_4[data-toggle-thumb=\"true\"][aria-hidden=\"true\"]"
+          ]
         }
       ]
     },
@@ -1858,6 +2174,42 @@
           "target": [
             "input[aria-label=\"enable light\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
+          ]
         }
       ]
     },
@@ -1929,6 +2281,42 @@
           "html": "<input aria-label=\"enable light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
           "target": [
             "input[aria-label=\"enable light\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
           ]
         }
       ]
@@ -2044,6 +2432,70 @@
           "target": [
             "input[aria-label=\"enable light\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
+          ]
         }
       ]
     },
@@ -2158,6 +2610,70 @@
           "target": [
             "input[aria-label=\"enable light\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
+          ]
         }
       ]
     },
@@ -2230,6 +2746,42 @@
           "target": [
             "input[aria-label=\"enable light\"]"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
+          ]
         }
       ]
     },
@@ -2297,7 +2849,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p class=\"demo-description\">32×24 px · исходные цвета и координаты · unactive = недоступен</p>",
+          "html": "<p class=\"demo-description\">32×24 px · цвета из токенов · unactive = недоступен</p>",
           "target": [
             ".demo-description"
           ]
@@ -2451,6 +3003,106 @@
           "target": [
             "section[data-toggle-source=\"4474:81981\"] > small"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#161c24",
+                "bgColor": "#f8f9fb",
+                "contrastRatio": 16.26,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 16.26"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"demo-caption\">unactive off light</h2>",
+          "target": [
+            "section[data-toggle-row=\"unactive off light\"] > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#161c24",
+                "bgColor": "#f8f9fb",
+                "contrastRatio": 16.26,
+                "fontSize": "10.0pt (13.3333px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 16.26"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<small>Дополнено по дизайн-системе</small>",
+          "target": [
+            "section[data-toggle-row=\"unactive off light\"] > small"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#161c24",
+                "bgColor": "#f8f9fb",
+                "contrastRatio": 16.26,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 16.26"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"demo-caption\">Enable success light</h2>",
+          "target": [
+            "section[data-toggle-row=\"Enable success light\"] > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#161c24",
+                "bgColor": "#f8f9fb",
+                "contrastRatio": 16.26,
+                "fontSize": "10.0pt (13.3333px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 16.26"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<small>Дополнено по дизайн-системе</small>",
+          "target": [
+            "section[data-toggle-row=\"Enable success light\"] > small"
+          ]
         }
       ]
     },
@@ -2536,6 +3188,42 @@
           "target": [
             "section[data-toggle-source=\"4474:81981\"] > h2"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"demo-caption\">unactive off light</h2>",
+          "target": [
+            "section[data-toggle-row=\"unactive off light\"] > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"demo-caption\">Enable success light</h2>",
+          "target": [
+            "section[data-toggle-row=\"Enable success light\"] > h2"
+          ]
         }
       ]
     },
@@ -2610,6 +3298,42 @@
           "target": [
             "input[aria-label=\"enable light\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "multiple-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Form field does not have multiple label elements"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
+          ]
         }
       ]
     },
@@ -2651,6 +3375,18 @@
                   {
                     "ancestry": [
                       "html > body > div:nth-child(5) > div > div:nth-child(3) > section:nth-child(3) > h2:nth-child(1)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div:nth-child(5) > div > div:nth-child(3) > section:nth-child(4) > h2:nth-child(1)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div:nth-child(5) > div > div:nth-child(3) > section:nth-child(5) > h2:nth-child(1)"
                     ],
                     "level": 2
                   }
@@ -2722,6 +3458,42 @@
           "target": [
             "section[data-toggle-source=\"4474:81981\"] > h2"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"demo-caption\">unactive off light</h2>",
+          "target": [
+            "section[data-toggle-row=\"unactive off light\"] > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"demo-caption\">Enable success light</h2>",
+          "target": [
+            "section[data-toggle-row=\"Enable success light\"] > h2"
+          ]
         }
       ]
     },
@@ -2788,6 +3560,42 @@
           "html": "<input aria-label=\"enable light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
           "target": [
             "input[aria-label=\"enable light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "title-only",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Form element does not solely use title attribute for its label"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
           ]
         }
       ]
@@ -2890,6 +3698,58 @@
           "target": [
             "input[aria-label=\"enable light\"]"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
+          ]
         }
       ]
     },
@@ -2963,6 +3823,42 @@
           "html": "<input aria-label=\"enable light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
           "target": [
             "input[aria-label=\"enable light\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"unactive off light\" role=\"switch\" disabled=\"\" class=\"_input_1e6od_2\" type=\"checkbox\" style=\"\">",
+          "target": [
+            "input[aria-label=\"unactive off light\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input aria-label=\"Enable success light\" role=\"switch\" class=\"_input_1e6od_2\" type=\"checkbox\" checked=\"\" style=\"\">",
+          "target": [
+            "input[aria-label=\"Enable success light\"]"
           ]
         }
       ]

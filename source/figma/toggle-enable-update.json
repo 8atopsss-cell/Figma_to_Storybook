@@ -1,0 +1,416 @@
+{
+  "source": {
+    "fileName": "SD Enterprice",
+    "pageId": "933:24166",
+    "nodeId": "13818:80910",
+    "connectionId": "611a1739-448e-4ef3-ab55-52f29890dade",
+    "exportedAt": "2026-10-05T11:07:08.852Z",
+    "tool": "get_node_tree + get_local_styles"
+  },
+  "tree": {
+    "id": "13818:80910",
+    "name": "Property 1=Enable dark",
+    "type": "COMPONENT",
+    "x": 50,
+    "y": 15,
+    "width": 32,
+    "height": 24,
+    "warnings": [],
+    "fills": [],
+    "properties": {
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "rotation": 0,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "strokeMiterLimit": 4,
+      "dashPattern": [],
+      "effects": [],
+      "cornerRadius": 0,
+      "cornerSmoothing": 0,
+      "topLeftRadius": 0,
+      "topRightRadius": 0,
+      "bottomLeftRadius": 0,
+      "bottomRightRadius": 0,
+      "clipsContent": false,
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          50
+        ],
+        [
+          0,
+          1,
+          15
+        ]
+      ],
+      "absoluteTransform": [
+        [
+          1,
+          0,
+          12233
+        ],
+        [
+          0,
+          1,
+          4314
+        ]
+      ],
+      "componentPropertyReferences": {},
+      "variantProperties": {
+        "Property 1": "Enable dark"
+      },
+      "boundVariables": {},
+      "explicitVariableModes": {},
+      "resolvedVariableModes": {},
+      "layoutMode": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "itemSpacing": 0,
+      "counterAxisSpacing": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "counterAxisAlignContent": "AUTO",
+      "strokesIncludedInLayout": false,
+      "layoutGrow": 0,
+      "layoutAlign": "INHERIT",
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "gridRowCount": 0,
+      "gridColumnCount": 0,
+      "gridRowGap": 0,
+      "gridColumnGap": 0,
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "rectangleCornerRadii": {
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0
+      },
+      "componentPropertyDefinitionsSource": {
+        "id": "700:20924",
+        "name": "toggle",
+        "type": "COMPONENT_SET",
+        "key": "98e6fe6b2385b55e05a308a9b14916f214d46d6b"
+      },
+      "componentPropertyDefinitions": {
+        "Property 1": {
+          "type": "VARIANT",
+          "defaultValue": "disable dark",
+          "variantOptions": [
+            "disable dark",
+            "Enable dark",
+            "Enable danger dark",
+            "unactive on dark",
+            "unactive off dark",
+            "enable light",
+            "unactive light",
+            "disable light"
+          ]
+        }
+      }
+    },
+    "childCount": 2,
+    "children": [
+      {
+        "id": "13818:80911",
+        "name": "Rectangle 797",
+        "type": "RECTANGLE",
+        "x": 3,
+        "y": 7,
+        "width": 25,
+        "height": 10,
+        "warnings": [],
+        "fills": [
+          "#3e4a5c"
+        ],
+        "properties": {
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "rotation": 0,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.24313725531101227,
+                "g": 0.29019609093666077,
+                "b": 0.3607843220233917
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeMiterLimit": 4,
+          "dashPattern": [],
+          "effects": [],
+          "cornerRadius": 43,
+          "cornerSmoothing": 0,
+          "topLeftRadius": 43,
+          "topRightRadius": 43,
+          "bottomLeftRadius": 43,
+          "bottomRightRadius": 43,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "constraints": {
+            "horizontal": "SCALE",
+            "vertical": "SCALE"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              3
+            ],
+            [
+              0,
+              1,
+              7
+            ]
+          ],
+          "absoluteTransform": [
+            [
+              1,
+              0,
+              12236
+            ],
+            [
+              0,
+              1,
+              4321
+            ]
+          ],
+          "componentPropertyReferences": {},
+          "boundVariables": {},
+          "explicitVariableModes": {},
+          "resolvedVariableModes": {},
+          "layoutGrow": 0,
+          "layoutAlign": "INHERIT",
+          "layoutPositioning": "AUTO",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "minWidth": null,
+          "maxWidth": null,
+          "minHeight": null,
+          "maxHeight": null,
+          "fillStyleId": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+          "strokeStyleId": "",
+          "effectStyleId": "",
+          "rectangleCornerRadii": {
+            "topLeft": 43,
+            "topRight": 43,
+            "bottomLeft": 43,
+            "bottomRight": 43
+          }
+        }
+      },
+      {
+        "id": "13818:80912",
+        "name": "Ellipse 22",
+        "type": "ELLIPSE",
+        "x": 16,
+        "y": 5,
+        "width": 14,
+        "height": 14,
+        "warnings": [],
+        "fills": [
+          "#73b743"
+        ],
+        "properties": {
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "PASS_THROUGH",
+          "rotation": 0,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.45098039507865906,
+                "g": 0.7176470756530762,
+                "b": 0.26274511218070984
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokeCap": "NONE",
+          "strokeJoin": "MITER",
+          "strokeMiterLimit": 4,
+          "dashPattern": [],
+          "effects": [],
+          "cornerRadius": 0,
+          "cornerSmoothing": 0,
+          "isMask": false,
+          "maskType": "ALPHA",
+          "constraints": {
+            "horizontal": "SCALE",
+            "vertical": "SCALE"
+          },
+          "relativeTransform": [
+            [
+              1,
+              0,
+              16
+            ],
+            [
+              0,
+              1,
+              5
+            ]
+          ],
+          "absoluteTransform": [
+            [
+              1,
+              0,
+              12249
+            ],
+            [
+              0,
+              1,
+              4319
+            ]
+          ],
+          "componentPropertyReferences": {},
+          "boundVariables": {},
+          "explicitVariableModes": {},
+          "resolvedVariableModes": {},
+          "layoutGrow": 0,
+          "layoutAlign": "INHERIT",
+          "layoutPositioning": "AUTO",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "minWidth": null,
+          "maxWidth": null,
+          "minHeight": null,
+          "maxHeight": null,
+          "fillStyleId": "S:9c2e9edc9ee312989ff51730e19b331f21f5ba82,",
+          "strokeStyleId": "",
+          "effectStyleId": ""
+        }
+      }
+    ]
+  },
+  "paints": [
+    {
+      "id": "S:78d107bb8079aac9f2bf7b796966811f53b05442,",
+      "name": "light theme/background/light_layer_03",
+      "colors": [
+        "#dadde4"
+      ],
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8549019694328308,
+            "g": 0.8666666746139526,
+            "b": 0.8941176533699036
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:a8b066f643d1d4415e1d9a22a28db3ca18c7d0e9,",
+      "name": "light theme/status/light_status_success",
+      "colors": [
+        "#5fa339"
+      ],
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.37254902720451355,
+            "g": 0.6392157077789307,
+            "b": 0.2235294133424759
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:b0afd2d872f1a269e36ca2b031dfa8a6096de3aa,",
+      "name": "dark theme/background/dark_layer_03",
+      "colors": [
+        "#3e4a5c"
+      ],
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.24313725531101227,
+            "g": 0.29019609093666077,
+            "b": 0.3607843220233917
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:9c2e9edc9ee312989ff51730e19b331f21f5ba82,",
+      "name": "dark theme/status/dark_status_success",
+      "colors": [
+        "#73b743"
+      ],
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.45098039507865906,
+            "g": 0.7176470756530762,
+            "b": 0.26274511218070984
+          },
+          "boundVariables": {}
+        }
+      ]
+    }
+  ],
+  "decision": "User requested updated Enable appearance for both themes. Dark uses live node; derived light uses the same geometry, light_layer_03 track and light_status_success thumb."
+}

@@ -1,0 +1,94 @@
+{
+  "source": {
+    "fileName": "SD Enterprice",
+    "pageId": "933:24166",
+    "exportedAt": "2026-10-05",
+    "tool": "get_local_styles"
+  },
+  "paints": [
+    {
+      "id": "S:78d107bb8079aac9f2bf7b796966811f53b05442,",
+      "name": "light theme/background/light_layer_03",
+      "colors": [
+        "#dadde4"
+      ],
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8549019694328308,
+            "g": 0.8666666746139526,
+            "b": 0.8941176533699036
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:876da3bca148d8c8dbf5e060015b09c5a6b9fd9d,",
+      "name": "light theme/icon/light_icon_primary",
+      "colors": [
+        "#161c24"
+      ],
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.08627451211214066,
+            "g": 0.10980392247438431,
+            "b": 0.1411764770746231
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:2dc1ae0c12f11a221c1bdccc8da1695b30b1255e,",
+      "name": "light theme/icon/light_icon_disable",
+      "colors": [
+        "#9ba3af"
+      ],
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6078431606292725,
+            "g": 0.6392157077789307,
+            "b": 0.686274528503418
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:a8b066f643d1d4415e1d9a22a28db3ca18c7d0e9,",
+      "name": "light theme/status/light_status_success",
+      "colors": [
+        "#5fa339"
+      ],
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.37254902720451355,
+            "g": 0.6392157077789307,
+            "b": 0.2235294133424759
+          },
+          "boundVariables": {}
+        }
+      ]
+    }
+  ]
+}

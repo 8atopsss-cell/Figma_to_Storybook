@@ -6,13 +6,13 @@
     "nodes": [
       {
         "target": [
-          "._button_1qdko_1[data-variant=\"danger\"][data-size=\"32\"]:nth-child(1) > ._label_1qdko_40"
+          "._button_1812i_1[data-variant=\"danger\"][data-size=\"32\"]:nth-child(1) > ._label_1812i_48"
         ],
         "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #e7ecf3, background color: #f9474a, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
       },
       {
         "target": [
-          "._button_1qdko_1[data-variant=\"danger\"][data-size=\"40\"]:nth-child(1) > ._label_1qdko_40"
+          "._button_1812i_1[data-variant=\"danger\"][data-size=\"40\"]:nth-child(1) > ._label_1812i_48"
         ],
         "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #e7ecf3, background color: #f9474a, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
       }

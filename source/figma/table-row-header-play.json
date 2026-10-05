@@ -1,0 +1,477 @@
+{
+  "source": {
+    "fileName": "SD Enterprice",
+    "pageId": "933:24166",
+    "nodeId": "15512:103475",
+    "exportedAt": "2026-10-05T12:13:38.612Z",
+    "tool": "get_node_tree + get_node_svg"
+  },
+  "nodes": {
+    "dark": {
+      "id": "15512:103475",
+      "name": "icon 18/play_1",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 0,
+      "width": 18,
+      "height": 18,
+      "warnings": [],
+      "fills": [],
+      "properties": {
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "rotation": 0,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.615686297416687,
+              "g": 0.6431372761726379,
+              "b": 0.6980392336845398
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "strokeCap": "NONE",
+        "strokeJoin": "MITER",
+        "strokeMiterLimit": 4,
+        "dashPattern": [],
+        "effects": [],
+        "cornerRadius": 2,
+        "cornerSmoothing": 0,
+        "topLeftRadius": 2,
+        "topRightRadius": 2,
+        "bottomLeftRadius": 2,
+        "bottomRightRadius": 2,
+        "clipsContent": true,
+        "isMask": false,
+        "maskType": "ALPHA",
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "CENTER"
+        },
+        "relativeTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "absoluteTransform": [
+          [
+            1,
+            0,
+            14805
+          ],
+          [
+            0,
+            1,
+            5079
+          ]
+        ],
+        "componentProperties": {},
+        "componentPropertyReferences": {},
+        "variantProperties": null,
+        "boundVariables": {},
+        "explicitVariableModes": {},
+        "resolvedVariableModes": {},
+        "layoutMode": "NONE",
+        "layoutWrap": "NO_WRAP",
+        "itemSpacing": 10,
+        "counterAxisSpacing": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisSizingMode": "FIXED",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "counterAxisAlignContent": "AUTO",
+        "strokesIncludedInLayout": false,
+        "layoutGrow": 0,
+        "layoutAlign": "INHERIT",
+        "layoutPositioning": "AUTO",
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "gridRowCount": 0,
+        "gridColumnCount": 0,
+        "gridRowGap": 0,
+        "gridColumnGap": 0,
+        "fillStyleId": "",
+        "strokeStyleId": "S:a30589de7979ab52d7ba05e2d1ff73b96f1a5804,",
+        "effectStyleId": "",
+        "rectangleCornerRadii": {
+          "topLeft": 2,
+          "topRight": 2,
+          "bottomLeft": 2,
+          "bottomRight": 2
+        },
+        "mainComponent": {
+          "id": "15512:103474",
+          "name": "icon 18/play_1",
+          "key": "0e1c5c3e66641a703b47b1ad81a4679d74dad16c"
+        },
+        "componentPropertyDefinitionsSource": {
+          "id": "15512:103474",
+          "name": "icon 18/play_1",
+          "type": "COMPONENT",
+          "key": "0e1c5c3e66641a703b47b1ad81a4679d74dad16c"
+        },
+        "componentPropertyDefinitions": {}
+      },
+      "childCount": 1,
+      "children": [
+        {
+          "id": "I15512:103475;15512:103473",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 6,
+          "y": 5,
+          "width": 7,
+          "height": 8,
+          "warnings": [
+            "VECTOR requires SVG or asset export for exact rendering"
+          ],
+          "fills": [
+            "#9da4b2"
+          ],
+          "properties": {
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "PASS_THROUGH",
+            "rotation": 0,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.615686297416687,
+                  "g": 0.6431372761726379,
+                  "b": 0.6980392336845398
+                },
+                "boundVariables": {}
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0.75,
+            "strokeAlign": "INSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "strokeMiterLimit": 4,
+            "dashPattern": [],
+            "effects": [],
+            "cornerRadius": 0,
+            "cornerSmoothing": 0,
+            "isMask": false,
+            "maskType": "ALPHA",
+            "constraints": {
+              "horizontal": "CENTER",
+              "vertical": "CENTER"
+            },
+            "relativeTransform": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                5
+              ]
+            ],
+            "absoluteTransform": [
+              [
+                1,
+                0,
+                14811
+              ],
+              [
+                0,
+                1,
+                5084
+              ]
+            ],
+            "componentPropertyReferences": {},
+            "boundVariables": {},
+            "explicitVariableModes": {},
+            "resolvedVariableModes": {},
+            "layoutGrow": 0,
+            "layoutAlign": "INHERIT",
+            "layoutPositioning": "AUTO",
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "minWidth": null,
+            "maxWidth": null,
+            "minHeight": null,
+            "maxHeight": null,
+            "fillStyleId": "S:a30589de7979ab52d7ba05e2d1ff73b96f1a5804,",
+            "strokeStyleId": "",
+            "effectStyleId": ""
+          }
+        }
+      ]
+    },
+    "light": {
+      "id": "derived:table-header-play-light",
+      "name": "icon 18/play_1",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 0,
+      "width": 18,
+      "height": 18,
+      "warnings": [],
+      "fills": [],
+      "properties": {
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "rotation": 0,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.30588236451148987,
+              "g": 0.37254902720451355,
+              "b": 0.4627451002597809
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "strokeCap": "NONE",
+        "strokeJoin": "MITER",
+        "strokeMiterLimit": 4,
+        "dashPattern": [],
+        "effects": [],
+        "cornerRadius": 2,
+        "cornerSmoothing": 0,
+        "topLeftRadius": 2,
+        "topRightRadius": 2,
+        "bottomLeftRadius": 2,
+        "bottomRightRadius": 2,
+        "clipsContent": true,
+        "isMask": false,
+        "maskType": "ALPHA",
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "CENTER"
+        },
+        "relativeTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "absoluteTransform": [
+          [
+            1,
+            0,
+            14805
+          ],
+          [
+            0,
+            1,
+            5079
+          ]
+        ],
+        "componentProperties": {},
+        "componentPropertyReferences": {},
+        "variantProperties": null,
+        "boundVariables": {},
+        "explicitVariableModes": {},
+        "resolvedVariableModes": {},
+        "layoutMode": "NONE",
+        "layoutWrap": "NO_WRAP",
+        "itemSpacing": 10,
+        "counterAxisSpacing": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisSizingMode": "FIXED",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "counterAxisAlignContent": "AUTO",
+        "strokesIncludedInLayout": false,
+        "layoutGrow": 0,
+        "layoutAlign": "INHERIT",
+        "layoutPositioning": "AUTO",
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED",
+        "minWidth": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "maxHeight": null,
+        "gridRowCount": 0,
+        "gridColumnCount": 0,
+        "gridRowGap": 0,
+        "gridColumnGap": 0,
+        "fillStyleId": "",
+        "strokeStyleId": "S:be85024d66ce22300680c6e587c2b8fba61e7169,",
+        "effectStyleId": "",
+        "rectangleCornerRadii": {
+          "topLeft": 2,
+          "topRight": 2,
+          "bottomLeft": 2,
+          "bottomRight": 2
+        },
+        "mainComponent": {
+          "id": "15512:103474",
+          "name": "icon 18/play_1",
+          "key": "0e1c5c3e66641a703b47b1ad81a4679d74dad16c"
+        },
+        "componentPropertyDefinitionsSource": {
+          "id": "15512:103474",
+          "name": "icon 18/play_1",
+          "type": "COMPONENT",
+          "key": "0e1c5c3e66641a703b47b1ad81a4679d74dad16c"
+        },
+        "componentPropertyDefinitions": {}
+      },
+      "childCount": 1,
+      "children": [
+        {
+          "id": "derived:table-header-play-light-vector",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 6,
+          "y": 5,
+          "width": 7,
+          "height": 8,
+          "warnings": [
+            "VECTOR requires SVG or asset export for exact rendering"
+          ],
+          "fills": [
+            "#9da4b2"
+          ],
+          "properties": {
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "PASS_THROUGH",
+            "rotation": 0,
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.30588236451148987,
+                  "g": 0.37254902720451355,
+                  "b": 0.4627451002597809
+                },
+                "boundVariables": {}
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0.75,
+            "strokeAlign": "INSIDE",
+            "strokeCap": "NONE",
+            "strokeJoin": "MITER",
+            "strokeMiterLimit": 4,
+            "dashPattern": [],
+            "effects": [],
+            "cornerRadius": 0,
+            "cornerSmoothing": 0,
+            "isMask": false,
+            "maskType": "ALPHA",
+            "constraints": {
+              "horizontal": "CENTER",
+              "vertical": "CENTER"
+            },
+            "relativeTransform": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                5
+              ]
+            ],
+            "absoluteTransform": [
+              [
+                1,
+                0,
+                14811
+              ],
+              [
+                0,
+                1,
+                5084
+              ]
+            ],
+            "componentPropertyReferences": {},
+            "boundVariables": {},
+            "explicitVariableModes": {},
+            "resolvedVariableModes": {},
+            "layoutGrow": 0,
+            "layoutAlign": "INHERIT",
+            "layoutPositioning": "AUTO",
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "minWidth": null,
+            "maxWidth": null,
+            "minHeight": null,
+            "maxHeight": null,
+            "fillStyleId": "S:be85024d66ce22300680c6e587c2b8fba61e7169,",
+            "strokeStyleId": "",
+            "effectStyleId": ""
+          }
+        }
+      ],
+      "derivation": {
+        "geometryNodeId": "15512:103475",
+        "paletteNodeId": "I8901:21931;4473:81308",
+        "paletteField": "properties.strokes",
+        "decision": "Replace the header Play button with selected icon, preserving the existing light header element color."
+      }
+    }
+  },
+  "svg": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0.5\" y=\"0.5\" width=\"17\" height=\"17\" rx=\"1.5\" stroke=\"#9DA4B2\"/>\n<path d=\"M6 12.4221V5.57793C6 5.09236 6.71527 4.82646 7.20703 5.12705L12.7206 8.54912C13.0931 8.78034 13.0931 9.21966 12.7206 9.45088L7.20703 12.873C6.71527 13.1735 6 12.9076 6 12.4221Z\" fill=\"#9DA4B2\"/>\n</svg>\n",
+  "replacements": {
+    "dark": {
+      "parentNodeId": "2967:82790",
+      "oldNodeId": "12501:57503"
+    },
+    "light": {
+      "parentNodeId": "4384:89335",
+      "oldNodeId": "8901:21931"
+    }
+  },
+  "decision": "User requested replacing the header Play button with selected icon 18/play_1. Sort icon and other row buttons are preserved."
+}

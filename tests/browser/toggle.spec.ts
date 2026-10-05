@@ -2,13 +2,36 @@ import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import fs from 'node:fs';
 import tokens from '../../src/tokens/toggles.json' with { type: 'json' };
+import styleTokens from '../../src/tokens/styles.json' with { type: 'json' };
+
+for (const theme of ['dark', 'light']) test(`${theme}: catalogue red and green toggles switch independently and retain their enabled appearance`, async ({ page }) => {
+  await page.goto(`/iframe.html?id=figma-export-toggle--${theme}&viewMode=story`);
+  const greenVariant = theme === 'dark' ? 'Enable dark' : 'Enable light';
+  const redVariant = theme === 'dark' ? 'Enable danger dark' : 'Enable danger light';
+  const green = page.getByRole('switch', { name: greenVariant, exact: true });
+  const red = page.getByRole('switch', { name: redVariant, exact: true });
+  const greenRoot = page.locator('[data-toggle-source]').filter({ has: green }).locator('[data-toggle-variant]');
+  const redRoot = page.locator('[data-toggle-source]').filter({ has: red }).locator('[data-toggle-variant]');
+  await red.click();
+  await expect(redRoot).toHaveAttribute('data-toggle-variant', `disable ${theme}`);
+  await expect(greenRoot).toHaveAttribute('data-toggle-variant', greenVariant);
+  await green.click();
+  await expect(greenRoot).toHaveAttribute('data-toggle-variant', `disable ${theme}`);
+  await red.focus();
+  await page.keyboard.press('Space');
+  await expect(redRoot).toHaveAttribute('data-toggle-variant', redVariant);
+  await expect(green).not.toBeChecked();
+  await green.click();
+  await expect(greenRoot).toHaveAttribute('data-toggle-variant', greenVariant);
+  await expect(red).toBeChecked();
+});
 
 for (const theme of ['light', 'dark']) test(`Toggle ${theme}: all source geometry and colors`, async ({ page }) => {
   await page.goto(`/iframe.html?id=figma-export-toggle--${theme}&viewMode=story`);
   const rows = tokens.records.filter(row => row.theme === theme);
   await expect(page.locator('[data-toggle-source]')).toHaveCount(rows.length);
   for (const row of rows) {
-    const root = page.locator(`[data-toggle-source="${row.nodeId}"] [data-toggle-variant]`);
+    const root = page.locator(`[data-toggle-row="${row.variant}"] [data-toggle-variant]`);
     const box = (await root.boundingBox())!;
     expect(box.width).toBe(row.source.width);
     expect(box.height).toBe(row.source.height);
@@ -20,7 +43,8 @@ for (const theme of ['light', 'dark']) test(`Toggle ${theme}: all source geometr
       expect(rect.width).toBe(source.width);
       expect(rect.height).toBe(source.height);
       const css = await layer.evaluate(n => ({ color: getComputedStyle(n).backgroundColor, radius: getComputedStyle(n).borderRadius }));
-      const paint = source.properties.fills[0];
+      const style = styleTokens.colors.find(s => s.id === row.palette[kind].styleId)!;
+      const paint = style.raw.paints[0];
       expect(css.color).toBe(`rgb(${[paint.color.r, paint.color.g, paint.color.b].map(x => Math.round(x * 255)).join(', ')})`);
       expect(css.radius).toBe(kind === 'track' ? '43px' : '50%');
     }
@@ -35,7 +59,7 @@ for (const theme of ['light', 'dark']) test(`Toggle ${theme}: all source geometr
 });
 
 test('Toggle Playground switches with keyboard and retains source variant controls', async ({ page }) => {
-  await page.goto('/iframe.html?id=figma-export-toggle--playground&viewMode=story');
+  await page.goto('/iframe.html?id=figma-export-toggle--playground&viewMode=story&globals=theme:dark');
   const input = page.getByRole('switch', { name: 'Переключить параметр' });
   await expect(input).not.toBeChecked();
   await input.focus();
@@ -45,16 +69,16 @@ test('Toggle Playground switches with keyboard and retains source variant contro
   await expect(page.locator('[data-toggle-variant]')).toHaveAttribute('data-toggle-variant', 'Enable dark');
   await input.click();
   await expect(input).not.toBeChecked();
-  await page.goto('/iframe.html?id=figma-export-toggle--playground&viewMode=story&args=variant:enable%20light');
+  await page.goto('/iframe.html?id=figma-export-toggle--playground&viewMode=story&globals=theme:light&args=lightVariant:Enable%20danger%20light');
   await expect(page.getByRole('switch')).toBeChecked();
-  await expect(page.locator('[data-toggle-variant]')).toHaveAttribute('data-toggle-variant', 'enable light');
-  await page.goto('/iframe.html?id=figma-export-toggle--disabled-on&viewMode=story');
+  await expect(page.locator('[data-toggle-variant]')).toHaveAttribute('data-toggle-variant', 'Enable danger light');
+  await page.goto('/iframe.html?id=figma-export-toggle--playground&viewMode=story&globals=theme:dark&args=darkVariant:unactive%20on%20dark');
   await expect(page.getByRole('switch')).toBeDisabled();
   await page.getByRole('switch').click({ force: true });
   await expect(page.getByRole('switch')).toBeChecked();
 });
 
-for (const story of ['danger', 'playground&args=variant:Enable%20danger%20dark']) test(`Toggle ${story}: danger remains red after repeated off/on`, async ({ page }) => {
+for (const story of ['playground&globals=theme:dark&args=darkVariant:Enable%20dark;danger:true', 'playground&globals=theme:dark&args=darkVariant:Enable%20danger%20dark']) test(`Toggle ${story}: danger remains red after repeated off/on`, async ({ page }) => {
   await page.goto(`/iframe.html?id=figma-export-toggle--${story}&viewMode=story`);
   const input = page.getByRole('switch');
   const root = page.locator('[data-toggle-variant]');
@@ -72,9 +96,9 @@ for (const story of ['danger', 'playground&args=variant:Enable%20danger%20dark']
   }
 });
 
-for (const enabled of ['Enable dark', 'Enable danger dark', 'enable light']) test(`Toggle ${enabled}: thumb moves for 200ms with Uiverse ease`, async ({ page }) => {
+for (const enabled of ['Enable dark', 'Enable danger dark', 'Enable danger light']) test(`Toggle ${enabled}: thumb moves for 200ms with Uiverse ease`, async ({ page }) => {
   const off = enabled.endsWith('light') ? 'disable light' : 'disable dark';
-  await page.goto(`/iframe.html?id=figma-export-toggle--playground&viewMode=story&args=variant:${encodeURIComponent(off)}`);
+  await page.goto(`/iframe.html?id=figma-export-toggle--playground&viewMode=story&globals=theme:${off.endsWith('light') ? 'light' : 'dark'}&args=${off.endsWith('light') ? 'lightVariant' : 'darkVariant'}:${encodeURIComponent(off)}`);
   const root = page.locator('[data-toggle-variant]');
   await expect(root).toHaveAttribute('data-toggle-variant', off);
   for (const target of [enabled, off]) {
@@ -109,9 +133,9 @@ for (const enabled of ['Enable dark', 'Enable danger dark', 'enable light']) tes
   expect(reduced).toEqual({ x: 16, duration: '0s', animations: 0 });
 });
 
-for (const enabled of ['Enable dark', 'Enable danger dark', 'enable light']) test(`Toggle ${enabled}: background fades together with movement`, async ({ page }) => {
+for (const enabled of ['Enable dark', 'Enable danger dark', 'Enable danger light']) test(`Toggle ${enabled}: background fades together with movement`, async ({ page }) => {
   const off = enabled.endsWith('light') ? 'disable light' : 'disable dark';
-  await page.goto(`/iframe.html?id=figma-export-toggle--playground&viewMode=story&args=variant:${encodeURIComponent(off)};danger:${enabled === 'Enable danger dark'}`);
+  await page.goto(`/iframe.html?id=figma-export-toggle--playground&viewMode=story&globals=theme:${off.endsWith('light') ? 'light' : 'dark'}&args=${off.endsWith('light') ? 'lightVariant' : 'darkVariant'}:${encodeURIComponent(off)};danger:${enabled === 'Enable danger dark'}`);
   const root = page.locator('[data-toggle-variant]');
   const input = page.getByRole('switch');
   const colors = (variant: string) => {
@@ -164,7 +188,7 @@ for (const enabled of ['Enable dark', 'Enable danger dark', 'enable light']) tes
 });
 
 test('Toggle reversals return smoothly to the correct source colors', async ({ page }) => {
-  await page.goto('/iframe.html?id=figma-export-toggle--playground&viewMode=story');
+  await page.goto('/iframe.html?id=figma-export-toggle--playground&viewMode=story&globals=theme:dark');
   const root = page.locator('[data-toggle-variant]');
   const input = page.getByRole('switch');
   const track = root.locator('[data-toggle-track]');
