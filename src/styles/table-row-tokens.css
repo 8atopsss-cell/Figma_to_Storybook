@@ -1359,6 +1359,10 @@
   --row-opacity: 1;
   --row-shadow: none;
 }
+[data-table-row][data-row-theme="dark"][data-row-variant="header"] {
+  --row-sort-active-text: var(--figma-color-dark-theme-text-dark-text-primary);
+  --row-sort-inactive-text: var(--figma-color-dark-theme-text-dark-text-secondary);
+}
 [data-table-layer="2967:78244"] {
   left: 16px;
   top: 11px;
@@ -3175,6 +3179,10 @@
   --row-radius: 2px 2px 2px 2px;
   --row-opacity: 1;
   --row-shadow: none;
+}
+[data-table-row][data-row-theme="light"][data-row-variant="header"] {
+  --row-sort-active-text: var(--figma-color-light-theme-text-light-text-primary);
+  --row-sort-inactive-text: var(--figma-color-light-theme-text-light-text-secondary);
 }
 [data-table-layer="4384:89353"] {
   left: 16px;

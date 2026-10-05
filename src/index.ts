@@ -12,7 +12,7 @@ export { IconButton } from './components/IconButton/IconButton';
 export type { IconButtonProps, IconButtonVariant } from './components/IconButton/IconButton';
 export type { ToggleProps, ToggleVariant } from './components/Toggle/Toggle';
 export { TableRow, TableRowTable } from './components/TableRow/TableRow';
-export type { TableRowProps, TableRowVariant } from './components/TableRow/TableRow';
+export type { TableRowProps, TableRowVariant, TableRowSort, TableRowSortDirection } from './components/TableRow/TableRow';
 import './styles/tokens.css';
 import './styles/fonts.css';
 import './styles/figma-styles.css';

@@ -18,6 +18,7 @@ const meta = {
     more: { control: 'boolean', description: 'more#2967:1 — дополнительный ресурс.' },
     vd1: { control: 'boolean', description: 'vd1#2967:3 — первый ресурс.' },
     vd2: { control: 'boolean', if: { global: 'theme', eq: 'light' }, description: 'vd2#2967:2 — второй ресурс светлой темы.' },
+    sort: { control: false, description: 'Header: изначально без сортировки. Первый клик ascending, далее descending/ascending; активна одна колонка. Не передавать для внутреннего состояния; null сбрасывает управляемую сортировку.' },
     onSelectChange: { control: false }, onEnabledChange: { control: false }, onAction: { control: false }, onSort: { control: false },
   },
   render: function PlaygroundRow(args, context) {

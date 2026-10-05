@@ -5,6 +5,25 @@ const assets = JSON.parse(fs.readFileSync('source/figma/table-row-assets.json', 
 for (const node of Object.values(headerPlayUpdate.nodes)) assets[assetKey(node)] = { svg: headerPlayUpdate.svg, nodeId: node.id };
 const styles = JSON.parse(fs.readFileSync('src/tokens/styles.json', 'utf8'));
 const colors = new Map(styles.colors.map(style => [style.id, style]));
+const headerSortSource = JSON.parse(fs.readFileSync('source/figma/table-row-header-sort.json', 'utf8'));
+function colorStyle(styleId) {
+  const style = colors.get(styleId);
+  if (!style) throw Error(`Missing header sort color style: ${styleId}`);
+  return { styleId, color: `var(${style.cssVariable})` };
+}
+const headerSort = {
+  source: { ...headerSortSource.source, sourcePath: 'source/figma/table-row-header-sort.json', componentSetId: headerSortSource.componentSet.id },
+  decision: headerSortSource.decision,
+  text: Object.fromEntries(['light', 'dark'].map(theme => [theme, {
+    active: colorStyle(headerSortSource.textStyleIds[theme].primary),
+    inactive: colorStyle(headerSortSource.textStyleIds[theme].secondary),
+  }])),
+  records: headerSortSource.componentSet.children.map(node => ({
+    nodeId: node.id, theme: node.properties.variantProperties.theme, state: node.properties.variantProperties.state,
+    width: node.width, height: node.height, svg: headerSortSource.svg[node.id],
+    ...colorStyle(node.children[0].properties.strokeStyleId),
+  })),
+};
 const toggleAliases = JSON.parse(fs.readFileSync('src/tokens/toggles.json', 'utf8')).variantAliases;
 const missingStyleDefinitions = [];
 const px = n => {
@@ -167,6 +186,7 @@ const records = rows.map(({ theme, set, node }) => {
 const definitions = Object.fromEntries(raw.sets.map(set => [set.name.endsWith('dark') ? 'dark' : 'light', set.properties.componentPropertyDefinitions]));
 const variants = definitions.light['Property 1'].variantOptions.filter(v => !excludedVariants.includes(v));
 const tokens = { schemaVersion: 1, source: raw.source, definitions, defaultVariant: definitions.light['Property 1'].defaultValue,
+  headerSort,
   headerPlayReplacement: { source: headerPlayUpdate.source, replacements: headerPlayUpdate.replacements,
     lightDerivation: headerPlayUpdate.nodes.light.derivation, decision: headerPlayUpdate.decision },
   variants, columns, records, excludedVariants, exclusionReason: 'User excluded expanded and expanded  hover on 2026-10-05.',
@@ -183,6 +203,9 @@ const lines = ['/* Generated from table-row-export.json and table-row-assets.jso
 for (const row of records) {
   lines.push(`[data-table-row][data-row-theme="${row.theme}"][data-row-variant="${row.variant}"] {`);
   lines.push(`  --row-background: ${row.css.background};`, `  --row-radius: ${row.css.radius};`, `  --row-opacity: ${row.css.opacity};`, `  --row-shadow: ${row.css.shadow};`, '}');
+  if (row.variant === 'header') lines.push(`[data-table-row][data-row-theme="${row.theme}"][data-row-variant="header"] {`,
+    `  --row-sort-active-text: ${headerSort.text[row.theme].active.color};`,
+    `  --row-sort-inactive-text: ${headerSort.text[row.theme].inactive.color};`, '}');
   const walk = n => { lines.push(`[data-table-layer=${JSON.stringify(n.id)}] {`);
     for (const [key, value] of Object.entries(n.css)) lines.push(`  ${key}: ${value};`);
     lines.push('}'); for (const c of n.children) walk(c); };

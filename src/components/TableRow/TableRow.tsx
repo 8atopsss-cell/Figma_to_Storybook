@@ -1,4 +1,4 @@
-import type { ComponentPropsWithRef, ReactNode } from 'react';
+import { useState, type ComponentPropsWithRef, type ReactNode } from 'react';
 import { Button, type ButtonVariant } from '../Button/Button';
 import { Checkbox } from '../Checkbox/Checkbox';
 import { IconButton, type IconButtonVariant } from '../IconButton/IconButton';
@@ -12,6 +12,8 @@ import '../../styles/table-row-tokens.css';
 import styles from './TableRow.module.css';
 
 export type TableRowVariant = 'active' | 'new' | 'delited' | 'blocked' | 'selected' | 'hover' | 'header' | 'action bar';
+export type TableRowSortDirection = 'ascending' | 'descending';
+export type TableRowSort = { column: string; direction: TableRowSortDirection };
 type DataField = 'userName' | 'armName' | 'ipAddress' | 'date' | 'time' | 'resourceText' | 'secondResourceText' | 'moreText';
 type Theme = 'light' | 'dark';
 export type TableRowProps = Omit<ComponentPropsWithRef<'tr'>, 'children'> & {
@@ -31,10 +33,11 @@ export type TableRowProps = Omit<ComponentPropsWithRef<'tr'>, 'children'> & {
   more?: boolean;
   vd1?: boolean;
   vd2?: boolean;
+  sort?: TableRowSort | null;
   onSelectChange?: (selected: boolean) => void;
   onEnabledChange?: (enabled: boolean) => void;
   onAction?: (action: string) => void;
-  onSort?: (column: string) => void;
+  onSort?: (column: string, direction: TableRowSortDirection) => void;
 };
 
 type Layer = {
@@ -59,6 +62,7 @@ type Layer = {
 type Cell = { key: string; label: string; width: number; children: Layer[] };
 type RowRecord = { theme: Theme; variant: TableRowVariant; nodeId: string; width: number; height: number; cells: Cell[] };
 const records = sourceTokens.records as unknown as RowRecord[];
+type SortInteraction = { direction: TableRowSortDirection | 'none'; onClick: () => void };
 
 function visible(node: Layer, props: TableRowProps) {
   const field = node.visibilityProperty?.split('#')[0];
@@ -66,17 +70,23 @@ function visible(node: Layer, props: TableRowProps) {
   return node.visible;
 }
 
-function Glyph({ node }: { node: Layer }) {
-  return <span className={styles.glyph} data-table-layer={node.id} aria-hidden="true" />;
+function containsSortIcon(nodes: Layer[], props: TableRowProps): boolean {
+  return nodes.some(node => visible(node, props) && ((node.kind === 'asset' && node.name.includes('sort')) || containsSortIcon(node.children, props)));
 }
 
-function LayerView({ node, props, column }: { node: Layer; props: TableRowProps; column: string }): ReactNode {
+function Glyph({ node, theme, sorting }: { node: Layer; theme?: Theme; sorting?: SortInteraction }) {
+  const icon = sorting ? sourceTokens.headerSort.records.find(record => record.theme === theme && record.state === sorting.direction) : undefined;
+  return <span className={styles.glyph} data-table-layer={node.id} data-sort-source-node={icon?.nodeId} aria-hidden="true"
+    style={icon ? { maskImage: `url("data:image/svg+xml,${encodeURIComponent(icon.svg)}")`, backgroundColor: icon.color } : undefined} />;
+}
+
+function LayerView({ node, props, column, sorting }: { node: Layer; props: TableRowProps; column: string; sorting?: SortInteraction }): ReactNode {
   if (!visible(node, props)) return null;
   const common = { 'data-table-layer': node.id, 'data-source-node': node.id, className: styles.layer };
   switch (node.kind) {
     case 'text': {
       const text = node.dataField ? props[node.dataField] ?? node.text : node.text;
-      return <span {...common} title={text ?? undefined}>{text}</span>;
+      return <span {...common} data-sort-label={sorting ? '' : undefined} title={text ?? undefined}>{text}</span>;
     }
     case 'checkbox':
       return <span {...common}><Checkbox checked={props.selected ?? node.checked} indeterminate={node.indeterminate && props.selected === undefined}
@@ -103,19 +113,27 @@ function LayerView({ node, props, column }: { node: Layer; props: TableRowProps;
         aria-label={node.text ? undefined : node.action} onClick={() => props.onAction?.(node.action ?? 'action')}
         startIcon={node.children.length ? node.children.map(child => <Glyph key={child.id} node={child} />) : undefined}>{node.text}</Button></span>;
     case 'asset':
-      return node.name.includes('sort') ? <button {...common} type="button" className={`${styles.layer} ${styles.sort}`}
-        aria-label={`Сортировать: ${column}`} onClick={() => props.onSort?.(column)}><Glyph node={node} /></button> : <Glyph node={node} />;
+      return node.name.includes('sort') && sorting ? <button {...common} type="button" className={`${styles.layer} ${styles.sort}`}
+        aria-label={`Сортировать: ${column}`} aria-pressed={sorting.direction !== 'none'} onClick={sorting.onClick}>
+        <Glyph node={node} theme={props.theme} sorting={sorting} /></button> : <Glyph node={node} />;
     case 'line':
       return <span {...common} aria-hidden="true" />;
     default:
-      return <span {...common}>{node.children.map(child => <LayerView key={child.id} node={child} props={props} column={column} />)}</span>;
+      return <span {...common}>{node.children.map(child => <LayerView key={child.id} node={child} props={props} column={column} sorting={sorting} />)}</span>;
   }
 }
 
 /** Place inside table/tbody (or thead for variant="header"). Source width: 1052px. */
 export function TableRow({ theme = 'light', variant = sourceTokens.defaultVariant as TableRowVariant, className, userName, armName,
   ipAddress, date, time, resourceText, secondResourceText, moreText, selected, enabled, warning, more, vd1, vd2,
-  onSelectChange, onEnabledChange, onAction, onSort, ...native }: TableRowProps) {
+  sort, onSelectChange, onEnabledChange, onAction, onSort, ...native }: TableRowProps) {
+  const [internalSort, setInternalSort] = useState<TableRowSort | null>(null);
+  const activeSort = sort === undefined ? internalSort : sort;
+  function changeSort(column: string) {
+    const direction = activeSort?.column === column && activeSort.direction === 'ascending' ? 'descending' : 'ascending';
+    if (sort === undefined) setInternalSort({ column, direction });
+    onSort?.(column, direction);
+  }
   const effectiveVariant = selected && (variant === 'active' || variant === 'hover') ? 'selected' : variant;
   const row = records.find(record => record.theme === theme && record.variant === effectiveVariant);
   if (!row) throw Error(`TableRow has no exported Figma variant: ${theme}/${effectiveVariant}`);
@@ -124,12 +142,20 @@ export function TableRow({ theme = 'light', variant = sourceTokens.defaultVarian
   const CellTag = variant === 'header' ? 'th' : 'td';
   return <tr {...native} className={[styles.row, className].filter(Boolean).join(' ')} data-table-row data-theme={theme}
     data-row-theme={theme} data-row-variant={effectiveVariant} data-source-node={row.nodeId} aria-selected={selected ?? variant === 'selected'}>
-    {row.cells.map(cell => <CellTag key={cell.key} className={styles.cell} scope={variant === 'header' ? 'col' : undefined}
-      colSpan={variant === 'action bar' ? sourceTokens.columns.length : undefined} style={{ width: cell.width, height: row.height }}>
-      <div className={styles.cellContent} style={{ width: cell.width, height: row.height }}>
-        {cell.children.map(node => <LayerView key={node.id} node={node} props={props} column={cell.label} />)}
-      </div>
-    </CellTag>)}
+    {row.cells.map(cell => {
+      const sortable = variant === 'header' && containsSortIcon(cell.children, props);
+      const direction: SortInteraction['direction'] = sortable && activeSort?.column === cell.label ? activeSort.direction : 'none';
+      const sorting: SortInteraction | undefined = sortable ? { direction, onClick: () => changeSort(cell.label) } : undefined;
+      return <CellTag key={cell.key} className={styles.cell} scope={variant === 'header' ? 'col' : undefined}
+        aria-sort={sortable && direction !== 'none' ? direction : undefined}
+        data-sort-column={sortable ? cell.key : undefined} data-sort-active={sortable ? direction !== 'none' : undefined}
+        data-sort-direction={sortable ? direction : undefined}
+        colSpan={variant === 'action bar' ? sourceTokens.columns.length : undefined} style={{ width: cell.width, height: row.height }}>
+        <div className={styles.cellContent} style={{ width: cell.width, height: row.height }}>
+          {cell.children.map(node => <LayerView key={node.id} node={node} props={props} column={cell.label} sorting={sorting} />)}
+        </div>
+      </CellTag>;
+    })}
   </tr>;
 }
 
