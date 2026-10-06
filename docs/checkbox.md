@@ -1,5 +1,7 @@
 # Checkbox
 
+Проверка 6 октября 2026: текущая Figma переименовала labelled `Variant7` в `Indeterminate`; уже существующее публичное `indeterminate` отображает тот же неизменённый SVG. Проверены 153 узла, все 24 SVG и поведение обеих тем; исправления компонента не потребовались. Свежий снимок и ограничения: [checkbox-verification.md](checkbox-verification.md). Первоначальный raw и внутренние имена assets сохранены; визуальная приёмка ожидается.
+
 Актуальная структура Storybook: Docs / Playground / Light / Dark. Playground использует общую панель темы, Controls checked/indeterminate/disabled/children/aria-label. Светлый и тёмный наборы включают варианты с подписью/без неё, skeleton и группы. Отдельные истории состояний, IconOnly, Skeleton, Groups и SourceMapping удалены из навигации.
 
 Уточнение пользователя 3 октября 2026: empty ↔ selected ↔ indeterminate переключаются через плавное затухание трёх оригинальных SVG-слоёв. Длительность изменена с 300 на 200 ms, cubic-bezier(0.656, 0.003, 0.355, 1), easing как у Button; задержка старта 0 ms. Нативное состояние меняется сразу, визуальный переход длится 200 ms в обе стороны. При reduced motion переход отключён. Это дополнение заменяет прежнее отсутствие анимации Checkbox; skeleton остаётся статичным.

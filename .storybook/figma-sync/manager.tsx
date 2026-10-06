@@ -4,13 +4,15 @@ import links from '../../source/figma/component-links.json';
 import { ChangeList } from './ChangeList';
 import type { Difference } from './changes';
 import { credentialKey, readCredential, rememberCredential, forgetCredential } from './credentials';
+import type { SelectedComponent } from './selection';
 
 type Component = { componentId: string; displayName: string; status: string; bound: boolean;
+  storybook?: { componentEntryId: string; storyIds: string[] };
   stale?: boolean;
   revision?: string; snapshotId?: string; comparedAt?: string; warnings: string[];
   differences: Difference[]; candidateDifferences?: Difference[];
   figma: { fileKey: string; displayName: string; url?: string } };
-type State = { files: { id: string; name: string; active: boolean; fileKey?: string }[]; components: Component[] };
+type State = { files: { id: string; name: string; active: boolean; fileKey?: string }[]; components: Component[]; loaded?: boolean; protocolVersion?: number };
 const labels: Record<string, string> = {
   'no-baseline': 'Нет подтверждённой базы', incomplete: 'Неполное сравнение',
   'needs-transfer': 'Требуется перенос', ready: 'Готово к визуальной приёмке',
@@ -24,7 +26,7 @@ const errors: Record<string, string> = {
 };
 let state: State = { files: [], components: [] };
 const listeners = new Set<() => void>();
-const publish = (next: State) => { state = next; for (const listener of listeners) listener(); };
+const publish = (next: State) => { state = { ...next, loaded: next.loaded ?? true }; for (const listener of listeners) listener(); };
 const subscribe = (listener: () => void) => { listeners.add(listener); return () => { listeners.delete(listener); }; };
 const useStateStore = () => useSyncExternalStore(subscribe, () => state);
 const endpoint = 'http://127.0.0.1:3847';
@@ -48,7 +50,8 @@ async function request(path: string, code: string, body?: unknown, signal?: Abor
 export function FigmaSyncLabel({ item }: { item: HashEntry }) {
   const current = useStateStore();
   const entry = item.type === 'component' && !item.refId
-    ? links.components.find((entry) => entry.storybook.componentEntryId === item.id) : undefined;
+    ? current.loaded ? current.components.find(entry => entry.storybook?.componentEntryId === item.id)
+      : links.components.find((entry) => entry.storybook.componentEntryId === item.id) : undefined;
   const record = entry && current.components.find((component) => component.componentId === entry.componentId);
   const status = record?.status;
   const label = record?.stale ? 'Источник не подтверждён' : status ? labels[status] : 'сравнение не настроено';
@@ -59,24 +62,25 @@ export function FigmaSyncLabel({ item }: { item: HashEntry }) {
   >{status === 'needs-transfer' ? '●' : status === 'ready' ? '◷' : '?'}</span>}</span>;
 }
 
-export function FigmaSyncPanel() {
+export function FigmaSyncPanel({ selected }: { selected?: SelectedComponent }) {
   const current = useStateStore();
   const [code, setCode] = useState(readCredential);
   const [draftCode, setDraftCode] = useState(readCredential);
   const [connectionAttempt, setConnectionAttempt] = useState(0);
   const [connected, setConnected] = useState(false);
   const [remembered, setRemembered] = useState(false);
-  const [error, setError] = useState('');
+  const [error, setError] = useState<{ message: string; componentEntryId?: string }>();
   const [connectionError, setConnectionError] = useState('');
   const [busy, setBusy] = useState(false);
+  const [busyComponentEntryId, setBusyComponentEntryId] = useState<string>();
   const refresh = async () => publish(await request('components', code));
-  const run = async (action: () => Promise<void>) => {
-    setBusy(true); setError('');
+  const run = async (action: () => Promise<void>, componentEntryId?: string) => {
+    setBusy(true); setBusyComponentEntryId(componentEntryId); setError(undefined);
     try { await action(); }
     catch (failure) {
       if (failure instanceof AccessCodeError) setConnected(false);
-      setError(failure instanceof TypeError ? 'Нет соединения с локальным bridge. Проверь запуск новой версии и код доступа.'
-        : failure instanceof Error ? failure.message : 'Ошибка сравнения');
+      setError({ componentEntryId, message: failure instanceof TypeError ? 'Нет соединения с локальным bridge. Проверь запуск новой версии и код доступа.'
+        : failure instanceof Error ? failure.message : 'Ошибка сравнения' });
       try { if (!(failure instanceof AccessCodeError)) await refresh(); } catch {
         publish({ ...state, components: state.components.map((component) => ({ ...component, stale: true, bound: false })) });
       }
@@ -125,9 +129,13 @@ export function FigmaSyncPanel() {
     window.addEventListener('storage', changed);
     return () => window.removeEventListener('storage', changed);
   }, []);
-  const records = current.components.length ? current.components : links.components.map((entry) => ({
-    ...entry, status: 'unknown', bound: false, warnings: [], differences: [],
-  } as Component));
+  const configured = current.loaded ? current.components.find(entry => entry.storybook?.componentEntryId === selected?.entryId)
+    : links.components.find(entry => entry.storybook.componentEntryId === selected?.entryId);
+  const records = configured ? [current.components.find(entry => entry.componentId === configured.componentId) ?? {
+    ...configured, status: 'unknown', bound: false, warnings: [], differences: [],
+  } as Component] : [];
+  const visibleError = error && (!error.componentEntryId || error.componentEntryId === selected?.entryId) ? error.message : '';
+  const canCompare = connected && (current.protocolVersion ?? 1) >= 2;
   const form = <form onSubmit={(event) => {
     event.preventDefault();
     const candidate = draftCode.trim();
@@ -146,12 +154,14 @@ export function FigmaSyncPanel() {
     {connected ? <><p role="status">Подключено. {remembered ? 'Код сохранён в этом браузере.' : 'Браузер запретил сохранение; подключение действует в этой вкладке.'}</p>
       <details><summary>Настройки подключения</summary>{form}
         <button disabled={busy} onClick={() => {
-          forgetCredential(); setCode(''); setDraftCode(''); setConnected(false); setError(''); setConnectionError(''); publish({ files: [], components: [] });
+          forgetCredential(); setCode(''); setDraftCode(''); setConnected(false); setError(undefined); setConnectionError(''); publish({ files: [], components: [], loaded: false });
         }}>Забыть подключение в этом браузере</button>
       </details></> : form}
-    {busy && <p role="status">Сравнение…</p>}
+    {busy && (!busyComponentEntryId || busyComponentEntryId === selected?.entryId) && <p role="status">{busyComponentEntryId ? 'Сравнение…' : 'Подключение…'}</p>}
     {connectionError && <p role="alert">{connectionError}</p>}
-    {error && <p role="alert">{error}</p>}
+    {connected && !canCompare && <p role="status">Для сравнения новых компонентов перезапустите Codex: установлена новая версия bridge.</p>}
+    {visibleError && <p role="alert">{visibleError}</p>}
+    {!configured && <p>{selected ? `Для ${selected.name} сравнение с Figma ещё не настроено.` : 'Выберите компонент в списке Storybook.'}</p>}
     <ul>{records.map((entry) => {
       const changes = entry.differences.length ? entry.differences : entry.candidateDifferences ?? [];
       const file = current.files.find((candidate) => candidate.active);
@@ -159,15 +169,15 @@ export function FigmaSyncPanel() {
         <strong>{entry.displayName}</strong> — {entry.status === 'unknown' ? 'Статус ещё не загружен' : labels[entry.status] ?? entry.status}.
         {entry.stale && <p>Источник не подтверждён для текущего подключения. Последний результат может быть устаревшим.</p>}
         <p>Источник: {entry.figma.url ? <a href={entry.figma.url} target="_blank" rel="noreferrer">{entry.figma.displayName}</a> : entry.figma.displayName}.</p>
-        {!entry.bound && file && <button disabled={busy || !connected} onClick={() => void run(async () => {
-          await request('bind', code, { fileKey: entry.figma.fileKey, connectionId: file.id }); await refresh();
-        })}>Подтвердить: открыт {file.name} по ссылке выше</button>}{' '}
-        <button disabled={busy || !connected || !entry.bound} onClick={() => void run(async () => {
+        {!entry.bound && file && <button disabled={busy || !canCompare} onClick={() => void run(async () => {
+          await request('bind', code, { fileKey: entry.figma.fileKey, connectionId: file.id, componentId: entry.componentId }); await refresh();
+        }, selected?.entryId)}>Подтвердить: открыт {file.name} по ссылке выше</button>}{' '}
+        <button disabled={busy || !canCompare || !entry.bound} onClick={() => void run(async () => {
           publish(await request('compare', code, { componentId: entry.componentId }));
-        })}>Сравнить с Figma</button>{' '}
-        {entry.status === 'ready' && <button disabled={busy || !connected || !!entry.stale || !entry.bound} onClick={() => void run(async () => {
+        }, selected?.entryId)}>Сравнить с Figma</button>{' '}
+        {entry.status === 'ready' && <button disabled={busy || !canCompare || !!entry.stale || !entry.bound} onClick={() => void run(async () => {
           publish(await request('accept', code, { componentId: entry.componentId, snapshotId: entry.snapshotId, revision: entry.revision }));
-        })}>OK — принимаю визуально</button>}
+        }, selected?.entryId)}>OK — принимаю визуально</button>}
         {entry.comparedAt && <p>Последнее сравнение: {new Date(entry.comparedAt).toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' })} МСК.</p>}
         {entry.candidateDifferences && <p>Предварительная разница с историческим экспортом. База реализации пока не подтверждена.</p>}
         {entry.warnings.length > 0 && <details><summary>Ограничения данных: {entry.warnings.length}</summary>

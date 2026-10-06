@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 // Compact identities from the source export; values always come from the live diff.
 // Run `node scripts/figma-sync-context.mjs` after replacing an export to refresh the index.
-export function indexSource(roots) {
+export function indexSource(roots, themes = {}) {
   const nodes = {};
   const visit = (node, theme, variant) => {
     const next = node.type === 'COMPONENT' ? node.properties?.variantProperties ?? {} : variant;
@@ -12,17 +12,19 @@ export function indexSource(roots) {
       ...(node.type === 'COMPONENT' ? { variantRoot: true } : {}) };
     for (const child of node.children ?? []) visit(child, theme, next);
   };
-  for (const [theme, root] of Object.entries(roots)) visit(root, theme, {});
+  for (const [key, root] of Object.entries(roots)) visit(root, themes[key] ?? key, {});
   return nodes;
 }
 
-export async function generateContext(project) {
-  const registry = JSON.parse(await readFile(resolve(project, 'source/figma/component-links.json'), 'utf8'));
+export async function generateContext(project, registry) {
+  registry ??= JSON.parse(await readFile(resolve(project, 'source/figma/component-links.json'), 'utf8'));
   const components = {};
   for (const entry of registry.components) {
     const raw = JSON.parse(await readFile(resolve(project, entry.baselineCandidate.rawExport), 'utf8'));
-    const roots = Object.fromEntries(entry.figma.sources.map(source => [source.theme, raw[source.theme]]));
-    components[entry.componentId] = { source: entry.baselineCandidate.rawExport, nodes: indexSource(roots) };
+    const roots = Object.fromEntries(entry.figma.sources.map(source => [source.key ?? source.theme,
+      (source.exportPath ?? [source.theme]).reduce((value, key) => value?.[key], raw)]));
+    const themes = Object.fromEntries(entry.figma.sources.map(source => [source.key ?? source.theme, source.theme]));
+    components[entry.componentId] = { source: entry.baselineCandidate.rawExport, nodes: indexSource(roots, themes) };
   }
   return components;
 }

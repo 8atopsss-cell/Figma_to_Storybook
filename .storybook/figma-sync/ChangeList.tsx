@@ -15,7 +15,11 @@ function Value({ value, label }: { value: ChangeValue; label: string }) {
       <div className="figma-change-paint" key={index}>
         {paint.css && <span className="figma-change-swatch" aria-hidden="true"><span style={{ background: paint.css }} /></span>}
         <span>{paint.text}</span>
-      </div>)}</div> : <span className="figma-change-text">{value.text}</span>}
+      </div>)}</div> : value.values?.length ? <ul className="figma-change-options" aria-label={`${label}: значения свойства`}>
+        {value.values.map((option, index) => <li key={index}>
+          {option.changed ? <strong className="figma-change-option-changed">{option.text}</strong> : <span>{option.text}</span>}
+        </li>)}
+      </ul> : <span className="figma-change-text">{value.text}</span>}
     {value.style && <span className="figma-change-style">Стиль: {value.style}</span>}
   </div>;
 }

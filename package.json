@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "figma:sync-registry": "node scripts/generate-figma-sync-registry.mjs",
     "tokens": "node scripts/generate-tokens.mjs && node scripts/generate-style-tokens.mjs && node scripts/generate-checkbox-tokens.mjs && node scripts/generate-toggle-tokens.mjs && node scripts/generate-icon-button-tokens.mjs && node scripts/generate-resource-tag-tokens.mjs && node scripts/generate-badge-tokens.mjs && node scripts/generate-table-row-tokens.mjs && node scripts/generate-menu-button-tokens.mjs && node scripts/generate-sidebar-tokens.mjs",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",

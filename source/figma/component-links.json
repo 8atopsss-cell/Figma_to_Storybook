@@ -2,21 +2,85 @@
   "schemaVersion": 1,
   "components": [
     {
+      "componentId": "badge",
+      "displayName": "Badge",
+      "modulePath": "src/components/Badge/Badge.tsx",
+      "storybook": {
+        "componentEntryId": "figma-export-badge",
+        "storyIds": [
+          "figma-export-badge--docs",
+          "figma-export-badge--playground",
+          "figma-export-badge--light",
+          "figma-export-badge--dark"
+        ]
+      },
+      "figma": {
+        "displayName": "SD Enterprice",
+        "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz",
+        "sources": [
+          {
+            "theme": "dark",
+            "componentSetId": "7049:29219",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "dark"
+            ]
+          },
+          {
+            "theme": "light",
+            "componentSetId": "8750:115974",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "light"
+            ]
+          }
+        ],
+        "identitySource": "project-config"
+      },
+      "baselineCandidate": {
+        "rawExport": "source/figma/badge-export.json",
+        "status": "unverified"
+      }
+    },
+    {
       "componentId": "button",
       "displayName": "Button",
       "modulePath": "src/components/Button/Button.tsx",
       "storybook": {
         "componentEntryId": "figma-export-button",
-        "storyIds": ["figma-export-button--docs", "figma-export-button--playground", "figma-export-button--light", "figma-export-button--dark"]
+        "storyIds": [
+          "figma-export-button--docs",
+          "figma-export-button--playground",
+          "figma-export-button--light",
+          "figma-export-button--dark"
+        ]
       },
       "figma": {
         "displayName": "SD Enterprice",
         "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
-        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz/SD-Enterprice",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz",
         "sources": [
-          { "theme": "light", "componentSetId": "4391:92045" },
-          { "theme": "dark", "componentSetId": "1900:44830" }
-        ]
+          {
+            "theme": "dark",
+            "componentSetId": "1900:44830",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "dark"
+            ]
+          },
+          {
+            "theme": "light",
+            "componentSetId": "4391:92045",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "light"
+            ]
+          }
+        ],
+        "identitySource": "project-config"
       },
       "baselineCandidate": {
         "rawExport": "source/figma/fresh-export.json",
@@ -28,6 +92,339 @@
       "syncContractPath": "source/figma/button-sync-contract.json",
       "implementedSnapshot": null,
       "acceptedSnapshot": null
+    },
+    {
+      "componentId": "checkbox",
+      "displayName": "Checkbox",
+      "modulePath": "src/components/Checkbox/Checkbox.tsx",
+      "storybook": {
+        "componentEntryId": "figma-export-checkbox",
+        "storyIds": [
+          "figma-export-checkbox--docs",
+          "figma-export-checkbox--playground",
+          "figma-export-checkbox--light",
+          "figma-export-checkbox--dark"
+        ]
+      },
+      "figma": {
+        "displayName": "SD Enterprice",
+        "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz",
+        "sources": [
+          {
+            "theme": "dark",
+            "componentSetId": "1855:45515",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "trees",
+              "dark"
+            ]
+          },
+          {
+            "theme": "dark",
+            "key": "groupDark",
+            "componentSetId": "1855:45690",
+            "nodeType": "COMPONENT",
+            "exportPath": [
+              "trees",
+              "groupDark"
+            ]
+          },
+          {
+            "theme": "light",
+            "key": "groupLight",
+            "componentSetId": "4471:81021",
+            "nodeType": "COMPONENT",
+            "exportPath": [
+              "trees",
+              "groupLight"
+            ]
+          },
+          {
+            "theme": "dark",
+            "key": "iconDark",
+            "componentSetId": "1085:37057",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "trees",
+              "iconDark"
+            ]
+          },
+          {
+            "theme": "light",
+            "key": "iconLight",
+            "componentSetId": "4471:70649",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "trees",
+              "iconLight"
+            ]
+          },
+          {
+            "theme": "light",
+            "componentSetId": "4471:70623",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "trees",
+              "light"
+            ]
+          }
+        ],
+        "identitySource": "project-config"
+      },
+      "baselineCandidate": {
+        "rawExport": "source/figma/checkbox-export.json",
+        "status": "unverified"
+      }
+    },
+    {
+      "componentId": "icon-button",
+      "displayName": "IconButton",
+      "modulePath": "src/components/IconButton/IconButton.tsx",
+      "storybook": {
+        "componentEntryId": "figma-export-iconbutton",
+        "storyIds": [
+          "figma-export-iconbutton--docs",
+          "figma-export-iconbutton--playground",
+          "figma-export-iconbutton--light",
+          "figma-export-iconbutton--dark"
+        ]
+      },
+      "figma": {
+        "displayName": "SD Enterprice",
+        "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz",
+        "sources": [
+          {
+            "theme": "dark",
+            "componentSetId": "2804:63710",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "dark"
+            ]
+          },
+          {
+            "theme": "light",
+            "componentSetId": "4473:81300",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "light"
+            ]
+          }
+        ],
+        "identitySource": "project-config"
+      },
+      "baselineCandidate": {
+        "rawExport": "source/figma/icon-button-export.json",
+        "status": "unverified"
+      }
+    },
+    {
+      "componentId": "menu-button",
+      "displayName": "MenuButton",
+      "modulePath": "src/components/MenuButton/MenuButton.tsx",
+      "storybook": {
+        "componentEntryId": "figma-export-menubutton",
+        "storyIds": [
+          "figma-export-menubutton--docs",
+          "figma-export-menubutton--playground",
+          "figma-export-menubutton--light",
+          "figma-export-menubutton--dark"
+        ]
+      },
+      "figma": {
+        "displayName": "SD Enterprice",
+        "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz",
+        "sources": [
+          {
+            "theme": "shared",
+            "key": "shared-538-14094",
+            "componentSetId": "538:14094",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "set"
+            ]
+          }
+        ],
+        "identitySource": "project-config"
+      },
+      "baselineCandidate": {
+        "rawExport": "source/figma/menu-button-export.json",
+        "status": "unverified"
+      }
+    },
+    {
+      "componentId": "resource-tag",
+      "displayName": "ResourceTag",
+      "modulePath": "src/components/ResourceTag/ResourceTag.tsx",
+      "storybook": {
+        "componentEntryId": "figma-export-resourcetag",
+        "storyIds": [
+          "figma-export-resourcetag--docs",
+          "figma-export-resourcetag--playground",
+          "figma-export-resourcetag--light",
+          "figma-export-resourcetag--dark"
+        ]
+      },
+      "figma": {
+        "displayName": "SD Enterprice",
+        "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz",
+        "sources": [
+          {
+            "theme": "dark",
+            "componentSetId": "2804:63984",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "dark"
+            ]
+          },
+          {
+            "theme": "light",
+            "componentSetId": "4477:82225",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "light"
+            ]
+          }
+        ],
+        "identitySource": "project-config"
+      },
+      "baselineCandidate": {
+        "rawExport": "source/figma/resource-tag-export.json",
+        "status": "unverified"
+      }
+    },
+    {
+      "componentId": "sidebar",
+      "displayName": "Sidebar",
+      "modulePath": "src/components/Sidebar/Sidebar.tsx",
+      "storybook": {
+        "componentEntryId": "figma-export-sidebar",
+        "storyIds": [
+          "figma-export-sidebar--docs",
+          "figma-export-sidebar--playground",
+          "figma-export-sidebar--light",
+          "figma-export-sidebar--dark"
+        ]
+      },
+      "figma": {
+        "displayName": "SD Enterprice",
+        "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz",
+        "sources": [
+          {
+            "theme": "dark",
+            "componentSetId": "2938:65838",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "dark"
+            ]
+          },
+          {
+            "theme": "light",
+            "componentSetId": "4384:89088",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "light"
+            ]
+          }
+        ],
+        "identitySource": "project-config"
+      },
+      "baselineCandidate": {
+        "rawExport": "source/figma/sidebar-export.json",
+        "status": "unverified"
+      }
+    },
+    {
+      "componentId": "table-row",
+      "displayName": "TableRow",
+      "modulePath": "src/components/TableRow/TableRow.tsx",
+      "storybook": {
+        "componentEntryId": "figma-export-tablerow",
+        "storyIds": [
+          "figma-export-tablerow--docs",
+          "figma-export-tablerow--playground",
+          "figma-export-tablerow--light",
+          "figma-export-tablerow--dark"
+        ]
+      },
+      "figma": {
+        "displayName": "SD Enterprice",
+        "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz",
+        "sources": [
+          {
+            "theme": "dark",
+            "key": "dark-2967-65844",
+            "componentSetId": "2967:65844",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "0"
+            ]
+          },
+          {
+            "theme": "light",
+            "key": "light-4384-89138",
+            "componentSetId": "4384:89138",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "sets",
+              "1"
+            ]
+          }
+        ],
+        "identitySource": "project-config"
+      },
+      "baselineCandidate": {
+        "rawExport": "source/figma/table-row-export.json",
+        "status": "unverified"
+      }
+    },
+    {
+      "componentId": "toggle",
+      "displayName": "Toggle",
+      "modulePath": "src/components/Toggle/Toggle.tsx",
+      "storybook": {
+        "componentEntryId": "figma-export-toggle",
+        "storyIds": [
+          "figma-export-toggle--docs",
+          "figma-export-toggle--playground",
+          "figma-export-toggle--light",
+          "figma-export-toggle--dark"
+        ]
+      },
+      "figma": {
+        "displayName": "SD Enterprice",
+        "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz",
+        "sources": [
+          {
+            "theme": "shared",
+            "key": "shared-700-20924",
+            "componentSetId": "700:20924",
+            "nodeType": "COMPONENT_SET",
+            "exportPath": [
+              "tree"
+            ]
+          }
+        ],
+        "identitySource": "project-config"
+      },
+      "baselineCandidate": {
+        "rawExport": "source/figma/toggle-export.json",
+        "status": "unverified"
+      }
     }
-  ]
+  ],
+  "unconfigured": []
 }

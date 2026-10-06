@@ -1,7 +1,7 @@
 export type Difference = { path: string; kind: string; before?: unknown; after?: unknown };
 export type NodeContext = { name: string; type: string; theme?: string; variant?: Record<string, string>; variantRoot?: boolean; variantId?: string };
 export type PaintSample = { text: string; css?: string };
-export type ChangeValue = { text: string; paints?: PaintSample[]; style?: string };
+export type ChangeValue = { text: string; paints?: PaintSample[]; style?: string; values?: { text: string; changed?: boolean }[] };
 export type ChangeItem = { id: string; title: string; location: string; nodeId?: string;
   before: ChangeValue; after: ChangeValue; paths: string[]; description?: string };
 type JsonObject = Record<string, unknown>;
@@ -72,7 +72,9 @@ export function describeValue(value: unknown, field = ''): ChangeValue {
     ? `${Math.round(value * 100)}%` : `${value}${pixelFields.has(field) ? ' px' : field === 'rotation' ? '°' : ''}` };
   if (typeof value === 'string') return { text: value || 'Пусто' };
   if (field === 'relativeTransform') return { text: transformText(value) };
-  if (Array.isArray(value)) return { text: value.length ? `Элементов: ${value.length}` : 'Нет элементов' };
+  if (Array.isArray(value)) return value.every(item => typeof item === 'string')
+    ? { text: value.length ? value.join(' · ') : 'Нет элементов', values: value.map(text => ({ text })) }
+    : { text: value.length ? `Элементов: ${value.length}` : 'Нет элементов' };
   const data = object(value);
   if (typeof data.family === 'string') return { text: `${data.family}${typeof data.style === 'string' ? ` · ${data.style}` : ''}` };
   if (typeof data.value === 'number') return { text: `${data.value}${data.unit === 'PIXELS' ? ' px' : data.unit === 'PERCENT' ? '%' : ''}` };
@@ -137,6 +139,20 @@ export function summarizeChanges(changes: Difference[], contexts: Record<string,
     if (section !== 'nodes') continue;
     const property = segments[2] === 'properties' ? segments[3] : segments[2];
     const context = nodes[id];
+    if (property === 'componentPropertyDefinitions' && segments.length === 6 && segments[5] === 'variantOptions') {
+      const before = describeValue(change.before), after = describeValue(change.after);
+      const oldValues = before.values?.map(value => value.text), newValues = after.values?.map(value => value.text);
+      const removed = oldValues && newValues ? oldValues.filter(value => !newValues.includes(value)) : [];
+      const added = oldValues && newValues ? newValues.filter(value => !oldValues.includes(value)) : [];
+      if (before.values) before.values = before.values.map(value => ({ ...value, changed: removed.includes(value.text) }));
+      if (after.values) after.values = after.values.map(value => ({ ...value, changed: added.includes(value.text) }));
+      const description = [removed.length ? `Удалено: ${removed.map(value => `«${value}»`).join(', ')}.` : '',
+        added.length ? `Добавлено: ${added.map(value => `«${value}»`).join(', ')}.` : ''].filter(Boolean).join(' ');
+      consumed.add(change.path);
+      result.push({ id: change.path, title: `Варианты свойства «${segments[4]}»`, location: location(context, id), nodeId: id,
+        before, after, description: description || 'Изменён список значений.', paths: [change.path] });
+      continue;
+    }
     if (property === 'x' || property === 'y') {
       const matrixChange = changes.find(item => item.path === `/nodes/${id.replaceAll('~', '~0').replaceAll('/', '~1')}/properties/relativeTransform`);
       const start = affine(matrixChange?.before), end = affine(matrixChange?.after);
@@ -186,6 +202,7 @@ export function summarizeChanges(changes: Difference[], contexts: Record<string,
     consumed.add(change.path);
     const wholeNode = segments.length === 2;
     const title = wholeNode ? change.kind === 'added' ? 'Добавлен слой' : change.kind === 'removed' ? 'Удалён слой' : 'Изменён слой'
+      : property === 'variantProperties' && segments.length === 5 ? `Значение свойства «${segments[4]}»`
       : fields[property] ?? (segments.includes('textSegments') ? 'Оформление текста' : `Свойство «${property ?? 'данные слоя'}»`);
     const value = (data: unknown) => wholeNode && data !== undefined ? { text: String(object(data).name ?? 'Слой') } : describeValue(data, property);
     result.push({ id: change.path, title, location: location(context, id), nodeId: id,

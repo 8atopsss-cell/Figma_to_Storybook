@@ -1,12 +1,13 @@
 import React from 'react';
 import { act, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, beforeEach, expect, it, vi } from 'vitest';
-import { FigmaSyncPanel } from '../../.storybook/figma-sync/manager';
+import { FigmaSyncPanel as Panel } from '../../.storybook/figma-sync/manager';
 import { credentialKey } from '../../.storybook/figma-sync/credentials';
 
 const code = 'a'.repeat(64);
 const result = { files: [], components: [] };
 const fetchMock = vi.fn();
+const FigmaSyncPanel = () => <Panel selected={{ entryId: 'figma-export-button', name: 'Button' }} />;
 beforeEach(() => { localStorage.clear(); sessionStorage.clear(); vi.stubGlobal('fetch', fetchMock); fetchMock.mockReset(); });
 afterEach(() => { vi.useRealTimers(); vi.unstubAllGlobals(); });
 const success = () => ({ ok: true, status: 200, json: async () => result });
@@ -39,7 +40,7 @@ it('shows an invalid code and does not claim that an unloaded component has no b
   fireEvent.click(screen.getByRole('button', { name: 'Подключить' }));
   await screen.findByText('Сохранённый код не подходит. Вставьте действующий код доступа.');
   expect(localStorage.getItem(credentialKey)).toBeNull();
-  expect(screen.getByText(/Статус ещё не загружен/)).toBeInTheDocument();
+  expect(screen.queryByText(/Нет подтверждённой базы/)).not.toBeInTheDocument();
 });
 it('forgets the browser credential only when the user asks', async () => {
   localStorage.setItem(credentialKey, code); fetchMock.mockResolvedValue(success());
