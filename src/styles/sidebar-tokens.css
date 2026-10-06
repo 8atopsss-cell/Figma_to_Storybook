@@ -1,0 +1,61 @@
+/* Generated from source/figma/sidebar-export.json. Do not edit. */
+[data-sidebar][data-sidebar-theme="dark"][data-sidebar-layout="expanded"] {
+  --sidebar-width: 322px;
+  --sidebar-height: 942px;
+  --sidebar-background: var(--figma-color-dark-theme-background-dark-page-bcg);
+  --sidebar-nav-x: 32px;
+  --sidebar-nav-y: 156px;
+  --sidebar-nav-width: 258px;
+  --sidebar-nav-gap: 0px;
+  --sidebar-title-x: 32px;
+  --sidebar-title-y: 28px;
+  --sidebar-footer-x: 36px;
+  --sidebar-footer-bottom: 45px;
+  --sidebar-footer-height: 40px;
+  --sidebar-divider-width: 1px;
+}
+[data-sidebar][data-sidebar-theme="dark"][data-sidebar-layout="compact"] {
+  --sidebar-width: 120px;
+  --sidebar-height: 942px;
+  --sidebar-background: var(--figma-color-dark-theme-background-dark-page-bcg);
+  --sidebar-nav-x: 32px;
+  --sidebar-nav-y: 156px;
+  --sidebar-nav-width: 56px;
+  --sidebar-nav-gap: 0px;
+  --sidebar-title-x: 32px;
+  --sidebar-title-y: 28px;
+  --sidebar-footer-x: 36px;
+  --sidebar-footer-bottom: 45px;
+  --sidebar-footer-height: 40px;
+  --sidebar-divider-width: 1px;
+}
+[data-sidebar][data-sidebar-theme="light"][data-sidebar-layout="expanded"] {
+  --sidebar-width: 322px;
+  --sidebar-height: 942px;
+  --sidebar-background: var(--figma-color-light-theme-background-light-page-bcg);
+  --sidebar-nav-x: 32px;
+  --sidebar-nav-y: 156px;
+  --sidebar-nav-width: 258px;
+  --sidebar-nav-gap: 0px;
+  --sidebar-title-x: 32px;
+  --sidebar-title-y: 28px;
+  --sidebar-footer-x: 32px;
+  --sidebar-footer-bottom: 44px;
+  --sidebar-footer-height: 40px;
+  --sidebar-divider-width: 1px;
+}
+[data-sidebar][data-sidebar-theme="light"][data-sidebar-layout="compact"] {
+  --sidebar-width: 120px;
+  --sidebar-height: 942px;
+  --sidebar-background: var(--figma-color-light-theme-background-light-page-bcg);
+  --sidebar-nav-x: 32px;
+  --sidebar-nav-y: 156px;
+  --sidebar-nav-width: 56px;
+  --sidebar-nav-gap: 0px;
+  --sidebar-title-x: 32px;
+  --sidebar-title-y: 28px;
+  --sidebar-footer-x: 32px;
+  --sidebar-footer-bottom: 44px;
+  --sidebar-footer-height: 40px;
+  --sidebar-divider-width: 1px;
+}

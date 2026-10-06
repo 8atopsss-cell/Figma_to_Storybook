@@ -1,5 +1,13 @@
 # Реестр чистого экспорта
 
+Sidebar, обновление 6 октября 2026: свежие четыре theme/layout дерева и shell SVG в source/figma/sidebar-layout-update.json. Navigation gap изменён с 4 на 0; пункты используют существующий обновлённый MenuButton. Исходный первый экспорт сохранён, канонические токены и backdrop генерируются из актуального snapshot. Проверки не запускались.
+
+MenuButton, обновление 6 октября 2026: восемь исходных вариантов default/hover/active/disable × light/dark; disable связан с native disabled. Dark active icon использует свежий style ID. Controls и каталоги обновлены, существующие Sidebar переиспользуют обновлённые токены. Предыдущая запись о шести вариантах заменена этой; проверки не запускались.
+
+Sidebar: SD Enterprice / UI kit; sets 2938:65838 dark и 4384:89088 light. Четыре исходных expanded/compact × light/dark, 42 sourced SVG, канонические sidebars.json через npm run tokens. Композиция готового MenuButton с Badge; недостающие пункты дополнены между темами derived/user-authorized, общий набор 11. Контракт docs/sidebar.md. Проверки не запускались по запросу пользователя; визуальная приёмка ожидается.
+
+MenuButton: SD Enterprice / UI kit, set 538:14094. Шесть исходных вариантов default/hover/active × light/dark; свежий raw, style IDs, шесть SVG и канонические menu-buttons.json через npm run tokens. Существующий Badge medium обеих тем, light placement derived по запросу пользователя. Контракт docs/menu-button.md. Проверки остановлены по запросу пользователя, итоговая версия не проверена. Визуальная приёмка ожидается.
+
 TableRow header: добавлена сортировка по клику с одним активным столбцом. Начально none; далее ascending/descending, при смене столбца предыдущий сбрасывается. Иконки обеих тем — свежий экспорт выбранного COMPONENT_SET 1599:48633; source/figma/table-row-header-sort.json, tokens.headerSort. Активная подпись text_primary, остальные text_secondary. Внутреннее состояние / управляемый sort, callback onSort(column, direction). Проверки и серверы не запускались по правилу пользователя.
 
 TableRow: реализованы 16 исходных вариантов (8 dark / 8 light) композиционно из существующих компонентов; Docs / Playground / Light / Dark. Expanded и expanded  hover исключены пользователем, сохранены только в raw/definitions. Источники: source/figma/table-row-export.json и table-row-assets.json (32 SVG). Канонические токены table-rows.json; контракт docs/table-row.md. Missing remote style definition у header warning outline записан с точными paints, без выдуманного alias. Проверки не запускались по запрету пользователя. Визуальная приёмка ожидается.

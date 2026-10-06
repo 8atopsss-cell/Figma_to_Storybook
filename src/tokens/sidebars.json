@@ -1,0 +1,1850 @@
+{
+  "source": {
+    "fileName": "SD Enterprice",
+    "pageId": "933:24166",
+    "setIds": {
+      "dark": "2938:65838",
+      "light": "4384:89088"
+    },
+    "capturedAt": "2026-10-06",
+    "tools": [
+      "get_node_tree",
+      "get_node_svg",
+      "get_local_styles"
+    ],
+    "layoutUpdateSource": "source/figma/sidebar-layout-update.json",
+    "layoutUpdatedAt": "2026-10-06"
+  },
+  "definitions": {
+    "dark": {
+      "layout": {
+        "type": "VARIANT",
+        "defaultValue": "expanded",
+        "variantOptions": [
+          "expanded",
+          "compact"
+        ]
+      },
+      "theme": {
+        "type": "VARIANT",
+        "defaultValue": "dark",
+        "variantOptions": [
+          "dark"
+        ]
+      }
+    },
+    "light": {
+      "layout": {
+        "type": "VARIANT",
+        "defaultValue": "expanded",
+        "variantOptions": [
+          "expanded",
+          "compact"
+        ]
+      },
+      "theme": {
+        "type": "VARIANT",
+        "defaultValue": "light",
+        "variantOptions": [
+          "light"
+        ]
+      }
+    }
+  },
+  "itemIds": [
+    "home",
+    "users",
+    "resources",
+    "templates",
+    "workstations",
+    "servers",
+    "administration",
+    "licensing",
+    "kkp",
+    "journal",
+    "information"
+  ],
+  "records": [
+    {
+      "theme": "dark",
+      "layout": "expanded",
+      "nodeId": "643:17452",
+      "productName": "Secret Disk",
+      "backdropKey": "asset38",
+      "backdropWidth": 323,
+      "backdropHeight": 942,
+      "titleAsset": {
+        "key": "asset39",
+        "width": 121,
+        "height": 28,
+        "sourceNodeId": "575:21906"
+      },
+      "footerAsset": {
+        "key": "asset40",
+        "width": 53.9999885559082,
+        "height": 40,
+        "sourceNodeId": "575:21907"
+      },
+      "dividerAsset": {
+        "key": "asset41",
+        "width": 1,
+        "height": 942,
+        "sourceNodeId": "575:21928"
+      },
+      "items": [
+        {
+          "id": "home",
+          "label": "Главная",
+          "sourceNodeId": "1517:42509",
+          "labelNodeId": "I1517:42509;538:14110",
+          "sourceText": "Главная",
+          "iconNodeId": "I1517:42509;9440:125700",
+          "iconMainComponent": {
+            "id": "9440:133648",
+            "name": "icon 24/dashboard",
+            "key": "42f1a0d3fff4ea94058bf38f387b69a8d3749709"
+          },
+          "assetKey": "asset0",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "users",
+          "label": "Пользователи",
+          "sourceNodeId": "575:21921",
+          "labelNodeId": "I575:21921;538:14103",
+          "sourceText": "Пользователи",
+          "iconNodeId": "I575:21921;538:14102",
+          "iconMainComponent": {
+            "id": "488:13898",
+            "name": "icon 24/person_black (2) 4",
+            "key": "30d3a93d461b6edaf2068ff70ca595eb04c67f83"
+          },
+          "assetKey": "asset1",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "active",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "resources",
+          "label": "Ресурсы",
+          "sourceNodeId": "1363:63706",
+          "labelNodeId": "I1363:63706;538:14110",
+          "sourceText": "Ресурсы",
+          "iconNodeId": "I1363:63706;9440:125700",
+          "iconMainComponent": {
+            "id": "9440:133849",
+            "name": "icon 24/resourses",
+            "key": "dde1013876e828fade87737d9aa023fcae2952d0"
+          },
+          "assetKey": "asset2",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "templates",
+          "label": "Шаблоны",
+          "sourceNodeId": "1363:54585",
+          "labelNodeId": "I1363:54585;538:14110",
+          "sourceText": "Шаблоны",
+          "iconNodeId": "I1363:54585;9440:125700",
+          "iconMainComponent": {
+            "id": "2983:63740",
+            "name": "icon 24/templ",
+            "key": "c46aa161640c34834750f98d43ff42caba45d3b2"
+          },
+          "assetKey": "asset3",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "workstations",
+          "label": "Рабочие станции",
+          "sourceNodeId": "1368:70229",
+          "labelNodeId": "I1368:70229;538:14110",
+          "sourceText": "Рабочие станции",
+          "iconNodeId": "I1368:70229;9440:125700",
+          "iconMainComponent": {
+            "id": "1368:68369",
+            "name": "icon 24/desktop",
+            "key": "ce40aa1b1510547822e730d99a102f447175887e"
+          },
+          "assetKey": "asset4",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "servers",
+          "label": "Серверы",
+          "sourceNodeId": "13838:42466",
+          "labelNodeId": "I13838:42466;538:14110",
+          "sourceText": "Серверы",
+          "iconNodeId": "I13838:42466;9440:125700",
+          "iconMainComponent": {
+            "id": "13838:57229",
+            "name": "icon 24/server",
+            "key": "45314c54967be89ee4be32509cc0dc3e0ff929ab"
+          },
+          "assetKey": "asset5",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "administration",
+          "label": "Администрирование",
+          "sourceNodeId": "1447:40157",
+          "labelNodeId": "I1447:40157;538:14110",
+          "sourceText": "Администрирование",
+          "iconNodeId": "I1447:40157;9440:125700",
+          "iconMainComponent": {
+            "id": "11384:54227",
+            "name": "icon 24/browse activity",
+            "key": "558abba6df9839680c0e45d6051940b6d42a3ff9"
+          },
+          "assetKey": "asset6",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "licensing",
+          "label": "Лицензирование",
+          "sourceNodeId": "1368:75310",
+          "labelNodeId": "I1368:75310;538:14110",
+          "sourceText": "Лицензирование",
+          "iconNodeId": "I1368:75310;9440:125700",
+          "iconMainComponent": {
+            "id": "12369:38002",
+            "name": "icon 24/license",
+            "key": "ae532ee2169a9a16f6a983a7590eaadeb5a88299"
+          },
+          "assetKey": "asset7",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "kkp",
+          "label": "ККП",
+          "sourceNodeId": "4384:89109",
+          "labelNodeId": "I4384:89109;4384:91578",
+          "sourceText": "ККП",
+          "iconNodeId": "I4384:89109;9441:49409",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset26",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "light",
+          "origin": "derived",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "journal",
+          "label": "Журнал",
+          "sourceNodeId": "1368:80304",
+          "labelNodeId": "I1368:80304;538:14110",
+          "sourceText": "Журнал",
+          "iconNodeId": "I1368:80304;9440:125700",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset8",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "information",
+          "label": "Информация",
+          "sourceNodeId": "2938:65939",
+          "labelNodeId": "I2938:65939;538:14110",
+          "sourceText": "Информация",
+          "iconNodeId": "I2938:65939;9440:125700",
+          "iconMainComponent": {
+            "id": "2938:72088",
+            "name": "icon 18/info_fill",
+            "key": "18ed505be76da80fb329e5690ca4ab20ce071610"
+          },
+          "assetKey": "asset9",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        }
+      ],
+      "defaultSelectedId": "users",
+      "css": {
+        "width": "322px",
+        "height": "942px",
+        "background": "var(--figma-color-dark-theme-background-dark-page-bcg)",
+        "nav-x": "32px",
+        "nav-y": "156px",
+        "nav-width": "258px",
+        "nav-gap": "0px",
+        "title-x": "32px",
+        "title-y": "28px",
+        "footer-x": "36px",
+        "footer-bottom": "45px",
+        "footer-height": "40px",
+        "divider-width": "1px"
+      },
+      "sourceNavHeight": 460,
+      "derivedNavHeight": 506,
+      "footerNodeId": "575:21907"
+    },
+    {
+      "theme": "dark",
+      "layout": "compact",
+      "nodeId": "2938:65839",
+      "productName": "Secret Disk",
+      "backdropKey": "asset42",
+      "backdropWidth": 121,
+      "backdropHeight": 942,
+      "titleAsset": {
+        "key": "asset43",
+        "width": 75,
+        "height": 17,
+        "sourceNodeId": "2938:65840"
+      },
+      "footerAsset": {
+        "key": "asset44",
+        "width": 53.9999885559082,
+        "height": 40,
+        "sourceNodeId": "2938:65841"
+      },
+      "dividerAsset": {
+        "key": "asset45",
+        "width": 1,
+        "height": 942,
+        "sourceNodeId": "2938:65863"
+      },
+      "items": [
+        {
+          "id": "home",
+          "label": "Главная",
+          "sourceNodeId": "2938:65854",
+          "labelNodeId": "I2938:65854;538:14110",
+          "sourceText": "Главная",
+          "iconNodeId": "I2938:65854;9440:125700",
+          "iconMainComponent": {
+            "id": "9440:133648",
+            "name": "icon 24/dashboard",
+            "key": "42f1a0d3fff4ea94058bf38f387b69a8d3749709"
+          },
+          "assetKey": "asset10",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "users",
+          "label": "Пользователи",
+          "sourceNodeId": "2938:65855",
+          "labelNodeId": "I2938:65855;538:14103",
+          "sourceText": "Пользователи",
+          "iconNodeId": "I2938:65855;538:14102",
+          "iconMainComponent": {
+            "id": "222:4356",
+            "name": "person_black_24dp (2) 1",
+            "key": "508e951fd177daf5c7489f9988c414455dc4951c"
+          },
+          "assetKey": "asset11",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "active",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "resources",
+          "label": "Ресурсы",
+          "sourceNodeId": "2938:65856",
+          "labelNodeId": "I2938:65856;538:14110",
+          "sourceText": "Ресурсы",
+          "iconNodeId": "I2938:65856;9440:125700",
+          "iconMainComponent": {
+            "id": "9440:133849",
+            "name": "icon 24/resourses",
+            "key": "dde1013876e828fade87737d9aa023fcae2952d0"
+          },
+          "assetKey": "asset12",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "templates",
+          "label": "Шаблоны",
+          "sourceNodeId": "2938:65857",
+          "labelNodeId": "I2938:65857;538:14110",
+          "sourceText": "Ресурсы",
+          "iconNodeId": "I2938:65857;9440:125700",
+          "iconMainComponent": {
+            "id": "2983:63740",
+            "name": "icon 24/templ",
+            "key": "c46aa161640c34834750f98d43ff42caba45d3b2"
+          },
+          "assetKey": "asset13",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "workstations",
+          "label": "Рабочие станции",
+          "sourceNodeId": "2938:65858",
+          "labelNodeId": "I2938:65858;538:14110",
+          "sourceText": "Рабочие станции",
+          "iconNodeId": "I2938:65858;9440:125700",
+          "iconMainComponent": {
+            "id": "1368:68369",
+            "name": "icon 24/desktop",
+            "key": "ce40aa1b1510547822e730d99a102f447175887e"
+          },
+          "assetKey": "asset14",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "servers",
+          "label": "Серверы",
+          "sourceNodeId": "13838:57441",
+          "labelNodeId": "I13838:57441;538:14110",
+          "sourceText": "Рабочие станции",
+          "iconNodeId": "I13838:57441;9440:125700",
+          "iconMainComponent": {
+            "id": "13838:57229",
+            "name": "icon 24/server",
+            "key": "45314c54967be89ee4be32509cc0dc3e0ff929ab"
+          },
+          "assetKey": "asset15",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "administration",
+          "label": "Администрирование",
+          "sourceNodeId": "2938:65859",
+          "labelNodeId": "I2938:65859;538:14110",
+          "sourceText": "ККП",
+          "iconNodeId": "I2938:65859;9440:125700",
+          "iconMainComponent": {
+            "id": "11384:54227",
+            "name": "icon 24/browse activity",
+            "key": "558abba6df9839680c0e45d6051940b6d42a3ff9"
+          },
+          "assetKey": "asset16",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "licensing",
+          "label": "Лицензирование",
+          "sourceNodeId": "2938:65860",
+          "labelNodeId": "I2938:65860;538:14110",
+          "sourceText": "Администрирование",
+          "iconNodeId": "I2938:65860;9440:125700",
+          "iconMainComponent": {
+            "id": "12369:38002",
+            "name": "icon 24/license",
+            "key": "ae532ee2169a9a16f6a983a7590eaadeb5a88299"
+          },
+          "assetKey": "asset17",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "kkp",
+          "label": "ККП",
+          "sourceNodeId": "4384:89135",
+          "labelNodeId": "I4384:89135;538:14110",
+          "sourceText": "Администрирование",
+          "iconNodeId": "I4384:89135;9440:125700",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset35",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "derived",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "journal",
+          "label": "Журнал",
+          "sourceNodeId": "2938:72171",
+          "labelNodeId": "I2938:72171;538:14110",
+          "sourceText": "Информация",
+          "iconNodeId": "I2938:72171;9440:125700",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset18",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "information",
+          "label": "Информация",
+          "sourceNodeId": "9441:49220",
+          "labelNodeId": "I9441:49220;538:14110",
+          "sourceText": "Информация",
+          "iconNodeId": "I9441:49220;9440:125700",
+          "iconMainComponent": {
+            "id": "2938:72088",
+            "name": "icon 18/info_fill",
+            "key": "18ed505be76da80fb329e5690ca4ab20ce071610"
+          },
+          "assetKey": "asset19",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        }
+      ],
+      "defaultSelectedId": "users",
+      "css": {
+        "width": "120px",
+        "height": "942px",
+        "background": "var(--figma-color-dark-theme-background-dark-page-bcg)",
+        "nav-x": "32px",
+        "nav-y": "156px",
+        "nav-width": "56px",
+        "nav-gap": "0px",
+        "title-x": "32px",
+        "title-y": "28px",
+        "footer-x": "36px",
+        "footer-bottom": "45px",
+        "footer-height": "40px",
+        "divider-width": "1px"
+      },
+      "sourceNavHeight": 460,
+      "derivedNavHeight": 506,
+      "footerNodeId": "2938:65841"
+    },
+    {
+      "theme": "light",
+      "layout": "expanded",
+      "nodeId": "4384:89089",
+      "productName": "Secret Disk",
+      "backdropKey": "asset46",
+      "backdropWidth": 323,
+      "backdropHeight": 942,
+      "titleAsset": {
+        "key": "asset47",
+        "width": 121,
+        "height": 28,
+        "sourceNodeId": "4384:89090"
+      },
+      "footerAsset": {
+        "key": "asset48",
+        "width": 53.9999885559082,
+        "height": 40,
+        "sourceNodeId": "4384:89091"
+      },
+      "dividerAsset": {
+        "key": "asset49",
+        "width": 1,
+        "height": 942,
+        "sourceNodeId": "4384:89113"
+      },
+      "items": [
+        {
+          "id": "home",
+          "label": "Главная",
+          "sourceNodeId": "4384:89104",
+          "labelNodeId": "I4384:89104;4384:91578",
+          "sourceText": "Главная",
+          "iconNodeId": "I4384:89104;9441:49409",
+          "iconMainComponent": {
+            "id": "9440:133648",
+            "name": "icon 24/dashboard",
+            "key": "42f1a0d3fff4ea94058bf38f387b69a8d3749709"
+          },
+          "assetKey": "asset20",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "users",
+          "label": "Пользователи",
+          "sourceNodeId": "4384:89105",
+          "labelNodeId": "I4384:89105;4384:91440",
+          "sourceText": "Пользователи",
+          "iconNodeId": "I4384:89105;4384:91439",
+          "iconMainComponent": {
+            "id": "222:4356",
+            "name": "person_black_24dp (2) 1",
+            "key": "508e951fd177daf5c7489f9988c414455dc4951c"
+          },
+          "assetKey": "asset21",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "active",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "resources",
+          "label": "Ресурсы",
+          "sourceNodeId": "4384:89106",
+          "labelNodeId": "I4384:89106;4384:91578",
+          "sourceText": "Ресурсы",
+          "iconNodeId": "I4384:89106;9441:49409",
+          "iconMainComponent": {
+            "id": "9440:133849",
+            "name": "icon 24/resourses",
+            "key": "dde1013876e828fade87737d9aa023fcae2952d0"
+          },
+          "assetKey": "asset22",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "templates",
+          "label": "Шаблоны",
+          "sourceNodeId": "4384:89107",
+          "labelNodeId": "I4384:89107;4384:91578",
+          "sourceText": "Шаблоны",
+          "iconNodeId": "I4384:89107;9441:49409",
+          "iconMainComponent": {
+            "id": "2983:63740",
+            "name": "icon 24/templ",
+            "key": "c46aa161640c34834750f98d43ff42caba45d3b2"
+          },
+          "assetKey": "asset23",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "workstations",
+          "label": "Рабочие станции",
+          "sourceNodeId": "4384:89108",
+          "labelNodeId": "I4384:89108;4384:91578",
+          "sourceText": "Рабочие станции",
+          "iconNodeId": "I4384:89108;9441:49409",
+          "iconMainComponent": {
+            "id": "1368:68369",
+            "name": "icon 24/desktop",
+            "key": "ce40aa1b1510547822e730d99a102f447175887e"
+          },
+          "assetKey": "asset24",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "servers",
+          "label": "Серверы",
+          "sourceNodeId": "13838:42466",
+          "labelNodeId": "I13838:42466;538:14110",
+          "sourceText": "Серверы",
+          "iconNodeId": "I13838:42466;9440:125700",
+          "iconMainComponent": {
+            "id": "13838:57229",
+            "name": "icon 24/server",
+            "key": "45314c54967be89ee4be32509cc0dc3e0ff929ab"
+          },
+          "assetKey": "asset5",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "derived",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "administration",
+          "label": "Администрирование",
+          "sourceNodeId": "4384:89110",
+          "labelNodeId": "I4384:89110;4384:91578",
+          "sourceText": "Администрирование",
+          "iconNodeId": "I4384:89110;9441:49409",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset25",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "licensing",
+          "label": "Лицензирование",
+          "sourceNodeId": "1368:75310",
+          "labelNodeId": "I1368:75310;538:14110",
+          "sourceText": "Лицензирование",
+          "iconNodeId": "I1368:75310;9440:125700",
+          "iconMainComponent": {
+            "id": "12369:38002",
+            "name": "icon 24/license",
+            "key": "ae532ee2169a9a16f6a983a7590eaadeb5a88299"
+          },
+          "assetKey": "asset7",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "derived",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "kkp",
+          "label": "ККП",
+          "sourceNodeId": "4384:89109",
+          "labelNodeId": "I4384:89109;4384:91578",
+          "sourceText": "ККП",
+          "iconNodeId": "I4384:89109;9441:49409",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset26",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "journal",
+          "label": "Журнал",
+          "sourceNodeId": "4384:89111",
+          "labelNodeId": "I4384:89111;4384:91578",
+          "sourceText": "Журнал",
+          "iconNodeId": "I4384:89111;9441:49409",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset27",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "information",
+          "label": "Информация",
+          "sourceNodeId": "4384:89112",
+          "labelNodeId": "I4384:89112;4384:91578",
+          "sourceText": "Информация",
+          "iconNodeId": "I4384:89112;9441:49409",
+          "iconMainComponent": {
+            "id": "2938:72088",
+            "name": "icon 18/info_fill",
+            "key": "18ed505be76da80fb329e5690ca4ab20ce071610"
+          },
+          "assetKey": "asset28",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        }
+      ],
+      "defaultSelectedId": "users",
+      "css": {
+        "width": "322px",
+        "height": "942px",
+        "background": "var(--figma-color-light-theme-background-light-page-bcg)",
+        "nav-x": "32px",
+        "nav-y": "156px",
+        "nav-width": "258px",
+        "nav-gap": "0px",
+        "title-x": "32px",
+        "title-y": "28px",
+        "footer-x": "32px",
+        "footer-bottom": "44px",
+        "footer-height": "40px",
+        "divider-width": "1px"
+      },
+      "sourceNavHeight": 414,
+      "derivedNavHeight": 506,
+      "footerNodeId": "4384:89091"
+    },
+    {
+      "theme": "light",
+      "layout": "compact",
+      "nodeId": "4384:89114",
+      "productName": "Secret Disk",
+      "backdropKey": "asset50",
+      "backdropWidth": 121,
+      "backdropHeight": 942,
+      "titleAsset": {
+        "key": "asset51",
+        "width": 75,
+        "height": 17,
+        "sourceNodeId": "4384:89115"
+      },
+      "footerAsset": {
+        "key": "asset52",
+        "width": 53.9999885559082,
+        "height": 40,
+        "sourceNodeId": "4384:89116"
+      },
+      "dividerAsset": {
+        "key": "asset53",
+        "width": 1,
+        "height": 942,
+        "sourceNodeId": "4384:89137"
+      },
+      "items": [
+        {
+          "id": "home",
+          "label": "Главная",
+          "sourceNodeId": "4384:89129",
+          "labelNodeId": "I4384:89129;538:14110",
+          "sourceText": "Главная",
+          "iconNodeId": "I4384:89129;9440:125700",
+          "iconMainComponent": {
+            "id": "9440:133648",
+            "name": "icon 24/dashboard",
+            "key": "42f1a0d3fff4ea94058bf38f387b69a8d3749709"
+          },
+          "assetKey": "asset29",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "users",
+          "label": "Пользователи",
+          "sourceNodeId": "4384:89130",
+          "labelNodeId": "I4384:89130;4384:91440",
+          "sourceText": "Пользователи",
+          "iconNodeId": "I4384:89130;4384:91439",
+          "iconMainComponent": {
+            "id": "222:4356",
+            "name": "person_black_24dp (2) 1",
+            "key": "508e951fd177daf5c7489f9988c414455dc4951c"
+          },
+          "assetKey": "asset30",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "active",
+          "sourceTheme": "light",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": false,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "resources",
+          "label": "Ресурсы",
+          "sourceNodeId": "4384:89131",
+          "labelNodeId": "I4384:89131;538:14110",
+          "sourceText": "Ресурсы",
+          "iconNodeId": "I4384:89131;9440:125700",
+          "iconMainComponent": {
+            "id": "9440:133849",
+            "name": "icon 24/resourses",
+            "key": "dde1013876e828fade87737d9aa023fcae2952d0"
+          },
+          "assetKey": "asset31",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "templates",
+          "label": "Шаблоны",
+          "sourceNodeId": "4384:89132",
+          "labelNodeId": "I4384:89132;538:14110",
+          "sourceText": "Ресурсы",
+          "iconNodeId": "I4384:89132;9440:125700",
+          "iconMainComponent": {
+            "id": "2983:63740",
+            "name": "icon 24/templ",
+            "key": "c46aa161640c34834750f98d43ff42caba45d3b2"
+          },
+          "assetKey": "asset32",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "workstations",
+          "label": "Рабочие станции",
+          "sourceNodeId": "4384:89133",
+          "labelNodeId": "I4384:89133;538:14110",
+          "sourceText": "Рабочие станции",
+          "iconNodeId": "I4384:89133;9440:125700",
+          "iconMainComponent": {
+            "id": "1368:68369",
+            "name": "icon 24/desktop",
+            "key": "ce40aa1b1510547822e730d99a102f447175887e"
+          },
+          "assetKey": "asset33",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "figma"
+        },
+        {
+          "id": "servers",
+          "label": "Серверы",
+          "sourceNodeId": "13838:57441",
+          "labelNodeId": "I13838:57441;538:14110",
+          "sourceText": "Рабочие станции",
+          "iconNodeId": "I13838:57441;9440:125700",
+          "iconMainComponent": {
+            "id": "13838:57229",
+            "name": "icon 24/server",
+            "key": "45314c54967be89ee4be32509cc0dc3e0ff929ab"
+          },
+          "assetKey": "asset15",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "derived",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "administration",
+          "label": "Администрирование",
+          "sourceNodeId": "4384:89134",
+          "labelNodeId": "I4384:89134;538:14110",
+          "sourceText": "ККП",
+          "iconNodeId": "I4384:89134;9440:125700",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset34",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "licensing",
+          "label": "Лицензирование",
+          "sourceNodeId": "2938:65860",
+          "labelNodeId": "I2938:65860;538:14110",
+          "sourceText": "Администрирование",
+          "iconNodeId": "I2938:65860;9440:125700",
+          "iconMainComponent": {
+            "id": "12369:38002",
+            "name": "icon 24/license",
+            "key": "ae532ee2169a9a16f6a983a7590eaadeb5a88299"
+          },
+          "assetKey": "asset17",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "derived",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "kkp",
+          "label": "ККП",
+          "sourceNodeId": "4384:89135",
+          "labelNodeId": "I4384:89135;538:14110",
+          "sourceText": "Администрирование",
+          "iconNodeId": "I4384:89135;9440:125700",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset35",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "journal",
+          "label": "Журнал",
+          "sourceNodeId": "4384:89136",
+          "labelNodeId": "I4384:89136;538:14110",
+          "sourceText": "Информация",
+          "iconNodeId": "I4384:89136;9440:125700",
+          "iconMainComponent": {
+            "id": "9441:37319",
+            "name": "icon 24/construction",
+            "key": "ae0a4efa1ff472452290c5e7473070aed84751cc"
+          },
+          "assetKey": "asset36",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "derived/expanded-label"
+        },
+        {
+          "id": "information",
+          "label": "Информация",
+          "sourceNodeId": "9441:50324",
+          "labelNodeId": "I9441:50324;538:14110",
+          "sourceText": "Информация",
+          "iconNodeId": "I9441:50324;9440:125700",
+          "iconMainComponent": {
+            "id": "2938:72088",
+            "name": "icon 18/info_fill",
+            "key": "18ed505be76da80fb329e5690ca4ab20ce071610"
+          },
+          "assetKey": "asset37",
+          "iconWidth": 24,
+          "iconHeight": 24,
+          "sourceState": "default",
+          "sourceTheme": "dark",
+          "origin": "figma",
+          "positionOrigin": "derived/theme-symmetry",
+          "appearanceSource": "MenuButton",
+          "badgeSource": "Badge",
+          "themeAdapted": true,
+          "accessibleLabelOrigin": "figma"
+        }
+      ],
+      "defaultSelectedId": "users",
+      "css": {
+        "width": "120px",
+        "height": "942px",
+        "background": "var(--figma-color-light-theme-background-light-page-bcg)",
+        "nav-x": "32px",
+        "nav-y": "156px",
+        "nav-width": "56px",
+        "nav-gap": "0px",
+        "title-x": "32px",
+        "title-y": "28px",
+        "footer-x": "32px",
+        "footer-bottom": "44px",
+        "footer-height": "40px",
+        "divider-width": "1px"
+      },
+      "sourceNavHeight": 414,
+      "derivedNavHeight": 506,
+      "footerNodeId": "4384:89116"
+    }
+  ],
+  "aliases": [
+    {
+      "nodeId": "643:17452",
+      "styleId": "S:072f398aae5c28f171179af67706c9854b0ff537,",
+      "cssVariable": "--figma-color-dark-theme-background-dark-page-bcg"
+    },
+    {
+      "nodeId": "2938:65839",
+      "styleId": "S:072f398aae5c28f171179af67706c9854b0ff537,",
+      "cssVariable": "--figma-color-dark-theme-background-dark-page-bcg"
+    },
+    {
+      "nodeId": "4384:89089",
+      "styleId": "S:21b039d4a7782e88e5b977f95686cf55b42137f2,",
+      "cssVariable": "--figma-color-light-theme-background-light-page-bcg"
+    },
+    {
+      "nodeId": "4384:89114",
+      "styleId": "S:21b039d4a7782e88e5b977f95686cf55b42137f2,",
+      "cssVariable": "--figma-color-light-theme-background-light-page-bcg"
+    }
+  ],
+  "assets": [
+    {
+      "key": "asset0",
+      "file": "icon-I1517-42509-9440-125700.svg",
+      "sourceNodeId": "I1517:42509;9440:125700",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "0d3d6d415fc6d8425d6faf19dbbe56dc775329a3cd350f4353aba925c296a2b1",
+      "derived": false
+    },
+    {
+      "key": "asset1",
+      "file": "icon-I575-21921-538-14102.svg",
+      "sourceNodeId": "I575:21921;538:14102",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "90f7fbb81414c4a3c96bc4640c1cde35b5c68c22fcdd7f8647fd8d251727522f",
+      "derived": false
+    },
+    {
+      "key": "asset2",
+      "file": "icon-I1363-63706-9440-125700.svg",
+      "sourceNodeId": "I1363:63706;9440:125700",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "9ddadc3575dd51677e8e277537125f9367fe2f832b045a02a40d9fd98a3d4ea0",
+      "derived": false
+    },
+    {
+      "key": "asset3",
+      "file": "icon-I1363-54585-9440-125700.svg",
+      "sourceNodeId": "I1363:54585;9440:125700",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "1640e7a69a3b2b1b768e4b02f5c89d7356731dcd3be7373d43b2ce9b7a93ba37",
+      "derived": false
+    },
+    {
+      "key": "asset4",
+      "file": "icon-I1368-70229-9440-125700.svg",
+      "sourceNodeId": "I1368:70229;9440:125700",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "20f1ff3d7b16a036e5a46ac151d989a38eed97a6519ab6f41c29c3dd1236c05f",
+      "derived": false
+    },
+    {
+      "key": "asset5",
+      "file": "icon-I13838-42466-9440-125700.svg",
+      "sourceNodeId": "I13838:42466;9440:125700",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "6107e52460a858139e511d7675245c2a303585a07dba7e3aa918267477cf191b",
+      "derived": false
+    },
+    {
+      "key": "asset6",
+      "file": "icon-I1447-40157-9440-125700.svg",
+      "sourceNodeId": "I1447:40157;9440:125700",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "0ba9ebdae9c6f05e0dd62417055c043ebc495d9ea06747a407b908c605d83847",
+      "derived": false
+    },
+    {
+      "key": "asset7",
+      "file": "icon-I1368-75310-9440-125700.svg",
+      "sourceNodeId": "I1368:75310;9440:125700",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "dd1663ce421e1dad5fbbcf9594f263c51d3a512e3fb2e56d04b8d8efdc6e42b2",
+      "derived": false
+    },
+    {
+      "key": "asset8",
+      "file": "icon-I1368-80304-9440-125700.svg",
+      "sourceNodeId": "I1368:80304;9440:125700",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "ae61bc282dfb1493576140117f2c1bc6832619dce04a4e8fb8fc0c4e97b6aff4",
+      "derived": false
+    },
+    {
+      "key": "asset9",
+      "file": "icon-I2938-65939-9440-125700.svg",
+      "sourceNodeId": "I2938:65939;9440:125700",
+      "variantNodeId": "643:17452",
+      "kind": "icon",
+      "sha256": "05343048859edc74fa69346fb707eddf4c071ad5e6206182db27761ca4a42da3",
+      "derived": false
+    },
+    {
+      "key": "asset10",
+      "file": "icon-I2938-65854-9440-125700.svg",
+      "sourceNodeId": "I2938:65854;9440:125700",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "0d3d6d415fc6d8425d6faf19dbbe56dc775329a3cd350f4353aba925c296a2b1",
+      "derived": false
+    },
+    {
+      "key": "asset11",
+      "file": "icon-I2938-65855-538-14102.svg",
+      "sourceNodeId": "I2938:65855;538:14102",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "6e635dbebab8bb2f21a12538a29108684662b2514ae0e92d1c9aac312f483841",
+      "derived": false
+    },
+    {
+      "key": "asset12",
+      "file": "icon-I2938-65856-9440-125700.svg",
+      "sourceNodeId": "I2938:65856;9440:125700",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "9ddadc3575dd51677e8e277537125f9367fe2f832b045a02a40d9fd98a3d4ea0",
+      "derived": false
+    },
+    {
+      "key": "asset13",
+      "file": "icon-I2938-65857-9440-125700.svg",
+      "sourceNodeId": "I2938:65857;9440:125700",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "1640e7a69a3b2b1b768e4b02f5c89d7356731dcd3be7373d43b2ce9b7a93ba37",
+      "derived": false
+    },
+    {
+      "key": "asset14",
+      "file": "icon-I2938-65858-9440-125700.svg",
+      "sourceNodeId": "I2938:65858;9440:125700",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "20f1ff3d7b16a036e5a46ac151d989a38eed97a6519ab6f41c29c3dd1236c05f",
+      "derived": false
+    },
+    {
+      "key": "asset15",
+      "file": "icon-I13838-57441-9440-125700.svg",
+      "sourceNodeId": "I13838:57441;9440:125700",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "6107e52460a858139e511d7675245c2a303585a07dba7e3aa918267477cf191b",
+      "derived": false
+    },
+    {
+      "key": "asset16",
+      "file": "icon-I2938-65859-9440-125700.svg",
+      "sourceNodeId": "I2938:65859;9440:125700",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "0ba9ebdae9c6f05e0dd62417055c043ebc495d9ea06747a407b908c605d83847",
+      "derived": false
+    },
+    {
+      "key": "asset17",
+      "file": "icon-I2938-65860-9440-125700.svg",
+      "sourceNodeId": "I2938:65860;9440:125700",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "dd1663ce421e1dad5fbbcf9594f263c51d3a512e3fb2e56d04b8d8efdc6e42b2",
+      "derived": false
+    },
+    {
+      "key": "asset18",
+      "file": "icon-I2938-72171-9440-125700.svg",
+      "sourceNodeId": "I2938:72171;9440:125700",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "cdd453f7d7940537e169ee32439268af07ecd1de753f2d2efda0daf147d20b8d",
+      "derived": false
+    },
+    {
+      "key": "asset19",
+      "file": "icon-I9441-49220-9440-125700.svg",
+      "sourceNodeId": "I9441:49220;9440:125700",
+      "variantNodeId": "2938:65839",
+      "kind": "icon",
+      "sha256": "05343048859edc74fa69346fb707eddf4c071ad5e6206182db27761ca4a42da3",
+      "derived": false
+    },
+    {
+      "key": "asset20",
+      "file": "icon-I4384-89104-9441-49409.svg",
+      "sourceNodeId": "I4384:89104;9441:49409",
+      "variantNodeId": "4384:89089",
+      "kind": "icon",
+      "sha256": "7259c32b87ba31e0e70d17349684436e551cb7f524b8ad504df1715ad3d3a691",
+      "derived": false
+    },
+    {
+      "key": "asset21",
+      "file": "icon-I4384-89105-4384-91439.svg",
+      "sourceNodeId": "I4384:89105;4384:91439",
+      "variantNodeId": "4384:89089",
+      "kind": "icon",
+      "sha256": "241d8e78ebbb1c3dc0831e89b40df876b69b58a460c3826d281dcaf4afaa72f7",
+      "derived": false
+    },
+    {
+      "key": "asset22",
+      "file": "icon-I4384-89106-9441-49409.svg",
+      "sourceNodeId": "I4384:89106;9441:49409",
+      "variantNodeId": "4384:89089",
+      "kind": "icon",
+      "sha256": "3be879fa2128e792d9aab2c789db16b59521ab8c9762351a76104419d882995b",
+      "derived": false
+    },
+    {
+      "key": "asset23",
+      "file": "icon-I4384-89107-9441-49409.svg",
+      "sourceNodeId": "I4384:89107;9441:49409",
+      "variantNodeId": "4384:89089",
+      "kind": "icon",
+      "sha256": "fba3e6b556fc02b82d3fa33133c718669bc1987bbb39a650ea59cfa91af40dfb",
+      "derived": false
+    },
+    {
+      "key": "asset24",
+      "file": "icon-I4384-89108-9441-49409.svg",
+      "sourceNodeId": "I4384:89108;9441:49409",
+      "variantNodeId": "4384:89089",
+      "kind": "icon",
+      "sha256": "745baba5848fce090ee9e5d7b2f44bdb726201f3790a2a5e2582bfa614bbe4f2",
+      "derived": false
+    },
+    {
+      "key": "asset25",
+      "file": "icon-I4384-89110-9441-49409.svg",
+      "sourceNodeId": "I4384:89110;9441:49409",
+      "variantNodeId": "4384:89089",
+      "kind": "icon",
+      "sha256": "349d577e1a76e16b9139316654164d0c794e8ec6597429a615fbd67ea24e8182",
+      "derived": false
+    },
+    {
+      "key": "asset26",
+      "file": "icon-I4384-89109-9441-49409.svg",
+      "sourceNodeId": "I4384:89109;9441:49409",
+      "variantNodeId": "4384:89089",
+      "kind": "icon",
+      "sha256": "349d577e1a76e16b9139316654164d0c794e8ec6597429a615fbd67ea24e8182",
+      "derived": false
+    },
+    {
+      "key": "asset27",
+      "file": "icon-I4384-89111-9441-49409.svg",
+      "sourceNodeId": "I4384:89111;9441:49409",
+      "variantNodeId": "4384:89089",
+      "kind": "icon",
+      "sha256": "349d577e1a76e16b9139316654164d0c794e8ec6597429a615fbd67ea24e8182",
+      "derived": false
+    },
+    {
+      "key": "asset28",
+      "file": "icon-I4384-89112-9441-49409.svg",
+      "sourceNodeId": "I4384:89112;9441:49409",
+      "variantNodeId": "4384:89089",
+      "kind": "icon",
+      "sha256": "4d5abf700409a3726aefc58ed6b86d704d7490b363e14d311665f990e908befe",
+      "derived": false
+    },
+    {
+      "key": "asset29",
+      "file": "icon-I4384-89129-9440-125700.svg",
+      "sourceNodeId": "I4384:89129;9440:125700",
+      "variantNodeId": "4384:89114",
+      "kind": "icon",
+      "sha256": "7259c32b87ba31e0e70d17349684436e551cb7f524b8ad504df1715ad3d3a691",
+      "derived": false
+    },
+    {
+      "key": "asset30",
+      "file": "icon-I4384-89130-4384-91439.svg",
+      "sourceNodeId": "I4384:89130;4384:91439",
+      "variantNodeId": "4384:89114",
+      "kind": "icon",
+      "sha256": "241d8e78ebbb1c3dc0831e89b40df876b69b58a460c3826d281dcaf4afaa72f7",
+      "derived": false
+    },
+    {
+      "key": "asset31",
+      "file": "icon-I4384-89131-9440-125700.svg",
+      "sourceNodeId": "I4384:89131;9440:125700",
+      "variantNodeId": "4384:89114",
+      "kind": "icon",
+      "sha256": "3be879fa2128e792d9aab2c789db16b59521ab8c9762351a76104419d882995b",
+      "derived": false
+    },
+    {
+      "key": "asset32",
+      "file": "icon-I4384-89132-9440-125700.svg",
+      "sourceNodeId": "I4384:89132;9440:125700",
+      "variantNodeId": "4384:89114",
+      "kind": "icon",
+      "sha256": "fba3e6b556fc02b82d3fa33133c718669bc1987bbb39a650ea59cfa91af40dfb",
+      "derived": false
+    },
+    {
+      "key": "asset33",
+      "file": "icon-I4384-89133-9440-125700.svg",
+      "sourceNodeId": "I4384:89133;9440:125700",
+      "variantNodeId": "4384:89114",
+      "kind": "icon",
+      "sha256": "745baba5848fce090ee9e5d7b2f44bdb726201f3790a2a5e2582bfa614bbe4f2",
+      "derived": false
+    },
+    {
+      "key": "asset34",
+      "file": "icon-I4384-89134-9440-125700.svg",
+      "sourceNodeId": "I4384:89134;9440:125700",
+      "variantNodeId": "4384:89114",
+      "kind": "icon",
+      "sha256": "349d577e1a76e16b9139316654164d0c794e8ec6597429a615fbd67ea24e8182",
+      "derived": false
+    },
+    {
+      "key": "asset35",
+      "file": "icon-I4384-89135-9440-125700.svg",
+      "sourceNodeId": "I4384:89135;9440:125700",
+      "variantNodeId": "4384:89114",
+      "kind": "icon",
+      "sha256": "349d577e1a76e16b9139316654164d0c794e8ec6597429a615fbd67ea24e8182",
+      "derived": false
+    },
+    {
+      "key": "asset36",
+      "file": "icon-I4384-89136-9440-125700.svg",
+      "sourceNodeId": "I4384:89136;9440:125700",
+      "variantNodeId": "4384:89114",
+      "kind": "icon",
+      "sha256": "349d577e1a76e16b9139316654164d0c794e8ec6597429a615fbd67ea24e8182",
+      "derived": false
+    },
+    {
+      "key": "asset37",
+      "file": "icon-I9441-50324-9440-125700.svg",
+      "sourceNodeId": "I9441:50324;9440:125700",
+      "variantNodeId": "4384:89114",
+      "kind": "icon",
+      "sha256": "4d5abf700409a3726aefc58ed6b86d704d7490b363e14d311665f990e908befe",
+      "derived": false
+    },
+    {
+      "key": "asset38",
+      "file": "shell-dark-expanded.svg",
+      "sourceNodeId": "643:17452",
+      "variantNodeId": "643:17452",
+      "kind": "shell",
+      "sha256": "03d152ae19b60c89232f2a1f6b2af766051b3a48142b03cdfb8a38cd832ed8cd",
+      "derived": true
+    },
+    {
+      "key": "asset39",
+      "file": "title-dark-expanded.svg",
+      "sourceNodeId": "575:21906",
+      "variantNodeId": "643:17452",
+      "kind": "title",
+      "sha256": "590f0a2583ca3d5699f3dae7ba94f2eae41404b56e6e37bc099d50806802a4ae",
+      "derived": true
+    },
+    {
+      "key": "asset40",
+      "file": "footer-dark-expanded.svg",
+      "sourceNodeId": "575:21907",
+      "variantNodeId": "643:17452",
+      "kind": "footer",
+      "sha256": "1a7dd19e8c5ca53bd35a2f20bf5927c40b663456d3f5985e929b7f74e839e7f8",
+      "derived": true
+    },
+    {
+      "key": "asset41",
+      "file": "divider-dark-expanded.svg",
+      "sourceNodeId": "575:21928",
+      "variantNodeId": "643:17452",
+      "kind": "divider",
+      "sha256": "8e42f240ead219ff953bd97a0cb8b9bea7424725a448c792cc0febb354bea38e",
+      "derived": true
+    },
+    {
+      "key": "asset42",
+      "file": "shell-dark-compact.svg",
+      "sourceNodeId": "2938:65839",
+      "variantNodeId": "2938:65839",
+      "kind": "shell",
+      "sha256": "243d0f049b38591e832b62766dc39743e6dfb0dcf275d6bd8e1cf7d940fa6980",
+      "derived": true
+    },
+    {
+      "key": "asset43",
+      "file": "title-dark-compact.svg",
+      "sourceNodeId": "2938:65840",
+      "variantNodeId": "2938:65839",
+      "kind": "title",
+      "sha256": "e69c866da2b0180b6ea1a33c578ec52b63e9058957dfab3fd8c39d0ccfea11fd",
+      "derived": true
+    },
+    {
+      "key": "asset44",
+      "file": "footer-dark-compact.svg",
+      "sourceNodeId": "2938:65841",
+      "variantNodeId": "2938:65839",
+      "kind": "footer",
+      "sha256": "a281a37e899e3e136491f96443543d994d37cb63e8c0c30ff9e1c88075fa1e8d",
+      "derived": true
+    },
+    {
+      "key": "asset45",
+      "file": "divider-dark-compact.svg",
+      "sourceNodeId": "2938:65863",
+      "variantNodeId": "2938:65839",
+      "kind": "divider",
+      "sha256": "62927a21ad3b730b75c356b975548d9c3495e7cb9767574425a4cac5e39b8136",
+      "derived": true
+    },
+    {
+      "key": "asset46",
+      "file": "shell-light-expanded.svg",
+      "sourceNodeId": "4384:89089",
+      "variantNodeId": "4384:89089",
+      "kind": "shell",
+      "sha256": "c959bc22c7fd61dabec15befe6d31db54a428158d9c998964be4629f0332d148",
+      "derived": true
+    },
+    {
+      "key": "asset47",
+      "file": "title-light-expanded.svg",
+      "sourceNodeId": "4384:89090",
+      "variantNodeId": "4384:89089",
+      "kind": "title",
+      "sha256": "c5c63ef6e3b266bbc9875a07701d1c5622f774a82aebf1fc57567d8d2aa3b3da",
+      "derived": true
+    },
+    {
+      "key": "asset48",
+      "file": "footer-light-expanded.svg",
+      "sourceNodeId": "4384:89091",
+      "variantNodeId": "4384:89089",
+      "kind": "footer",
+      "sha256": "6446dcbc3386b4efab0cd249c4a101640ec7985fa4453569705673edcf5a9835",
+      "derived": true
+    },
+    {
+      "key": "asset49",
+      "file": "divider-light-expanded.svg",
+      "sourceNodeId": "4384:89113",
+      "variantNodeId": "4384:89089",
+      "kind": "divider",
+      "sha256": "95c738ca200e411da16171cac2c32dbfeaedfab0e6387fcc03c304a2382937f9",
+      "derived": true
+    },
+    {
+      "key": "asset50",
+      "file": "shell-light-compact.svg",
+      "sourceNodeId": "4384:89114",
+      "variantNodeId": "4384:89114",
+      "kind": "shell",
+      "sha256": "f7dd12513e4d6f0ed949608bf5fe06e7176de5f4548e6fba8db2bd46725e3990",
+      "derived": true
+    },
+    {
+      "key": "asset51",
+      "file": "title-light-compact.svg",
+      "sourceNodeId": "4384:89115",
+      "variantNodeId": "4384:89114",
+      "kind": "title",
+      "sha256": "09716baa7f56f48595b466f1bbd92b656ac0283bff127a7377bba1aa44185fcd",
+      "derived": true
+    },
+    {
+      "key": "asset52",
+      "file": "footer-light-compact.svg",
+      "sourceNodeId": "4384:89116",
+      "variantNodeId": "4384:89114",
+      "kind": "footer",
+      "sha256": "47836f176169117fcf23732fb201a07e2fb3be7117019ca30e7ef8627f11c58c",
+      "derived": true
+    },
+    {
+      "key": "asset53",
+      "file": "divider-light-compact.svg",
+      "sourceNodeId": "4384:89137",
+      "variantNodeId": "4384:89114",
+      "kind": "divider",
+      "sha256": "8a48ee697f49b7150e253a5dec463305101a90802d07800c123baeb45e316bca",
+      "derived": true
+    }
+  ],
+  "variables": {
+    "referencedIds": []
+  },
+  "decisions": {
+    "composition": [
+      "MenuButton",
+      "Badge"
+    ],
+    "themeSymmetry": "Union of visible expanded menu entries; missing entries use counterpart geometry and existing MenuButton/Badge theme tokens. All raw layouts are retained.",
+    "brand": "Original frame SVG paths preserve PF BeauSans Pro typography without a substitute font.",
+    "selectedState": "Sidebar treats Figma active menu item as current navigation; browser hover/press remain native.",
+    "checks": "Do not run checks until user permits them.",
+    "layoutUpdate": {
+      "origin": "figma",
+      "navigationGap": 0,
+      "sourceNodeIds": [
+        "575:21919",
+        "2938:65853",
+        "4384:89103",
+        "4384:89128"
+      ]
+    }
+  }
+}

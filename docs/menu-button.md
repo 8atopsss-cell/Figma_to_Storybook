@@ -1,0 +1,19 @@
+# MenuButton
+
+Обновление 6 октября 2026: добавлены исходные disable dark 15530:113240 и light 15530:113246. В Controls доступен disable, оба каталога показывают четыре состояния. Dark active icon I538:14102;7055:106063 теперь использует явный style S:f15f65361cd4aa94ab67b197c0cd423f6bfb426b,. Все icon SVG и local styles получены заново. Предыдущий raw сохранён в source/figma/menu-button-export-before-disable.json. Light disable содержит исходный badge wrapper со ссылкой на dark; реализация переиспользует Badge medium нужной темы, исходная ссылка сохранена.
+
+Источник: SD Enterprice / UI kit 933:24166, выбранный COMPONENT_SET 538:14094. Живой полный экспорт 6 октября 2026: source/figma/menu-button-export.json. Все 8 сочетаний state=default/hover/active/disable, theme=light/dark; схема после разрешённого пользователем переименования сохранена вместе с ID, fields, style IDs и definitions.
+
+React + TypeScript + CSS Modules; native button, type=button по умолчанию. API: theme, text, showLabel (Label#2938:0), badge (badge#7049:16), native props/ref. При скрытой подписи aria-label по умолчанию получает текст пункта; пользователь может переопределить его. По прямому запросу пользователя существующий Badge medium компонуется в обеих темах. У light default/hover/active в исходном MenuButton нет badge-слоя: его позиция берётся из dark того же state, отмечена derived. Цвета и геометрия Badge принадлежат существующему компоненту соответствующей темы; light source node не выдумывается.
+
+238×46 с исходным текстом, HUG по содержимому, padding 11/16 px, content gap 12 px, icon wrapper 24×24, radius 3 px. Dark default и disable обеих тем используют Regular 400; остальные состояния — Medium 500. Text style IDs, lineHeight PIXELS и letterSpacing PERCENT сохранены. Цветовые aliases используют только явные свежие Figma style IDs и проверенные локальные style tokens.
+
+Все восемь SVG выгружены из фактических icon instance wrappers; generated assets имеют SHA-256 в menu-buttons.json. Маска сохраняет контур, цвет иконки независим от цвета подписи. Badge импортируется из ../Badge/Badge, variant=medium, theme совпадает с MenuButton. Собственная окружность и state-dependent overrides исключены по решению пользователя: в том числе dark active теперь использует обычную границу общего Badge. Исходные MenuButton paints сохранены в raw; позиция x=33, y=6 взята из dark instance.
+
+В default работают нативные :hover/:active. Для композиции Sidebar добавлены icon?: ReactNode и isSelected?: boolean: исходная иконка остаётся по умолчанию; постоянный текущий пункт использует оформление active. Это поведение реализации Sidebar, не дополнительный Figma state; маршрутизацию задаёт потребитель. В Storybook только Docs / Playground / Light / Dark; source state preview доступен через Controls и data-preview-state, без isHovered/isActive в публичном API. Общая панель темы задаёт theme Playground. Нативное disabled блокирует действие и использует исходный state=disable, с приоритетом над selected и state preview. Дополнительное focus-visible кольцо — решение реализации на базе существующего --focus-accent, не источник Figma.
+
+Mixed strokeWeight у двух active frames остаётся отсутствующим/с предупреждением в raw. Все их strokes явно invisible, поэтому rendered border отсутствует; ширина границы не угадывается. VECTOR warnings закрыты оригинальными SVG. Привязок к variables у набора и descendants нет.
+
+Pipeline: свежий raw → scripts/generate-menu-button-tokens.mjs → src/tokens/menu-buttons.json, src/styles/menu-button-tokens.css и src/assets/menu-buttons/*.svg через npm run tokens. Визуальная приёмка остаётся пользователю; существующий долг контраста других компонентов не закрывается.
+
+Проверки остановлены по запросу пользователя. Тесты подготовлены, но итоговые unit/browser checks, typecheck, lint и сборки не подтверждены для этой версии.
