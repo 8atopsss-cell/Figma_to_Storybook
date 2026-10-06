@@ -4,6 +4,7 @@ import { AddIcon } from '../../assets/AddIcon';
 import { defaults, sizes, variants } from '../../tokens/api';
 
 const meta = {
+  id: 'figma-export-button',
   title: 'Figma export/Button',
   component: Button,
   tags: ['autodocs'],

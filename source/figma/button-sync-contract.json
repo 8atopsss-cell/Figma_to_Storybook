@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "componentId": "button",
+  "excludedVariantProperties": [{ "type": "interactive" }],
+  "agreedDifferences": [
+    { "scope": "light/danger/disable/40", "field": "height", "source": 39, "implementationMinimum": 40 },
+    { "field": "focus-visible", "implementation": "keyboard focus ring", "provenance": "user-authorized" },
+    { "field": "text", "implementation": "single line, no ellipsis; width expands to content", "provenance": "user-authorized" },
+    { "field": "motion", "implementation": "background 300ms, active entry 70ms, cubic-bezier(0.656,0.003,0.355,1); reduced motion disables transition", "provenance": "user-authorized" }
+  ],
+  "coverage": { "themes": ["light", "dark"], "sizes": [32, 40], "implementedRecords": 96, "icon": "AddIcon shared SVG geometry; colors verified per record" },
+  "visualAcceptance": "assigned only by user"
+}

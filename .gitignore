@@ -5,3 +5,6 @@ test-results/
 playwright-report/
 .npm-cache/
 *.log
+.figma-sync/
+.playwright-cli/
+output/

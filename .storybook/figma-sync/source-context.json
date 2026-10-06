@@ -1,0 +1,5236 @@
+{
+  "button": {
+    "source": "source/figma/fresh-export.json",
+    "nodes": {
+      "4391:92045": {
+        "name": "button light",
+        "type": "COMPONENT_SET",
+        "theme": "light",
+        "variant": {}
+      },
+      "4391:92046": {
+        "name": "type=primary, state=enable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92047": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92047;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92047;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92048": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "9552:17590": {
+        "name": "icon wrapper 01",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I9552:17590;9552:17582": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I9552:17590;9552:17582;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92049": {
+        "name": "type=danger, state=enable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92050": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92050;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92050;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92051": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92052": {
+        "name": "type=danger, state=hover, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92053": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92053;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92053;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92054": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92055": {
+        "name": "type=danger, state=active, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92056": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92056;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92056;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92057": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92058": {
+        "name": "type=danger, state=disable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92059": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92059;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92059;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92060": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92061": {
+        "name": "type=danger, state=disable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92062": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92062;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92062;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92063": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92064": {
+        "name": "type=danger, state=active, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92065": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92065;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92065;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92066": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92067": {
+        "name": "type=danger, state=hover, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92068": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92068;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92068;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "4391:92069": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "4391:92070": {
+        "name": "type=danger, state=enable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92071": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92071;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92071;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92072": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92073": {
+        "name": "type=secondary , state=enable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92074": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92074;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92074;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92075": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92076": {
+        "name": "type=tertiary, state=enable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92077": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92077;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92077;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92078": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92079": {
+        "name": "type=ghost, state=enable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92080": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92080;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I4391:92080;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92081": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "9552:17694": {
+        "name": "icon wrapper 01",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I9552:17694;9552:17582": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I9552:17694;9552:17582;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "14853:131082": {
+        "name": "type=ghost orange, state=enable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "14853:131083": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I14853:131083;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I14853:131083;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "14853:131084": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "14853:131085": {
+        "name": "icon wrapper 01",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I14853:131085;9552:17582": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "I14853:131085;9552:17582;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32"
+        }
+      },
+      "4391:92082": {
+        "name": "type=ghost, state=hover, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92083": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92083;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92083;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92084": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "9561:19773": {
+        "name": "icon wrapper 01",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I9561:19773;9552:17582": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I9561:19773;9552:17582;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "14853:131156": {
+        "name": "type=ghost orange, state=hover, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "14853:131157": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I14853:131157;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I14853:131157;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "14853:131158": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "14853:131159": {
+        "name": "icon wrapper 01",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I14853:131159;9552:17582": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I14853:131159;9552:17582;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92085": {
+        "name": "type=ghost, state=active, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92086": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92086;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92086;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92087": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "9561:19784": {
+        "name": "icon wrapper 01",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I9561:19784;9552:17582": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I9561:19784;9552:17582;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "14853:131178": {
+        "name": "type=ghost orange, state=active, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "14853:131179": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I14853:131179;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I14853:131179;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "14853:131180": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "14853:131181": {
+        "name": "icon wrapper 01",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I14853:131181;9552:17582": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I14853:131181;9552:17582;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92088": {
+        "name": "type=ghost, state=disable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92089": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92089;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92089;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92090": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "9561:19788": {
+        "name": "icon wrapper 01",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I9561:19788;9552:17582": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I9561:19788;9552:17582;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "14853:131200": {
+        "name": "type=ghost orange, state=disable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "14853:131201": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I14853:131201;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I14853:131201;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "14853:131202": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "14853:131203": {
+        "name": "icon wrapper 01",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I14853:131203;9552:17582": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I14853:131203;9552:17582;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92091": {
+        "name": "type=ghost, state=disable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92092": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92092;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92092;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92093": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "14853:131211": {
+        "name": "type=ghost orange, state=disable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "14853:131212": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I14853:131212;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I14853:131212;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "14853:131213": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92094": {
+        "name": "type=ghost, state=active, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92095": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92095;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92095;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92096": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "14853:131189": {
+        "name": "type=ghost orange, state=active, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "14853:131190": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I14853:131190;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I14853:131190;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "14853:131191": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92097": {
+        "name": "type=ghost, state=hover, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92098": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92098;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92098;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "4391:92099": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "14853:131167": {
+        "name": "type=ghost orange, state=hover, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "14853:131168": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I14853:131168;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I14853:131168;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "14853:131169": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "4391:92100": {
+        "name": "type=ghost, state=enable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92101": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92101;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92101;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92102": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "14853:131145": {
+        "name": "type=ghost orange, state=enable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "14853:131146": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I14853:131146;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I14853:131146;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "14853:131147": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92103": {
+        "name": "type=tertiary, state=hover, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92104": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92104;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92104;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92105": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92106": {
+        "name": "type=tertiary, state=active, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92107": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92107;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92107;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92108": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92109": {
+        "name": "type=tertiary, state=disable, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92110": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92110;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92110;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92111": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92112": {
+        "name": "type=tertiary, state=disable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92113": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92113;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92113;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92114": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92115": {
+        "name": "type=tertiary, state=active, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92116": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92116;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92116;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92117": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92118": {
+        "name": "type=tertiary, state=hover, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92119": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92119;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92119;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "4391:92120": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "4391:92121": {
+        "name": "type=tertiary, state=enable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92122": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92122;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92122;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92123": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92124": {
+        "name": "type=secondary , state=hover , size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92125": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92125;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92125;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92126": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92127": {
+        "name": "type=secondary , state=active , size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92128": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92128;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92128;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92129": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92130": {
+        "name": "type=secondary , state=enable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92131": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92131;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92131;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92132": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92133": {
+        "name": "type=secondary , state=hover , size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92134": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92134;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92134;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "4391:92135": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "4391:92136": {
+        "name": "type=secondary , state=active , size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92137": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92137;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92137;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92138": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92139": {
+        "name": "type=primary, state=hover, size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92140": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92140;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "I4391:92140;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92141": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32"
+        }
+      },
+      "4391:92142": {
+        "name": "type=primary , state=active , size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92143": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92143;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "I4391:92143;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92144": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32"
+        }
+      },
+      "4391:92145": {
+        "name": "type=primary , state=disable , size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92146": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92146;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92146;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92147": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92148": {
+        "name": "type=secondary , state=disable , size=32",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32"
+        },
+        "variantRoot": true
+      },
+      "4391:92149": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92149;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "I4391:92149;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92150": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32"
+        }
+      },
+      "4391:92151": {
+        "name": "type=primary , state=active , size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92152": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92152;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "I4391:92152;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92153": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40"
+        }
+      },
+      "4391:92154": {
+        "name": "type=primary , state=disable , size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92155": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92155;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92155;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92156": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92157": {
+        "name": "type=secondary , state=disable , size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92158": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92158;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "I4391:92158;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92159": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40"
+        }
+      },
+      "4391:92160": {
+        "name": "type=primary , state=enable, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92161": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92161;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "I4391:92161;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92162": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40"
+        }
+      },
+      "4391:92163": {
+        "name": "type=primary, state=hover, size=40",
+        "type": "COMPONENT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40"
+        },
+        "variantRoot": true
+      },
+      "4391:92164": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92164;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "I4391:92164;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "4391:92165": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "light",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40"
+        }
+      },
+      "1900:44830": {
+        "name": "button dark",
+        "type": "COMPONENT_SET",
+        "theme": "dark",
+        "variant": {}
+      },
+      "1900:44829": {
+        "name": "type=primary, state=enable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1900:44762": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1900:44762;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1900:44762;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "1900:44763": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "13832:57131": {
+        "name": "type=ghost orange, state=hover, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "13832:57132": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I13832:57132;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I13832:57132;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "13832:57133": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1936:52585": {
+        "name": "type=danger, state=enable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1936:52586": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1936:52586;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1936:52586;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "1936:52587": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "1936:52638": {
+        "name": "type=danger, state=hover, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1936:52639": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1936:52639;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1936:52639;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1936:52640": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1936:52648": {
+        "name": "type=danger, state=active, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1936:52649": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I1936:52649;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I1936:52649;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "1936:52650": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "1936:52763": {
+        "name": "type=danger, state=disable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1936:52764": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1936:52764;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1936:52764;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1936:52765": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1936:52768": {
+        "name": "type=danger, state=disable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1936:52769": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1936:52769;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1936:52769;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1936:52770": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1936:52736": {
+        "name": "type=danger, state=active, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1936:52737": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1936:52737;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1936:52737;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1936:52738": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1936:52643": {
+        "name": "type=danger, state=hover, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1936:52644": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1936:52644;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1936:52644;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1936:52645": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1936:52631": {
+        "name": "type=danger, state=enable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1936:52632": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I1936:52632;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I1936:52632;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "1936:52633": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "danger",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "1900:45134": {
+        "name": "type=secondary , state=enable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1900:45135": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1900:45135;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1900:45135;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "1900:45136": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "1907:44856": {
+        "name": "type=tertiary, state=enable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1907:44857": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1907:44857;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1907:44857;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "1907:44858": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "1918:44854": {
+        "name": "type=ghost, state=enable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1918:44855": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1918:44855;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I1918:44855;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "1918:44856": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "13828:91073": {
+        "name": "type=ghost orange, state=enable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "13828:91074": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I13828:91074;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I13828:91074;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "13828:91075": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "12688:40238": {
+        "name": "type=interactive, state=enable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "interactive",
+          "state": "enable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "12688:40239": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "interactive",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I12688:40239;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "interactive",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "I12688:40239;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "interactive",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "12688:63443": {
+        "name": "enabled",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "interactive",
+          "state": "enable",
+          "size": "32px"
+        }
+      },
+      "1918:44864": {
+        "name": "type=ghost, state=hover, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1918:44865": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1918:44865;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1918:44865;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1918:44866": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1918:44874": {
+        "name": "type=ghost, state=active, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1918:44875": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I1918:44875;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I1918:44875;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "1918:44876": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "1918:44884": {
+        "name": "type=ghost, state=disable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1918:44885": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1918:44885;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1918:44885;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1918:44886": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "13832:57168": {
+        "name": "type=ghost orange, state=disable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "13832:57169": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I13832:57169;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I13832:57169;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "13832:57170": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1918:44889": {
+        "name": "type=ghost, state=disable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1918:44890": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1918:44890;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1918:44890;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1918:44891": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "13832:57173": {
+        "name": "type=ghost orange, state=disable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "13832:57174": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I13832:57174;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I13832:57174;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "13832:57175": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1918:44879": {
+        "name": "type=ghost, state=active, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1918:44880": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1918:44880;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1918:44880;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1918:44881": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1918:44869": {
+        "name": "type=ghost, state=hover, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1918:44870": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1918:44870;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1918:44870;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1918:44871": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1918:44859": {
+        "name": "type=ghost, state=enable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "9215:34241": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I9215:34241;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I9215:34241;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "1918:44861": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "13832:37036": {
+        "name": "type=ghost orange, state=enable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "13832:37037": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I13832:37037;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I13832:37037;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "13832:37038": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "1918:44812": {
+        "name": "type=tertiary, state=hover, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1918:44813": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1918:44813;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1918:44813;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1918:44814": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1918:44822": {
+        "name": "type=tertiary, state=active, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1918:44823": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I1918:44823;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I1918:44823;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "1918:44824": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "1918:44837": {
+        "name": "type=tertiary, state=disable, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1918:44838": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1918:44838;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1918:44838;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1918:44839": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1918:44842": {
+        "name": "type=tertiary, state=disable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1918:44843": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1918:44843;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1918:44843;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1918:44844": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1918:44832": {
+        "name": "type=tertiary, state=active, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1918:44833": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1918:44833;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1918:44833;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1918:44834": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1918:44817": {
+        "name": "type=tertiary, state=hover, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1918:44818": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1918:44818;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1918:44818;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1918:44819": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1918:44797": {
+        "name": "type=tertiary, state=enable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1918:44798": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I1918:44798;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I1918:44798;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "1918:44799": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "tertiary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "1907:44798": {
+        "name": "type=secondary , state=hover , size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1907:44799": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1907:44799;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1907:44799;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1907:44800": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1907:44808": {
+        "name": "type=secondary , state=active , size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1907:44809": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I1907:44809;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I1907:44809;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "1907:44810": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "1907:44793": {
+        "name": "type=secondary , state=enable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1907:44794": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I1907:44794;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I1907:44794;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "1907:44795": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "1907:44803": {
+        "name": "type=secondary , state=hover , size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1907:44804": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1907:44804;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1907:44804;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1907:44805": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1907:44813": {
+        "name": "type=secondary , state=active , size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1907:44814": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1907:44814;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1907:44814;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1907:44815": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1900:44867": {
+        "name": "type=primary, state=hover, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1900:44868": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1900:44868;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "I1900:44868;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "1900:44869": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "32px"
+        }
+      },
+      "7686:25530": {
+        "name": "type=primary , state=active , size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "7686:25531": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I7686:25531;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I7686:25531;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "7686:25532": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "13832:57158": {
+        "name": "type=ghost orange, state=active, size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "13832:57159": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I13832:57159;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "I13832:57159;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "13832:57160": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "32px"
+        }
+      },
+      "1900:44995": {
+        "name": "type=primary , state=disable , size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1900:44996": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1900:44996;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1900:44996;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1900:44997": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1907:44818": {
+        "name": "type=secondary , state=disable , size=32px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32px"
+        },
+        "variantRoot": true
+      },
+      "1907:44819": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1907:44819;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "I1907:44819;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1907:44820": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "32px"
+        }
+      },
+      "1900:44990": {
+        "name": "type=primary , state=active , size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1900:44991": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1900:44991;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I1900:44991;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1900:44992": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "13832:57163": {
+        "name": "type=ghost orange, state=active, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "13832:57164": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I13832:57164;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "I13832:57164;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "13832:57165": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "active",
+          "size": "40px"
+        }
+      },
+      "1900:45000": {
+        "name": "type=primary , state=disable , size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1900:45001": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1900:45001;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1900:45001;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1900:45002": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1907:44823": {
+        "name": "type=secondary , state=disable , size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1907:44824": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1907:44824;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "I1907:44824;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1907:44825": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "secondary",
+          "state": "disable",
+          "size": "40px"
+        }
+      },
+      "1900:44852": {
+        "name": "type=primary , state=enable, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1900:44853": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I1900:44853;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "I1900:44853;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "1900:44854": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "enable",
+          "size": "40px"
+        }
+      },
+      "13832:57153": {
+        "name": "type=ghost orange, state=hover, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "13832:57154": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I13832:57154;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I13832:57154;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "13832:57155": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "ghost orange",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1900:44870": {
+        "name": "type=primary, state=hover, size=40px",
+        "type": "COMPONENT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40px"
+        },
+        "variantRoot": true
+      },
+      "1900:44871": {
+        "name": "icon wrapper",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1900:44871;1900:44734": {
+        "name": "icon 18/add ",
+        "type": "INSTANCE",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "I1900:44871;1900:44734;1893:44709": {
+        "name": "Vector",
+        "type": "VECTOR",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40px"
+        }
+      },
+      "1900:44872": {
+        "name": "Label",
+        "type": "TEXT",
+        "theme": "dark",
+        "variant": {
+          "type": "primary",
+          "state": "hover",
+          "size": "40px"
+        }
+      }
+    }
+  }
+}

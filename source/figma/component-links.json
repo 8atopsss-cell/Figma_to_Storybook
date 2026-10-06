@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "components": [
+    {
+      "componentId": "button",
+      "displayName": "Button",
+      "modulePath": "src/components/Button/Button.tsx",
+      "storybook": {
+        "componentEntryId": "figma-export-button",
+        "storyIds": ["figma-export-button--docs", "figma-export-button--playground", "figma-export-button--light", "figma-export-button--dark"]
+      },
+      "figma": {
+        "displayName": "SD Enterprice",
+        "fileKey": "0gdcm1xq6DvKUCR5RVw2wz",
+        "url": "https://www.figma.com/design/0gdcm1xq6DvKUCR5RVw2wz/SD-Enterprice",
+        "sources": [
+          { "theme": "light", "componentSetId": "4391:92045" },
+          { "theme": "dark", "componentSetId": "1900:44830" }
+        ]
+      },
+      "baselineCandidate": {
+        "rawExport": "source/figma/fresh-export.json",
+        "generator": "scripts/generate-tokens.mjs",
+        "canonicalTokens": "src/tokens/buttons.json",
+        "status": "unverified"
+      },
+      "contractPath": "docs/component-contracts.md",
+      "syncContractPath": "source/figma/button-sync-contract.json",
+      "implementedSnapshot": null,
+      "acceptedSnapshot": null
+    }
+  ]
+}
